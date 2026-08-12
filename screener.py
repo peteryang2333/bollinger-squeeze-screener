@@ -56,7 +56,8 @@ def run(universe: list[str] | None = None, top_n: int = TOP_N) -> list[dict]:
     if universe is None:
         # mirrors config.yaml — broad market pool per user decision
         universe = build_universe(use_watchlist=True, use_sp500=True,
-                                   use_nasdaq100=True, use_russell2000=True)
+                                   use_sp400=True, use_sp600=True,
+                                   use_nasdaq100=False, use_russell2000=False)
     print(f"[screener] universe={len(universe)}")
 
     histories = get_histories(universe)

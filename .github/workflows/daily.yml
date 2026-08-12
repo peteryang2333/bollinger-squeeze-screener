@@ -1,10 +1,11 @@
 name: Daily Squeeze Scan
 
+# NOTE: The actual daily schedule runs on the user's Oracle VM (cron), which has
+# a reliable yfinance path. GitHub-hosted runners are rate-limited by Yahoo, so
+# the scheduled run is intentionally NOT enabled here. This workflow is kept for
+# manual `workflow_dispatch` use / reference only.
 on:
-  schedule:
-    # 21:30 UTC Mon–Fri = 05:30 Beijing time (after US close 16:00 ET)
-    - cron: "30 21 * * 1-5"
-  workflow_dispatch:   # allow manual run from the Actions tab
+  workflow_dispatch:   # manual run from the Actions tab (uses GitHub runner)
 
 permissions:
   contents: write      # needed to commit daily results back to the repo
