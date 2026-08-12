@@ -1,0 +1,8 @@
+# local OHLCV cache — re-fetched each CI run, not committed
+data/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/

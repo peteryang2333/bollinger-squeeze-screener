@@ -1,0 +1,32 @@
+name: Daily Squeeze Scan
+
+on:
+  schedule:
+    # 21:30 UTC Mon–Fri = 05:30 Beijing time (after US close 16:00 ET)
+    - cron: "30 21 * * 1-5"
+  workflow_dispatch:   # allow manual run from the Actions tab
+
+permissions:
+  contents: write      # needed to commit daily results back to the repo
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Run screener
+        run: python screener.py
+      - name: Commit results
+        run: |
+          git config user.name "squeeze-bot"
+          git config user.email "bot@users.noreply.github.com"
+          today=$(date +%F)
+          git add results/ || true
+          git commit -m "daily scan $today" || echo "nothing to commit"
+          git push

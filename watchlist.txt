@@ -1,0 +1,37 @@
+# watchlist.txt — your hand-picked tickers (one per line, case-insensitive).
+# Highest priority in the scan. Lines starting with # are ignored.
+# These are the names we've discussed in the portfolio research.
+
+# --- core / already held ---
+GOOGL
+BABA
+QQQ
+FAS
+TQQQ
+SSO
+
+# --- software leg (IGV names) ---
+DDOG
+NOW
+CRM
+FTNT
+CRWD
+PANW
+
+# --- industrial / AI-infra leg ---
+VRT
+ETN
+NVT
+GEV
+XLI
+UXI
+
+# --- European (ADR) — EUR/CHF denominated, FX hedge ---
+SMNEY
+SBGSY
+
+# --- event / crypto-infra speculative ---
+CRCL
+
+# --- recent chart asks ---
+APH

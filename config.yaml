@@ -1,0 +1,34 @@
+# config.yaml — tunable parameters for the squeeze screener
+# All values have sane defaults in code; this file is for easy editing.
+
+universe:
+  use_watchlist: true      # scan watchlist.txt first (highest priority)
+  use_sp500: true          # S&P 500 (large-cap broad)
+  use_nasdaq100: true      # Nasdaq-100 (tech/software heavy)
+  use_russell2000: true    # Russell 2000 (small-cap — adds noise + illiquids, volume filter drops them)
+  extra: []                # add one-off tickers here, e.g. ["SOXL","TECL"]
+
+indicators:
+  bb_period: 20
+  bb_std: 2.0
+  kc_period: 20
+  kc_atr_period: 20
+  kc_mult: 1.5
+  mom_period: 20
+  bw_lookback: 100         # trailing window to rank BB-width percentile
+  bw_squeeze_pctile: 20    # BB-width <= this percentile => "squeezed"
+
+filters:
+  min_price: 5.0
+  min_avg_volume: 500000   # 50-day avg daily volume floor (illiquid => skip)
+  min_days: 120
+
+output:
+  top_n: 40
+  asof: auto               # or set "2026-08-12"
+
+schedule:
+  # US market closes 16:00 ET = 04:00 Beijing time. Run ~05:30 Beijing so
+  # the day's bars are final and results are ready when you wake up.
+  # GitHub Actions cron uses UTC: 21:30 UTC previous day = 05:30 CST.
+  cron_utc: "30 21 * * 1-5"
