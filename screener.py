@@ -20,6 +20,7 @@ Direction hint comes from momentum histogram (mom>0 => upward bias).
 from __future__ import annotations
 import os
 import json
+import time
 import datetime as dt
 import numpy as np
 import pandas as pd
@@ -27,6 +28,8 @@ import pandas as pd
 from squeeze_core import compute, squeeze_signal
 from data_provider import get_histories
 from universe import build_universe
+from fundamentals import get_fundamentals
+from multidim import multidim_scores
 
 HERE = os.path.dirname(__file__)
 RESULTS = os.path.join(HERE, "results")
@@ -37,6 +40,8 @@ MIN_PRICE = 5.0
 MIN_AVG_VOLUME = 500_000      # shares/day, skip illiquid
 MIN_DAYS = 120
 TOP_N = 40
+ENRICH_TOP_N = 40          # top candidates get company profile + multi-dim score
+FUND_SLEEP = 0.15          # politeness delay between fundamentals fetches
 
 
 def _score(row: pd.Series) -> float:
@@ -92,26 +97,89 @@ def run(universe: list[str] | None = None, top_n: int = TOP_N) -> list[dict]:
 
     results.sort(key=lambda r: r["score"], reverse=True)
     results = results[:top_n]
+
+    # enrich top candidates with company profile + multi-dimensional score
+    for r in results[:ENRICH_TOP_N]:
+        try:
+            f = get_fundamentals(r["ticker"])
+            r["fundamentals"] = f
+            r["multidim"] = multidim_scores(f, r["signal"], r["score"])
+        except Exception as e:
+            print(f"  [enrich] {r['ticker']} failed: {e}")
+            r["fundamentals"] = {}
+            r["multidim"] = {"dims": {}, "composite": None,
+                             "narrative": "", "intro": {}, "fund_missing": True}
+        time.sleep(FUND_SLEEP)
     return results
+
+
+def _fmt_beta(b):
+    return "—" if b is None else f"{b:.1f}"
+
+
+def _bar(label: str, val):
+    if val is None:
+        return (f'<div class="barrow"><span class="bl">{label}</span>'
+                f'<span class="btxt miss">缺失</span></div>')
+    color = "#7dd3fc" if val >= 75 else ("#fbbf24" if val >= 60 else "#f87171")
+    return (f'<div class="barrow"><span class="bl">{label}</span>'
+            f'<span class="btrack"><span class="bfill" style="width:{val:.0f}%;'
+            f'background:{color}"></span></span>'
+            f'<span class="bval">{val:.0f}</span></div>')
 
 
 def write_html_report(results: list[dict], asof: str) -> str:
     """Render a self-contained, readable HTML page (the "morning view")."""
     html_path = os.path.join(RESULTS, f"squeeze_{asof}.html")
-    rows = []
+    main_rows = []
+    detail_rows = []
     for i, r in enumerate(results, 1):
         s = r["signal"]
+        md = r.get("multidim") or {}
+        intro = md.get("intro") or {}
+        dims = md.get("dims") or {}
+        composite = md.get("composite")
         dirn = "▲ up" if (s["mom"] or 0) > 0 else ("▼ dn" if (s["mom"] or 0) < 0 else "—")
         cls = "up" if (s["mom"] or 0) > 0 else ("dn" if (s["mom"] or 0) < 0 else "flat")
         ttm = '<span class="badge">TTM</span>' if s["ttm_squeeze_on"] else ""
         fired = '<span class="badge fire">FIRED</span>' if (s.get("ttm_fired_up")) else ""
-        rows.append(
-            f"<tr><td>{i}</td><td class='tk'>{r['ticker']}</td><td>{r['score']}</td>"
+        comp = f"{composite:.0f}" if composite is not None else "—"
+
+        main_rows.append(
+            f"<tr class='main' onclick=\"tgl('d{i}')\">"
+            f"<td>{i}</td><td class='tk'>{r['ticker']}</td>"
+            f"<td>{r['score']}</td><td class='comp'>{comp}</td>"
             f"<td>{s['close']}</td><td>{s['bb_width_pct']}%</td>"
             f"<td>{s['bb_width_pctile']}</td><td>{ttm}{fired}</td>"
             f"<td>{s['mom']}</td><td>{'Y' if s['above_ma20'] else 'N'}</td>"
             f"<td class='{cls}'>{dirn}</td></tr>"
         )
+
+        bars = "".join([
+            _bar("挤压 Squeeze", dims.get("squeeze")),
+            _bar("动量 Momentum", dims.get("momentum")),
+            _bar("质量 Quality", dims.get("quality")),
+            _bar("估值 Value", dims.get("value")),
+            _bar("成长 Growth", dims.get("growth")),
+        ])
+        summary = intro.get("summary") or "（无业务概况）"
+        detail_rows.append(
+            f"<tr class='detail' id='d{i}' style='display:none'><td colspan='11'>"
+            f"<div class='card'>"
+            f"<div class='col'><h3>公司基本介绍</h3>"
+            f"<div class='kv'><span>名称</span><b>{intro.get('name') or r['ticker']}</b></div>"
+            f"<div class='kv'><span>代码</span><b>{r['ticker']}</b></div>"
+            f"<div class='kv'><span>板块</span><b>{intro.get('sector','—')} / {intro.get('industry','—')}</b></div>"
+            f"<div class='kv'><span>市值</span><b>{intro.get('market_cap','—')}</b></div>"
+            f"<div class='kv'><span>Beta</span><b>{_fmt_beta(intro.get('beta'))}</b></div>"
+            f"<p class='summary'>{summary}</p></div>"
+            f"<div class='col'><h3>基本面观点</h3>"
+            f"<p class='view'>{md.get('narrative') or '（数据缺失）'}</p>"
+            f"<h3>多维度打分（0–100，越高越好）</h3>{bars}"
+            f"<div class='compbox'>综合分 <b>{comp}</b> / 100</div></div>"
+            f"</div></td></tr>"
+        )
+
     html = f"""<!doctype html><html><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Bollinger/TTM Squeeze — {asof}</title>
@@ -122,26 +190,49 @@ def write_html_report(results: list[dict], asof: str) -> str:
  table{{border-collapse:collapse;width:100%;font-size:13px}}
  th,td{{padding:8px 10px;text-align:left;border-bottom:1px solid #23262d}}
  th{{color:#9aa0a6;font-weight:600;position:sticky;top:0;background:#0f1115}}
- tr:hover{{background:#181b21}} .tk{{font-weight:700;color:#7dd3fc}}
+ tr.main{{cursor:pointer}} tr.main:hover{{background:#181b21}}
+ .tk{{font-weight:700;color:#7dd3fc}} .comp{{font-weight:700;color:#fbbf24}}
  .up{{color:#f87171}} .dn{{color:#4ade80}} .flat{{color:#9aa0a6}}
  .badge{{display:inline-block;background:#1e3a5f;color:#7dd3fc;border-radius:4px;
    padding:1px 6px;font-size:11px;margin-right:4px}}
  .badge.fire{{background:#5b2330;color:#fca5a5}}
+ .detail td{{background:#14171d;padding:0}}
+ .card{{display:flex;gap:24px;padding:18px 14px;flex-wrap:wrap}}
+ .col{{flex:1;min-width:300px}}
+ .col h3{{font-size:13px;color:#9aa0a6;margin:0 0 8px;border-bottom:1px solid #23262d;padding-bottom:4px}}
+ .kv{{display:flex;gap:10px;margin:3px 0;font-size:13px}}
+ .kv span{{color:#8b8b8b;min-width:48px}} .kv b{{color:#e6e6e6}}
+ .summary{{color:#b9bfc7;font-size:12px;line-height:1.6;margin-top:10px}}
+ .view{{color:#e6e6e6;font-size:13px;line-height:1.7;margin:0 0 12px}}
+ .barrow{{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:12px}}
+ .bl{{width:96px;color:#9aa0a6}}
+ .btrack{{flex:1;background:#23262d;border-radius:4px;height:10px;overflow:hidden}}
+ .bfill{{display:block;height:10px;border-radius:4px}}
+ .bval{{width:28px;text-align:right;color:#e6e6e6}}
+ .btxt.miss{{color:#8b8b8b}}
+ .compbox{{margin-top:10px;color:#8b8b8b;font-size:13px}}
+ .compbox b{{color:#fbbf24;font-size:16px}}
  .note{{margin-top:18px;color:#8b8b8b;font-size:12px;line-height:1.6}}
 </style></head><body>
 <h1>Bollinger / TTM Squeeze Scan</h1>
-<div class="meta">as-of {asof} · {len(results)} candidates · generated {dt.datetime.now():%Y-%m-%d %H:%M}</div>
+<div class="meta">as-of {asof} · {len(results)} candidates · generated {dt.datetime.now():%Y-%m-%d %H:%M} · 点击任意行展开公司介绍/基本面观点/多维度打分</div>
 <table><thead><tr>
-<th>#</th><th>Ticker</th><th>Score</th><th>Price</th><th>BB-W%</th>
+<th>#</th><th>Ticker</th><th>Score</th><th>综合分</th><th>Price</th><th>BB-W%</th>
 <th>BB-Pctile</th><th>TTM</th><th>Mom%</th><th>&gt;MA20</th><th>Dir</th>
-</tr></thead><tbody>{''.join(rows)}</tbody></table>
+</tr></thead><tbody>{''.join(main_rows)}{''.join(detail_rows)}</tbody></table>
 <div class="note">
  A squeeze only says <b>volatility will expand</b> — NOT the direction.<br>
+ 综合分 = 挤压 35% + 动量 22% + 质量 15% + 估值 13% + 成长 15%（基本面缺失项按中性 50 计）。<br>
  Confirm with momentum (Mom&gt;0 = upward bias) + volume + your MA/structure rules before entry.<br>
  Next step: open the top names on your chart, look for the squeeze <b>release</b>
  (BB re-emerging from Keltner) on volume, ideally with a pullback to MA20.<br>
  Research only — <b>not investment advice</b>. All signals are machine-generated.
-</div></body></html>"""
+</div>
+<script>
+function tgl(id){{var e=document.getElementById(id);
+  e.style.display = (e.style.display==='none') ? 'table-row' : 'none';}}
+</script>
+</body></html>"""
     with open(html_path, "w") as f:
         f.write(html)
     return html_path
@@ -159,20 +250,43 @@ def write_reports(results: list[dict], asof: str) -> tuple[str, str, str]:
              f"*Candidates: {len(results)} · generated {dt.datetime.now():%Y-%m-%d %H:%M}*",
              "",
              "Ranked by squeeze tightness (lower BB-width percentile + TTM-on bonus).",
+             "综合分 = 挤压 35% + 动量 22% + 质量 15% + 估值 13% + 成长 15%（基本面缺失项按中性 50 计）。",
              "**A squeeze only says volatility will expand — NOT the direction.**",
              "Confirm with momentum (mom>0 = upward bias) + volume + your MA/structure rules before entry.",
              "",
-             "| # | Ticker | Score | Price | BB-W% | BB-Pctile | TTM | Mom | Above MA20 | Dir |",
-             "|---|--------|-------|-------|------|-----------|-----|-----|-----------|-----|"]
+             "| # | Ticker | Score | 综合分 | Price | BB-W% | BB-Pctile | TTM | Mom | Above MA20 | Dir |",
+             "|---|--------|-------|--------|-------|------|-----------|-----|-----|-----------|-----|"]
     for i, r in enumerate(results, 1):
         s = r["signal"]
+        md = r.get("multidim") or {}
+        comp = md.get("composite")
+        comp = f"{comp:.0f}" if comp is not None else "—"
         dirn = "▲up" if (s["mom"] or 0) > 0 else ("▼dn" if (s["mom"] or 0) < 0 else "—")
         lines.append(
-            f"| {i} | {r['ticker']} | {r['score']} | {s['close']} | {s['bb_width_pct']} | "
+            f"| {i} | {r['ticker']} | {r['score']} | {comp} | {s['close']} | {s['bb_width_pct']} | "
             f"{s['bb_width_pctile']} | {'Y' if s['ttm_squeeze_on'] else '—'} | "
             f"{s['mom']} | {'Y' if s['above_ma20'] else 'N'} | {dirn} |"
         )
-    lines += ["", "---", "Sourced from public market data. Research only — not investment advice.",
+    lines += ["", "---", "## 候选详情（公司基本介绍 · 基本面观点 · 多维度打分）", ""]
+    for i, r in enumerate(results, 1):
+        s = r["signal"]
+        md = r.get("multidim") or {}
+        intro = md.get("intro") or {}
+        dims = md.get("dims") or {}
+        comp = md.get("composite")
+        comp = f"{comp:.0f}" if comp is not None else "—"
+        lines.append(f"### {i}. {r['ticker']} — {intro.get('name') or r['ticker']}")
+        lines.append(f"- **板块**：{intro.get('sector','—')} / {intro.get('industry','—')}"
+                     f"｜**市值**：{intro.get('market_cap','—')}｜**Beta**：{_fmt_beta(intro.get('beta'))}")
+        lines.append(f"- **多维度打分**：综合分 **{comp}**"
+                     f"（挤压 {dims.get('squeeze')}/ 动量 {dims.get('momentum')}"
+                     f"/ 质量 {dims.get('quality')}/ 估值 {dims.get('value')}/ 成长 {dims.get('growth')}）")
+        lines.append(f"- **基本面观点**：{md.get('narrative') or '（数据缺失）'}")
+        summ = intro.get("summary")
+        if summ:
+            lines.append(f"- **业务概况**：{summ}")
+        lines.append("")
+    lines += ["---", "Sourced from public market data. Research only — not investment advice.",
               "Next step: open the top names on your chart, look for the squeeze *release*",
               "(BB re-emerging from Keltner) on volume, ideally with a pullback to MA20."]
     with open(md_path, "w") as f:
