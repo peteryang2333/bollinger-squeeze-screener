@@ -1,0 +1,42 @@
+{
+  "asof": "2026-08-12",
+  "count": 2,
+  "results": [
+    {
+      "ticker": "GEV",
+      "score": 78.87,
+      "sector": "",
+      "signal": {
+        "close": 1011.88,
+        "bb_width_pct": 16.45,
+        "bb_width_pctile": 76,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -541.836,
+        "dist_to_bb_upper_pct": 7.96,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 2937364
+    },
+    {
+      "ticker": "ETN",
+      "score": 0.0,
+      "sector": "",
+      "signal": {
+        "close": 459.29,
+        "bb_width_pct": 24.84,
+        "bb_width_pctile": 0,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -491.022,
+        "dist_to_bb_upper_pct": 1.82,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 2417545
+    }
+  ]
+}
