@@ -72,7 +72,7 @@ def momentum_hist(close: pd.Series, period: int = MOM_PERIOD) -> pd.Series:
     sw = sliding_window_view(y, n)           # (L-n+1, n): window[i] = y[i:i+n]
     sum_y = sw.sum(axis=1)
     sum_xy = (sw * x).sum(axis=1)            # newest bar gets weight n-1
-    slope = (sum_xy - n * xbar * sum_y) / denom
+    slope = (sum_xy - xbar * sum_y) / denom  # OLS slope = cov(x,y)/var(x)
     last = sw[:, -1]
     mom = slope / last * 100.0
     out = np.full(len(y), np.nan)
