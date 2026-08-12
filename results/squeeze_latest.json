@@ -1,0 +1,2246 @@
+{
+  "asof": "2026-08-12",
+  "count": 40,
+  "results": [
+    {
+      "ticker": "RAMP",
+      "score": 108.65,
+      "sector": "",
+      "signal": {
+        "close": 37.76,
+        "bb_width_pct": 0.9,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.004,
+        "dist_to_bb_upper_pct": 0.56,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1191245,
+      "fundamentals": {
+        "name": "LiveRamp Holdings, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "summary": "LiveRamp Holdings, Inc., a technology company, operates a data collaboration platform in the United States, Europe, the Asia-Pacific, and internationally. The company operates LiveRamp Data Collaboration platform that enables an organization to unify customers and prospect data to build a single view of the customer in a way that protects consumer privacy. The company's platform supports various people-based marketing solutions, including data collaboration, activation, measurement and analytics, identity, and data marketplace. It sells its solutions to enterprise marketers, agencies, marketing technology providers, publishers, and data providers in various industry verticals, such as financial, insurance and investment services, retail, automotive, telecommunications, technology, consumer packaged goods, media, healthcare, travel and hospitality, entertainment, and non-profit. The company was formerly known as Acxiom Holdings, Inc. and changed its name to LiveRamp Holdings, Inc. in October 2018. LiveRamp Holdings, Inc. was incorporated in 2018 and is headquartered in San Francisco, California.",
+        "marketCap": 2295618560,
+        "pe": 15.799162,
+        "forwardPE": 11.7754545,
+        "pb": 2.3485508,
+        "ps": 2.7588122,
+        "dividendYield": null,
+        "profitMargin": 0.18714,
+        "revenueGrowth": 0.098,
+        "earningsGrowth": 1.366,
+        "roe": 0.16055,
+        "debtToEquity": 3.388,
+        "beta": 1.258
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 31.3,
+          "quality": 55.3,
+          "value": 90,
+          "growth": 92
+        },
+        "composite": 75.7,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aTechnology / Software - Infrastructure\u3002\u8fdc\u671f PE \u2248 11.8\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 10%\u3001\u76c8\u5229\u589e\u901f 137%\u3002\u51c0\u5229\u7387 19%\u3001ROE 16%\u3002\u8d1f\u503a\u7387(Debt/Eq) 3.4\uff0c\u9ad8\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 76\uff08\u5f3a\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "LiveRamp Holdings, Inc.",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "market_cap": "$2.3B",
+          "beta": 1.258,
+          "summary": "LiveRamp Holdings, Inc., a technology company, operates a data collaboration platform in the United States, Europe, the Asia-Pacific, and internationally. The company operates LiveRamp Data Collaboration platform that enables an organization to unify customers and prospect data to build a single vie\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "CZR",
+      "score": 106.56,
+      "sector": "",
+      "signal": {
+        "close": 29.74,
+        "bb_width_pct": 2.02,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.005,
+        "dist_to_bb_upper_pct": 1.64,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 4944230,
+      "fundamentals": {
+        "name": "Caesars Entertainment, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Resorts & Casinos",
+        "summary": "Caesars Entertainment, Inc. operates as a gaming and hospitality company. It owns, leases, brands, or manages domestic properties in 18 states with slot machines, video lottery terminals and e-tables, and hotel rooms, as well as table games, including poker. The company also operates and conducts online gaming, retail and online sports wagering across 42 jurisdictions in North America, and iGaming in five jurisdictions in North America; sports betting from retail and online sportsbooks; and other games, such as keno. In addition, it operates casinos, dining venues, bars, nightclubs, lounges, hotels, and entertainment venues; and provides staffing and management services. The company was founded in 1937 and is based in Reno, Nevada.",
+        "marketCap": 6058643456,
+        "pe": null,
+        "forwardPE": 41.115395,
+        "pb": 1.7976304,
+        "ps": 0.5201445,
+        "dividendYield": null,
+        "profitMargin": -0.039920002,
+        "revenueGrowth": 0.03,
+        "earningsGrowth": null,
+        "roe": -0.103769995,
+        "debtToEquity": 729.87,
+        "beta": 1.754
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 32.9,
+          "quality": 16.7,
+          "value": 28,
+          "growth": 52
+        },
+        "composite": 56.2,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Resorts & Casinos\u3002\u8fdc\u671f PE \u2248 41.1\uff08\u504f\u9ad8\uff09\u3002\u8425\u6536\u589e\u901f 3%\u3002\u51c0\u5229\u7387 -4%\u3001ROE -10%\u3002\u8d1f\u503a\u7387(Debt/Eq) 729.9\uff0c\u9ad8\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 56\uff08\u4e2d\u6027\u504f\u5f31\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Caesars Entertainment, Inc.",
+          "sector": "Consumer Cyclical",
+          "industry": "Resorts & Casinos",
+          "market_cap": "$6.1B",
+          "beta": 1.754,
+          "summary": "Caesars Entertainment, Inc. operates as a gaming and hospitality company. It owns, leases, brands, or manages domestic properties in 18 states with slot machines, video lottery terminals and e-tables, and hotel rooms, as well as table games, including poker. The company also operates and conducts on\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "USB",
+      "score": 104.96,
+      "sector": "",
+      "signal": {
+        "close": 64.29,
+        "bb_width_pct": 3.36,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.056,
+        "dist_to_bb_upper_pct": 0.75,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 8811718,
+      "fundamentals": {
+        "name": "U.S. Bancorp",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "U.S. Bancorp, a financial services holding company, provides various financial services to individuals, businesses, institutional organizations, governmental entities, and other financial institutions in the United States. The company operates through Wealth, Corporate, Commercial and Institutional Banking; Consumer and Business Banking; Payment Services; and Treasury and Corporate Support segments. It offers depository services, including checking accounts, savings accounts, and time certificate contracts; and lending services, such as traditional credit products and credit card services, lease financing and import/export trade, agricultural finance, asset-backed lending, and other products. The company also provides cash management, capital markets, and trust and investment management services; and ancillary services comprising capital markets, treasury management, and receivable lock-box collection services to corporate and governmental entity customers. In addition, it offers asset management and fiduciary services for individuals, estates, foundations, business corporations, and charitable organizations; and investment and insurance products to its customers principally within its domestic markets, as well as fund administration services to mutual and other funds. Further, the company provides corporate and purchasing card, and corporate trust services; and credit card services, merchant and ATM processing, mortgage banking, insurance, brokerage and leasing services. U.S. Bancorp was founded in 1863 and is headquartered in Minneapolis, Minnesota.",
+        "marketCap": 100167131136,
+        "pe": 12.8323345,
+        "forwardPE": 11.102534,
+        "pb": 1.652232,
+        "ps": 3.6663055,
+        "dividendYield": 0.032400000000000005,
+        "profitMargin": 0.29896,
+        "revenueGrowth": 0.104,
+        "earningsGrowth": 0.216,
+        "roe": 0.12623,
+        "debtToEquity": null,
+        "beta": 0.977
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 59.9,
+          "quality": 76.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 83.7,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.1\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 10%\u3001\u76c8\u5229\u589e\u901f 22%\u3002\u51c0\u5229\u7387 30%\u3001ROE 13%\u3002\u80a1\u606f\u7387 3.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 84\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "U.S. Bancorp",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$100.2B",
+          "beta": 0.977,
+          "summary": "U.S. Bancorp, a financial services holding company, provides various financial services to individuals, businesses, institutional organizations, governmental entities, and other financial institutions in the United States. The company operates through Wealth, Corporate, Commercial and Institutional \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "MTB",
+      "score": 104.9,
+      "sector": "",
+      "signal": {
+        "close": 252.16,
+        "bb_width_pct": 3.4,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.032,
+        "dist_to_bb_upper_pct": 0.81,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1136109,
+      "fundamentals": {
+        "name": "M&T Bank Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "M&T Bank Corporation operates as a bank holding company for Manufacturers and Traders Trust Company and Wilmington Trust, National Association that provides retail and commercial banking products and services in the United States. The company operates through three segments: Commercial Bank, Retail Bank, and Institutional Services and Wealth Management. It offers a range of credit products and banking services, such as commercial lending and leasing, letters of credits, deposit products, cash management services, commercial real estate loans, and credit facilities secured by various commercial real estate properties to middle-market and large commercial customers. The company also provides customers deposit products, including demand, savings and time accounts, and other services; automobile and recreational finance loans, home equity loans and lines of credit, credit cards, and other loan products, as well as residential mortgage and real estate loans; business loans, cash management, payroll, direct deposit, and merchant credit card services to consumers and small businesses through branch network, telephone banking, internet banking, and automated teller machines. In addition, it offers trustee, agency, investment management, and administrative services; personal trust, planning and advisory, fiduciary, asset management, family office, and other services; and investment products, including mutual funds and annuities, and other services for corporations and institutions, investment bankers, corporate tax, finance and legal executives, and other institutional clients. M&T Bank Corporation was founded in 1856 and is headquartered in Buffalo, New York.",
+        "marketCap": 36416004096,
+        "pe": 13.355933,
+        "forwardPE": 11.968966,
+        "pb": 1.4324831,
+        "ps": 3.8531377,
+        "dividendYield": 0.0239,
+        "profitMargin": 0.32092,
+        "revenueGrowth": 0.062,
+        "earningsGrowth": 0.255,
+        "roe": 0.10742,
+        "debtToEquity": null,
+        "beta": 0.573
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 55.7,
+          "quality": 73.0,
+          "value": 99.6,
+          "growth": 74
+        },
+        "composite": 82.3,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 12.0\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 6%\u3001\u76c8\u5229\u589e\u901f 26%\u3002\u51c0\u5229\u7387 32%\u3001ROE 11%\u3002\u80a1\u606f\u7387 2.4%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 82\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "M&T Bank Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$36.4B",
+          "beta": 0.573,
+          "summary": "M&T Bank Corporation operates as a bank holding company for Manufacturers and Traders Trust Company and Wilmington Trust, National Association that provides retail and commercial banking products and services in the United States. The company operates through three segments: Commercial Bank, Retail \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "PNC",
+      "score": 104.47,
+      "sector": "",
+      "signal": {
+        "close": 254.23,
+        "bb_width_pct": 3.28,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.014,
+        "dist_to_bb_upper_pct": 0.67,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 2104247,
+      "fundamentals": {
+        "name": "PNC Financial Services Group, I",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "The PNC Financial Services Group, Inc. operates as a diversified financial services company in the United States. It operates through three segments: Retail Banking, Corporate & Institutional Banking, and Asset Management Group segments. The Retail Banking segment offers checking, savings, and money market accounts, and time deposit; residential mortgages, home equity loans and lines of credit, auto loans, credit cards, education loans, and personal and small business loans and lines of credit; and brokerage, insurance, and investment and cash management services. This segment serves consumer and small business customers through a network of branches, digital channels, ATMs, and through phone-based customer contact centers. The Corporate & Institutional Banking segment provides secured and unsecured loans, letters of credit, and equipment leases; cash and investment management, receivables and disbursement management, funds transfer, international payment, and access to online/mobile information management and reporting services; asset-backed financing, securities underwriting, loan syndications, mergers and acquisitions and equity capital markets advisory, and customer related services; and commercial loan servicing and technology solutions. It serves mid-sized and large corporations, and government and not-for-profit entities. The Asset Management Group segment offers investment and retirement planning, customized investment management, credit and cash management solutions, and trust management and administration services for high net worth and ultra high net worth individuals, and their families; and multi-generational family planning services. It also offers outsourced chief investment officer, custody, cash and fixed income client solutions, and retirement plan fiduciary investment services for institutional clients. The company was founded in 1865 and is headquartered in Pittsburgh, Pennsylvania.",
+        "marketCap": 101437767680,
+        "pe": 14.007163,
+        "forwardPE": 11.900906,
+        "pb": 1.7699355,
+        "ps": 4.171132,
+        "dividendYield": 0.0318,
+        "profitMargin": 0.31366,
+        "revenueGrowth": 0.236,
+        "earningsGrowth": 0.249,
+        "roe": 0.12623,
+        "debtToEquity": null,
+        "beta": 0.898
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 52.5,
+          "quality": 80.0,
+          "value": 100,
+          "growth": 84
+        },
+        "composite": 84.2,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.9\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 24%\u3001\u76c8\u5229\u589e\u901f 25%\u3002\u51c0\u5229\u7387 31%\u3001ROE 13%\u3002\u80a1\u606f\u7387 3.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 84\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "PNC Financial Services Group, I",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$101.4B",
+          "beta": 0.898,
+          "summary": "The PNC Financial Services Group, Inc. operates as a diversified financial services company in the United States. It operates through three segments: Retail Banking, Corporate & Institutional Banking, and Asset Management Group segments. The Retail Banking segment offers checking, savings, and money\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "ONB",
+      "score": 103.3,
+      "sector": "",
+      "signal": {
+        "close": 26.84,
+        "bb_width_pct": 4.47,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.047,
+        "dist_to_bb_upper_pct": 1.45,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 4473593,
+      "fundamentals": {
+        "name": "Old National Bancorp",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Old National Bancorp operates as the bank holding company for Old National Bank that provides consumer and commercial banking services in the United States. It accepts deposit accounts, such as noninterest-bearing demand, interest-bearing checking and negotiable order of withdrawal, savings and money market, and time deposits. The company also offers loans, including home equity lines of credit, residential real estate loans, and consumer loans, as well as loans to commercial clients comprising commercial loans, commercial real estate loans, agricultural loans, letters of credit, and lease financing. In addition, it offers debit and automated teller machine cards, telephone access and online banking, and other electronic and mobile banking services. Further, the company offers private banking, wealth management, trust, investment advisory, brokerage, and foreign currency services; treasury management, merchant, and capital markets services for businesses; and community development lending and equity investment solutions. Old National Bancorp was founded in 1834 and is headquartered in Evansville, Indiana.",
+        "marketCap": 10268178432,
+        "pe": 11.876106,
+        "forwardPE": 9.289351,
+        "pb": 1.2291065,
+        "ps": 3.859202,
+        "dividendYield": 0.0219,
+        "profitMargin": 0.33310002,
+        "revenueGrowth": 0.288,
+        "earningsGrowth": 0.929,
+        "roe": 0.106079996,
+        "debtToEquity": null,
+        "beta": 0.839
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 58.4,
+          "quality": 73.0,
+          "value": 98.8,
+          "growth": 92
+        },
+        "composite": 85.4,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 9.3\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 29%\u3001\u76c8\u5229\u589e\u901f 93%\u3002\u51c0\u5229\u7387 33%\u3001ROE 11%\u3002\u80a1\u606f\u7387 2.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 85\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Old National Bancorp",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$10.3B",
+          "beta": 0.839,
+          "summary": "Old National Bancorp operates as the bank holding company for Old National Bank that provides consumer and commercial banking services in the United States. It accepts deposit accounts, such as noninterest-bearing demand, interest-bearing checking and negotiable order of withdrawal, savings and mone\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "EBC",
+      "score": 103.24,
+      "sector": "",
+      "signal": {
+        "close": 23.13,
+        "bb_width_pct": 4.51,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.049,
+        "dist_to_bb_upper_pct": 1.72,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 3680882,
+      "fundamentals": {
+        "name": "Eastern Bankshares, Inc.",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Eastern Bankshares, Inc. operates as the bank holding company for Eastern Bank that provides banking, trust, and investment services to retail, commercial, and small business customers in the United States. The company offers deposit accounts, interest checking accounts, money market accounts, savings accounts, and time certificates of deposit accounts. It also provides commercial and industrial products, such as asset based lending portfolio; commercial real estate and construction; small business, residential real estate, and home equity loans; lines of credit; and other consumer loans comprising unsecured personal lines of credit, overdraft protection, automobile loans, home improvement loans, airplane loans, and other personal loans. In addition, the company offers wealth management and trust services, financial planning, and portfolio management; and automated lock box collection, cash management, and account reconciliation services. Eastern Bankshares, Inc. was founded in 1818 and is headquartered in Boston, Massachusetts.",
+        "marketCap": 5285472256,
+        "pe": 12.921787,
+        "forwardPE": 10.851513,
+        "pb": 1.1786587,
+        "ps": 4.812811,
+        "dividendYield": 0.024399999999999998,
+        "profitMargin": 0.34249002,
+        "revenueGrowth": 0.276,
+        "earningsGrowth": -0.04,
+        "roe": 0.09442,
+        "debtToEquity": null,
+        "beta": 0.675
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 58.7,
+          "quality": 73.0,
+          "value": 99.8,
+          "growth": 74
+        },
+        "composite": 82.9,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.9\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 28%\u3001\u76c8\u5229\u589e\u901f -4%\u3002\u51c0\u5229\u7387 34%\u3001ROE 9%\u3002\u80a1\u606f\u7387 2.4%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 83\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Eastern Bankshares, Inc.",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$5.3B",
+          "beta": 0.675,
+          "summary": "Eastern Bankshares, Inc. operates as the bank holding company for Eastern Bank that provides banking, trust, and investment services to retail, commercial, and small business customers in the United States. The company offers deposit accounts, interest checking accounts, money market accounts, savin\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "TFC",
+      "score": 103.23,
+      "sector": "",
+      "signal": {
+        "close": 52.31,
+        "bb_width_pct": 4.5,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.021,
+        "dist_to_bb_upper_pct": 1.98,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 9286298,
+      "fundamentals": {
+        "name": "Truist Financial Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Truist Financial Corporation, a financial services company, provides banking and trust services in the Southeastern and Mid-Atlantic United States. The company operates through two segments, Consumer and Small Business Banking; and Wholesale Banking. Its deposit products include noninterest-bearing checking, interest-bearing checking, savings, and money market deposit accounts, as well as certificates of deposit and individual retirement accounts. The company also provides funding; asset management; credit card lending; home equity and mortgage lending; other direct retail lending; home mortgage lending; Investment brokerage services; mobile/online banking; payment solutions; point-of-sale lending; retail and small business deposit products; and small business lending. In addition, it offers asset-based lending, commercial deposit and treasury services; commercial lending; floor plan lending; derivatives; institutional trust services; insurance premium finance; international banking; investment banking and capital markets services; leasing; merchant services; mortgage warehouse lending; real estate lending; supply chain financing; and wealth management/private banking. The company was formerly known as BB&T Corporation and changed its name to Truist Financial Corporation in December 2019. Truist Financial Corporation was founded in 1872 and is headquartered in Charlotte, North Carolina.",
+        "marketCap": 63903268864,
+        "pe": 12.025288,
+        "forwardPE": 10.509166,
+        "pb": 1.0889297,
+        "ps": 3.3583806,
+        "dividendYield": 0.0401,
+        "profitMargin": 0.30692,
+        "revenueGrowth": 0.082,
+        "earningsGrowth": 0.367,
+        "roe": 0.09059,
+        "debtToEquity": null,
+        "beta": 0.87
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 53.8,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 84
+        },
+        "composite": 83.4,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.5\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 8%\u3001\u76c8\u5229\u589e\u901f 37%\u3002\u51c0\u5229\u7387 31%\u3001ROE 9%\u3002\u80a1\u606f\u7387 4.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 83\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Truist Financial Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$63.9B",
+          "beta": 0.87,
+          "summary": "Truist Financial Corporation, a financial services company, provides banking and trust services in the Southeastern and Mid-Atlantic United States. The company operates through two segments, Consumer and Small Business Banking; and Wholesale Banking. Its deposit products include noninterest-bearing \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "FITB",
+      "score": 102.79,
+      "sector": "",
+      "signal": {
+        "close": 57.6,
+        "bb_width_pct": 4.42,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.095,
+        "dist_to_bb_upper_pct": 1.87,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 6799731,
+      "fundamentals": {
+        "name": "Fifth Third Bancorp",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Fifth Third Bancorp operates as the bank holding company for Fifth Third Bank, National Association that provides a range of financial products and services in the United States. It operates through three segments: Commercial Banking, Consumer and Small Business Banking, and Wealth and Asset Management. The Commercial Banking segment offers credit intermediation, cash management, and financial services; lending and depository products; and cash management, foreign exchange and international trade finance, derivatives and capital markets services, asset-based lending, real estate finance, public finance, commercial leasing, and syndicated finance for business, government, and professional customers. Its Consumer and Small Banking segment engages in the provision of a range of deposit and loan products to individuals and small businesses; residential mortgage activities, including the origination, retention and servicing of residential mortgage loans, sales and securitizations of loans, and associated hedging activities; home equity loans and lines of credit, credit cards, automobile and other indirect lending, and other consumer lending services; and home improvement and solar energy installation loans through contractors and installers. The Wealth and Asset Management segment provides various wealth management services, such as wealth planning, investment management, banking, insurance, trust, and estate services for for individuals, companies, and not-for-profit organizations; retail brokerage services for individual clients; and advisory services for institutional clients. Fifth Third Bancorp was founded in 1858 and is headquartered in Cincinnati, Ohio.",
+        "marketCap": 52237008896,
+        "pe": 19.393938,
+        "forwardPE": 11.661311,
+        "pb": 1.6196153,
+        "ps": 5.174543,
+        "dividendYield": 0.027999999999999997,
+        "profitMargin": 0.23239,
+        "revenueGrowth": 0.518,
+        "earningsGrowth": -0.057,
+        "roe": 0.08438,
+        "debtToEquity": null,
+        "beta": 0.923
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 33.7,
+          "quality": 69.0,
+          "value": 100,
+          "growth": 84
+        },
+        "composite": 78.4,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.7\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 52%\u3001\u76c8\u5229\u589e\u901f -6%\u3002\u51c0\u5229\u7387 23%\u3001ROE 8%\u3002\u80a1\u606f\u7387 2.8%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 78\uff08\u5f3a\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Fifth Third Bancorp",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$52.2B",
+          "beta": 0.923,
+          "summary": "Fifth Third Bancorp operates as the bank holding company for Fifth Third Bank, National Association that provides a range of financial products and services in the United States. It operates through three segments: Commercial Banking, Consumer and Small Business Banking, and Wealth and Asset Managem\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "FULT",
+      "score": 102.74,
+      "sector": "",
+      "signal": {
+        "close": 24.27,
+        "bb_width_pct": 4.2,
+        "bb_width_pctile": 98,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.083,
+        "dist_to_bb_upper_pct": 3.11,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 2035932,
+      "fundamentals": {
+        "name": "Fulton Financial Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Fulton Financial Corporation operates as the bank holding company for Fulton Bank that provides banking and financial products and services in the United States. It provides various checking accounts and savings deposit products, and certificates of deposit. The company also offers consumer loans products, including home equity loans and lines of credit; construction and jumbo residential mortgage loans; automobile, student, and personal loans; account overdraft protection; commercial lending products comprising commercial real estate, commercial and industrial, and construction loans, as well as equipment lease financing loans. In addition, it offers letters of credit, cash management services, and traditional deposit products; and wealth management services, including investment management, trust, brokerage, insurance, and investment advisory services. Further, the company owns trust preferred securities; and sells various life insurance products. It provides its products and services through financial center locations, as well as through a network of automated teller machines, telephone banking, mobile banking, and online banking. The company was founded in 1882 and is headquartered in Lancaster, Pennsylvania.",
+        "marketCap": 4646758400,
+        "pe": 11.66827,
+        "forwardPE": 10.283899,
+        "pb": 1.2825662,
+        "ps": 3.4845912,
+        "dividendYield": 0.0316,
+        "profitMargin": 0.29740998,
+        "revenueGrowth": 0.137,
+        "earningsGrowth": -0.019,
+        "roe": 0.11101,
+        "debtToEquity": null,
+        "beta": 0.802
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 17.6,
+          "quality": 69.0,
+          "value": 100,
+          "growth": 62
+        },
+        "composite": 71.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.3\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 14%\u3001\u76c8\u5229\u589e\u901f -2%\u3002\u51c0\u5229\u7387 30%\u3001ROE 11%\u3002\u80a1\u606f\u7387 3.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 72\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Fulton Financial Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$4.6B",
+          "beta": 0.802,
+          "summary": "Fulton Financial Corporation operates as the bank holding company for Fulton Bank that provides banking and financial products and services in the United States. It provides various checking accounts and savings deposit products, and certificates of deposit. The company also offers consumer loans pr\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "AUB",
+      "score": 102.61,
+      "sector": "",
+      "signal": {
+        "close": 42.15,
+        "bb_width_pct": 4.29,
+        "bb_width_pctile": 98,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.039,
+        "dist_to_bb_upper_pct": 2.94,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1180912,
+      "fundamentals": {
+        "name": "Atlantic Union Bankshares Corpo",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Atlantic Union Bankshares Corporation operates as the bank holding company for Atlantic Union Bank that provides banking and related financial products and services to consumers and businesses in the United States. The company operates in two segments, Wholesale Banking and Consumer Banking. It accepts various deposit products, including checking, savings, time deposit, and money market accounts; certificates of deposit; and other depository services. The company provides loans for commercial real estate, commercial, industrial, residential mortgage, and consumer purposes, as well as debit and credit cards. In addition, it provides treasury management and capital market, wealth management, private banking, trust, financial and retirement planning, brokerage, investment management, equipment finance, mortgage banking, and insurance products and services. The company offers products and services through full-service branches and ATMs, as well as through its mobile and internet banking. The company was formerly known as Union Bankshares Corporation and changed its name to Atlantic Union Bankshares Corporation in May 2019. Atlantic Union Bankshares Corporation was founded in 1902 and is headquartered in Glen Allen, Virginia.",
+        "marketCap": 6019648000,
+        "pe": 12.28863,
+        "forwardPE": 10.450422,
+        "pb": 1.1608372,
+        "ps": 3.9925187,
+        "dividendYield": 0.0355,
+        "profitMargin": 0.32319,
+        "revenueGrowth": 0.358,
+        "earningsGrowth": 8.348,
+        "roe": 0.09759,
+        "debtToEquity": null,
+        "beta": 0.774
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 25.0,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 92
+        },
+        "composite": 78.3,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.5\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 36%\u3001\u76c8\u5229\u589e\u901f 835%\u3002\u51c0\u5229\u7387 32%\u3001ROE 10%\u3002\u80a1\u606f\u7387 3.5%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 78\uff08\u5f3a\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Atlantic Union Bankshares Corpo",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$6.0B",
+          "beta": 0.774,
+          "summary": "Atlantic Union Bankshares Corporation operates as the bank holding company for Atlantic Union Bank that provides banking and related financial products and services to consumers and businesses in the United States. The company operates in two segments, Wholesale Banking and Consumer Banking. It acce\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "CBSH",
+      "score": 102.4,
+      "sector": "",
+      "signal": {
+        "close": 59.02,
+        "bb_width_pct": 3.67,
+        "bb_width_pctile": 97,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.054,
+        "dist_to_bb_upper_pct": 2.1,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1261841,
+      "fundamentals": {
+        "name": "Commerce Bancshares, Inc.",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Commerce Bancshares, Inc. operates as the bank holding company for Commerce Bank that provides retail, mortgage banking, corporate, investment, trust, and asset management products and services to individuals and businesses in the United States. It operates through three segments: Retail Banking, Commercial, and Wealth. The Retail Banking segment offers various banking products and services, including consumer deposits; consumer loans, such as automobile, motorcycle, marine, tractor/trailer, recreational vehicle, fixed rate and revolving home equity, and other consumer loans; patient health care financing; real estate loans; indirect and other consumer financing; retail branch network; personal mortgage banking; consumer installment lending; and consumer debit and credit bank cards. The Commercial segment provides corporate lending, leasing, international, merchant and commercial bank card, and securities safekeeping and bond accounting services; and business products, government deposits, and related commercial cash management services, as well as sells fixed income securities to correspondent banks, corporations, public institutions, municipalities, and individuals. The Wealth segment provides traditional trust and estate planning, advisory and discretionary investment portfolio management, and brokerage services, as well as private banking accounts. The company offers private equity investment, securities brokerage, insurance agency, specialty lending, and leasing services, as well as online and mobile banking services. Commerce Bancshares, Inc. was founded in 1865 and is headquartered in Kansas City, Missouri.",
+        "marketCap": 8465367040,
+        "pe": 14.465687,
+        "forwardPE": 12.93589,
+        "pb": 1.9523653,
+        "ps": 4.5895734,
+        "dividendYield": 0.018799999999999997,
+        "profitMargin": 0.3164,
+        "revenueGrowth": 0.142,
+        "earningsGrowth": 0.012,
+        "roe": 0.14694001,
+        "debtToEquity": null,
+        "beta": 0.583
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 41.6,
+          "quality": 80.0,
+          "value": 87.5,
+          "growth": 62
+        },
+        "composite": 76.8,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 12.9\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 14%\u3001\u76c8\u5229\u589e\u901f 1%\u3002\u51c0\u5229\u7387 32%\u3001ROE 15%\u3002\u80a1\u606f\u7387 1.9%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 77\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Commerce Bancshares, Inc.",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$8.5B",
+          "beta": 0.583,
+          "summary": "Commerce Bancshares, Inc. operates as the bank holding company for Commerce Bank that provides retail, mortgage banking, corporate, investment, trust, and asset management products and services to individuals and businesses in the United States. It operates through three segments: Retail Banking, Co\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "FNB",
+      "score": 102.35,
+      "sector": "",
+      "signal": {
+        "close": 19.11,
+        "bb_width_pct": 3.72,
+        "bb_width_pctile": 97,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.003,
+        "dist_to_bb_upper_pct": 1.54,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 5389641,
+      "fundamentals": {
+        "name": "F.N.B. Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "F.N.B. Corporation, a bank and financial holding company, provides a range of financial products and services primarily to consumers, corporations, governments, and small- to medium-sized businesses in the United States. The company operates through three segments: Community Banking, Wealth Management, and Insurance. The Community Banking segment offers commercial and consumer banking services, including small business banking, investment real estate financing, business credit, capital market, and capital market and equipment financing services. It provides consumer banking products and services, such as deposit products, mortgage and consumer lending services, and mobile and online banking services. The Wealth Management segment provides personal and corporate fiduciary services comprising administration of decedent and trust estates; and securities brokerage and investment advisory services, mutual funds, and annuities. The Insurance segment comprises commercial and personal insurance, and reinsurance products, as well as mezzanine financing options for small- to medium-sized businesses. The company operates community banking branches in Pennsylvania, Ohio, Maryland, West Virginia, North Carolina, South Carolina, Washington, D.C., and Virginia. F.N.B. Corporation was founded in 1864 and is headquartered in Pittsburgh, Pennsylvania.",
+        "marketCap": 6802470912,
+        "pe": 11.375001,
+        "forwardPE": 10.1988,
+        "pb": 0.9879543,
+        "ps": 3.8984876,
+        "dividendYield": 0.0274,
+        "profitMargin": 0.34615,
+        "revenueGrowth": 0.068,
+        "earningsGrowth": 0.162,
+        "roe": 0.0904,
+        "debtToEquity": null,
+        "beta": 0.871
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 49.5,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 80.9,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.2\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 7%\u3001\u76c8\u5229\u589e\u901f 16%\u3002\u51c0\u5229\u7387 35%\u3001ROE 9%\u3002\u80a1\u606f\u7387 2.7%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 81\uff08\u5f3a\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "F.N.B. Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$6.8B",
+          "beta": 0.871,
+          "summary": "F.N.B. Corporation, a bank and financial holding company, provides a range of financial products and services primarily to consumers, corporations, governments, and small- to medium-sized businesses in the United States. The company operates through three segments: Community Banking, Wealth Manageme\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "JEF",
+      "score": 102.16,
+      "sector": "",
+      "signal": {
+        "close": 55.0,
+        "bb_width_pct": 5.23,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.037,
+        "dist_to_bb_upper_pct": 4.13,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 2193797,
+      "fundamentals": {
+        "name": "Jefferies Financial Group Inc.",
+        "sector": "Financial Services",
+        "industry": "Capital Markets",
+        "summary": "Jefferies Financial Group Inc. operates as an investment banking and capital markets firm in the Americas, Europe, the Middle East, and the Asia-Pacific. It operates in two segments, Investment Banking and Capital Markets, and Asset Management. The company provides investment banking and advisory services for mergers or acquisitions, debt financing, restructurings, and private capital advisory transactions; underwriting and placement services related to corporate debt, municipal debt, mortgage-backed and asset-backed securities, equity and equity-linked securities, and loan syndication services; and corporate lending services. It also offers financing, securities lending, and other prime brokerage services; equities research, sales, and trading services; wealth management services; and online foreign exchange trading services. In addition, the company provides investment-grade distressed debt securities, U.S. and European government and agency securities, municipal bonds, leveraged loans, emerging markets debt, interest rates, and credit index derivative products; and manages and offers services to a diverse group of alternative asset management platforms across a spectrum of investment strategies and asset classes. It serves public companies, private companies, sponsors and owners, institutional investors, and government entities. The company was formerly known as Leucadia National Corporation and changed its name to Jefferies Financial Group Inc. in May 2018. Jefferies Financial Group Inc. was founded in 1962 and is headquartered in New York, New York.",
+        "marketCap": 11186560000,
+        "pe": 15.363129,
+        "forwardPE": 12.110642,
+        "pb": 1.0586492,
+        "ps": 2.0705895,
+        "dividendYield": 0.028900000000000002,
+        "profitMargin": 0.23019,
+        "revenueGrowth": 0.35,
+        "earningsGrowth": 1.598,
+        "roe": null,
+        "debtToEquity": 364.763,
+        "beta": null
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 25.4,
+          "quality": 56.0,
+          "value": 90,
+          "growth": 92
+        },
+        "composite": 74.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Capital Markets\u3002\u8fdc\u671f PE \u2248 12.1\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 35%\u3001\u76c8\u5229\u589e\u901f 160%\u3002\u51c0\u5229\u7387 23%\u3002\u8d1f\u503a\u7387(Debt/Eq) 364.8\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 2.9%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 74\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Jefferies Financial Group Inc.",
+          "sector": "Financial Services",
+          "industry": "Capital Markets",
+          "market_cap": "$11.2B",
+          "beta": null,
+          "summary": "Jefferies Financial Group Inc. operates as an investment banking and capital markets firm in the Americas, Europe, the Middle East, and the Asia-Pacific. It operates in two segments, Investment Banking and Capital Markets, and Asset Management. The company provides investment banking and advisory se\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "score": 102.13,
+      "sector": "",
+      "signal": {
+        "close": 106.66,
+        "bb_width_pct": 4.88,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.012,
+        "dist_to_bb_upper_pct": 0.7,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 7792082,
+      "fundamentals": {
+        "name": "Starbucks Corporation",
+        "sector": "Consumer Cyclical",
+        "industry": "Restaurants",
+        "summary": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of coffee internationally. The company operates through three segments: North America, International, and Channel Development. Its stores offer coffee, tea, and other beverages, roasted whole beans and ground coffees, complementary food, packaged coffees, single-serve products, and ready-to-drink beverages; and various food products, such as pastries, breakfast sandwiches, and lunch items. The company also licenses its trademarks through licensed stores, and grocery and foodservice accounts. The company offers its products under the Starbucks Coffee, Teavana, Seattle's Best Coffee, Ethos, and Starbucks Reserve brands. Starbucks Corporation was founded in 1971 and is based in Seattle, Washington.",
+        "marketCap": 121592406016,
+        "pe": 61.65318,
+        "forwardPE": 34.298027,
+        "pb": null,
+        "ps": 3.1715648,
+        "dividendYield": 0.023700000000000002,
+        "profitMargin": 0.05172,
+        "revenueGrowth": -0.014,
+        "earningsGrowth": 0.857,
+        "roe": null,
+        "debtToEquity": null,
+        "beta": 0.966
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 52.2,
+          "quality": 58.0,
+          "value": 47.5,
+          "growth": 92
+        },
+        "composite": 75.1,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Restaurants\u3002\u8fdc\u671f PE \u2248 34.3\uff08\u504f\u9ad8\uff09\u3002\u8425\u6536\u589e\u901f -1%\u3001\u76c8\u5229\u589e\u901f 86%\u3002\u51c0\u5229\u7387 5%\u3002\u80a1\u606f\u7387 2.4%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 75\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Starbucks Corporation",
+          "sector": "Consumer Cyclical",
+          "industry": "Restaurants",
+          "market_cap": "$121.6B",
+          "beta": 0.966,
+          "summary": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of coffee internationally. The company operates through three segments: North America, International, and Channel Development. Its stores offer coffee, tea, and other beverages, roasted whole beans a\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "VOYA",
+      "score": 101.84,
+      "sector": "",
+      "signal": {
+        "close": 98.22,
+        "bb_width_pct": 4.69,
+        "bb_width_pctile": 98,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.093,
+        "dist_to_bb_upper_pct": 3.64,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1155137,
+      "fundamentals": {
+        "name": "Voya Financial, Inc.",
+        "sector": "Financial Services",
+        "industry": "Financial Conglomerates",
+        "summary": "Voya Financial, Inc. provides workplace benefits, and savings solutions and technologies in the United States and internationally. The company operates through three segments: Retirement, Investment Management and Employee Benefits. The Retirement segment offers full-service retirement products; recordkeeping services; stable value and fixed general account investment products; non-qualified plan administration services; and tools, guidance, and services to promote the financial well-being and retirement security of employees. This segment also provides wealth management services, such as individual retirement, managed, and brokerage accounts, as well as financial guidance and advisory services. This segment serves corporate, public and private school systems, higher education institutions, hospitals and healthcare facilities, other non-profit organizations, and state and local governments, as well as institutional clients and individual customers. The Employee Benefits segment offers various insurance products comprising stop loss, group life, group disability, whole and term life, critical illness, accident, and hospital indemnity insurance. This segment also provides worksite employee benefits, health account solutions, leave management, benefits administration, health plan enrollment, financial wellness, and decision support products and services to mid-size and large corporate employers and professional associations. The Investment Management segment provides fixed income, equity, multi-asset, and alternative products and solutions to individual investors, financial intermediaries, and institutional clients through its direct sales force, consultant channel, intermediary partners, banks, broker-dealers, and independent financial advisers. The company was formerly known as ING U.S., Inc. and changed its name to Voya Financial, Inc. in April 2014. Voya Financial, Inc. was founded in 1975 and is based in New York, New York.",
+        "marketCap": 8898373632,
+        "pe": 16.563238,
+        "forwardPE": 8.630666,
+        "pb": 1.9485389,
+        "ps": 1.0896857,
+        "dividendYield": 0.018799999999999997,
+        "profitMargin": 0.07446,
+        "revenueGrowth": -0.043,
+        "earningsGrowth": -0.416,
+        "roe": 0.096099995,
+        "debtToEquity": 68.91,
+        "beta": 0.891
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 48.0,
+          "quality": 45.3,
+          "value": 97.5,
+          "growth": 18
+        },
+        "composite": 67.7,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Financial Conglomerates\u3002\u8fdc\u671f PE \u2248 8.6\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f -4%\u3001\u76c8\u5229\u589e\u901f -42%\u3002\u51c0\u5229\u7387 7%\u3001ROE 10%\u3002\u8d1f\u503a\u7387(Debt/Eq) 68.9\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 1.9%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 68\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Voya Financial, Inc.",
+          "sector": "Financial Services",
+          "industry": "Financial Conglomerates",
+          "market_cap": "$8.9B",
+          "beta": 0.891,
+          "summary": "Voya Financial, Inc. provides workplace benefits, and savings solutions and technologies in the United States and internationally. The company operates through three segments: Retirement, Investment Management and Employee Benefits. The Retirement segment offers full-service retirement products; rec\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "PIPR",
+      "score": 101.71,
+      "sector": "",
+      "signal": {
+        "close": 75.71,
+        "bb_width_pct": 5.26,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.148,
+        "dist_to_bb_upper_pct": 3.08,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 610116,
+      "fundamentals": {
+        "name": "Piper Sandler Companies",
+        "sector": "Financial Services",
+        "industry": "Capital Markets",
+        "summary": "Piper Sandler Companies operates as an investment bank and institutional securities firm that serves corporations, private equity groups, public entities, non-profit entities, and institutional investors in the United States and internationally. It offers investment banking services, institutional sales, and trading services for various equity and fixed income products; research services; advisory services, such as mergers and acquisitions, equity and debt financings, equity and debt private placements, debt capital markets advisory, restructuring and private capital advisory; municipal financial advisory and loan placement services; and various over-the-counter derivative products, as well as underwrites municipal issuances. The company also provides public finance investment banking services that focus on state and local governments, special districts and development infrastructure, project finance, and cultural and social service non-profit entities, as well as the education, healthcare, hospitality, senior living, housing, and transportation sectors. In addition, it offers equity and fixed income advisory and trade execution services for institutional investors, corporations, and government and non-profit entities. Further, the company has alternative asset management funds in merchant banking and healthcare to invest firm capital and to manage capital from outside investors; equity and debt capital markets products; public finance services; institutional brokerage services; fundamental equity and macro research services; alternative asset management strategies; and fixed income sales and trading solutions to banks, registered investment advisors, public entities, credit unions, asset managers, and insurance companies. The company was formerly known as Piper Jaffray Companies and changed its name to Piper Sandler Companies in January 2020. Piper Sandler Companies was founded in 1895 and is headquartered in Minneapolis, Minnesota.",
+        "marketCap": 5350447616,
+        "pe": 17.566126,
+        "forwardPE": 13.685827,
+        "pb": 3.725519,
+        "ps": 2.5294635,
+        "dividendYield": 0.010700000000000001,
+        "profitMargin": 0.14529,
+        "revenueGrowth": 0.249,
+        "earningsGrowth": 0.61,
+        "roe": 0.24528,
+        "debtToEquity": 11.269,
+        "beta": 1.415
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 8.1,
+          "quality": 60.0,
+          "value": 84.3,
+          "growth": 92
+        },
+        "composite": 70.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Capital Markets\u3002\u8fdc\u671f PE \u2248 13.7\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 25%\u3001\u76c8\u5229\u589e\u901f 61%\u3002\u51c0\u5229\u7387 15%\u3001ROE 25%\u3002\u8d1f\u503a\u7387(Debt/Eq) 11.3\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 1.1%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 71\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Piper Sandler Companies",
+          "sector": "Financial Services",
+          "industry": "Capital Markets",
+          "market_cap": "$5.4B",
+          "beta": 1.415,
+          "summary": "Piper Sandler Companies operates as an investment bank and institutional securities firm that serves corporations, private equity groups, public entities, non-profit entities, and institutional investors in the United States and internationally. It offers investment banking services, institutional s\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "WAL",
+      "score": 101.12,
+      "sector": "",
+      "signal": {
+        "close": 81.5,
+        "bb_width_pct": 5.92,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.056,
+        "dist_to_bb_upper_pct": 3.76,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1014331,
+      "fundamentals": {
+        "name": "Western Alliance Bancorporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Western Alliance Bancorporation operates as the bank holding company for Western Alliance Bank that provides various banking products and related services primarily in Arizona, California, and Nevada. It operates through Commercial and Consumer Related segments. The company offers deposit products, including demand deposit, checking, savings, and money market accounts, as well as fixed-rate and fixed maturity certificates of deposit accounts; treasury management products and services to small and middle-market businesses, specialized banking services to sophisticated commercial institutions and investors; and residential mortgage products and services. It also provides commercial and industrial loan products, such as working capital lines of credit, loans to technology companies, inventory and accounts receivable lines, mortgage warehouse lines, equipment loans and leases, and other commercial loans; commercial real estate loans, which are secured by multifamily residential properties, professional offices, industrial facilities, retail centers, hotels, and other commercial properties; construction and land development loans for single family and multifamily residential projects, industrial/warehouse properties, office buildings, retail centers, medical office facilities, and residential lot developments; and consumer loans. In addition, the company offers other financial services, such as internet banking, wire transfers, electronic bill payment and presentment, funds transfer and other digital payment offerings, lock box services, courier, and cash management services. Further, the company holds certain investment securities, municipal and non-profit loans, and leases; invests primarily in low-income housing tax credits and small business investment corporations; and certain real estate loans and related securities. Western Alliance Bancorporation was founded in 1994 and is headquartered in Phoenix, Arizona.",
+        "marketCap": 8891720704,
+        "pe": 9.198646,
+        "forwardPE": 7.2213044,
+        "pb": 1.2006483,
+        "ps": 2.5498898,
+        "dividendYield": 0.0209,
+        "profitMargin": 0.28198,
+        "revenueGrowth": 0.136,
+        "earningsGrowth": 0.14,
+        "roe": 0.13019,
+        "debtToEquity": null,
+        "beta": 1.332
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 22.1,
+          "quality": 76.0,
+          "value": 98.4,
+          "growth": 74
+        },
+        "composite": 75.1,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 7.2\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 14%\u3001\u76c8\u5229\u589e\u901f 14%\u3002\u51c0\u5229\u7387 28%\u3001ROE 13%\u3002\u80a1\u606f\u7387 2.1%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 75\uff08\u5f3a\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Western Alliance Bancorporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$8.9B",
+          "beta": 1.332,
+          "summary": "Western Alliance Bancorporation operates as the bank holding company for Western Alliance Bank that provides various banking products and related services primarily in Arizona, California, and Nevada. It operates through Commercial and Consumer Related segments. The company offers deposit products, \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "MAA",
+      "score": 100.87,
+      "sector": "",
+      "signal": {
+        "close": 131.74,
+        "bb_width_pct": 4.24,
+        "bb_width_pctile": 96,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.014,
+        "dist_to_bb_upper_pct": 3.48,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1093115,
+      "fundamentals": {
+        "name": "Mid-America Apartment Communiti",
+        "sector": "Real Estate",
+        "industry": "REIT - Residential",
+        "summary": "Mid-America Apartment Communities, Inc. an S&P 500 company, is a real estate investment trust (REIT) focused on delivering full-cycle and superior investment performance for shareholders through the ownership, management, acquisition, development and redevelopment of quality apartment communities primarily in the Southeast, Southwest and Mid-Atlantic regions of the United States. As of June 30, 2026, MAA had ownership interest in 104,698 apartment units, including communities in development, across 16 states and the District of Columbia. id-America Apartment Communities, Inc. was incorporated in 1977 in Tennessee and is based in Germantown, Tennessee.",
+        "marketCap": 15672290304,
+        "pe": 38.63343,
+        "forwardPE": 40.1699,
+        "pb": 2.8126135,
+        "ps": 7.063469,
+        "dividendYield": 0.0462,
+        "profitMargin": 0.18173,
+        "revenueGrowth": 0.01,
+        "earningsGrowth": 0.137,
+        "roe": 0.0705,
+        "debtToEquity": 102.377,
+        "beta": 0.72
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 34.5,
+          "quality": 46.7,
+          "value": 38,
+          "growth": 62
+        },
+        "composite": 63.8,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aReal Estate / REIT - Residential\u3002\u8fdc\u671f PE \u2248 40.2\uff08\u504f\u9ad8\uff09\u3002\u8425\u6536\u589e\u901f 1%\u3001\u76c8\u5229\u589e\u901f 14%\u3002\u51c0\u5229\u7387 18%\u3001ROE 7%\u3002\u8d1f\u503a\u7387(Debt/Eq) 102.4\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 4.6%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 64\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Mid-America Apartment Communiti",
+          "sector": "Real Estate",
+          "industry": "REIT - Residential",
+          "market_cap": "$15.7B",
+          "beta": 0.72,
+          "summary": "Mid-America Apartment Communities, Inc. an S&P 500 company, is a real estate investment trust (REIT) focused on delivering full-cycle and superior investment performance for shareholders through the ownership, management, acquisition, development and redevelopment of quality apartment communities pr\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "CATY",
+      "score": 100.64,
+      "sector": "",
+      "signal": {
+        "close": 63.7,
+        "bb_width_pct": 4.86,
+        "bb_width_pctile": 97,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.139,
+        "dist_to_bb_upper_pct": 1.44,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 520641,
+      "fundamentals": {
+        "name": "Cathay General Bancorp",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Cathay General Bancorp operates as the holding company for Cathay Bank that offers various commercial banking products and services to individuals, professionals, and small to medium-sized businesses in the United States. It offers savings accounts, checking accounts, money market deposit accounts, certificates of deposit, individual retirement accounts, and public funds deposits, and acceptance of checking, savings, demand deposits, time deposits, real estate, and consumer loans. The company also provides loan products, such as commercial real estate loans, commercial loans, small business administration loans, residential mortgage loans, real estate construction loans, and home equity lines of credit, and installment loans to individuals for household and other consumer expenditures. In addition, it offers trade financing, letter of credit, wire transfer, foreign currency spot and forward contract, safe deposit, overdraft, cash checking, automatic teller machine, Internet banking, investment, and other customary bank services, as well as investment products and services, such as stocks, bonds, mutual funds, insurance, annuities, and advisory services. The company was formerly known as Cathay Bancorp, Inc. and changed its name to Cathay General Bancorp in November 2003. Cathay General Bancorp was founded in 1962 and is headquartered in Los Angeles, California.",
+        "marketCap": 4249670400,
+        "pe": 12.465754,
+        "forwardPE": 10.74199,
+        "pb": 1.3972056,
+        "ps": 5.3441396,
+        "dividendYield": 0.0227,
+        "profitMargin": 0.4367,
+        "revenueGrowth": 0.138,
+        "earningsGrowth": 0.245,
+        "roe": 0.117060006,
+        "debtToEquity": null,
+        "beta": 0.85
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 72.7,
+          "quality": 73.0,
+          "value": 99.1,
+          "growth": 74
+        },
+        "composite": 85.9,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.7\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 14%\u3001\u76c8\u5229\u589e\u901f 24%\u3002\u51c0\u5229\u7387 44%\u3001ROE 12%\u3002\u80a1\u606f\u7387 2.3%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 86\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Cathay General Bancorp",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$4.2B",
+          "beta": 0.85,
+          "summary": "Cathay General Bancorp operates as the holding company for Cathay Bank that offers various commercial banking products and services to individuals, professionals, and small to medium-sized businesses in the United States. It offers savings accounts, checking accounts, money market deposit accounts, \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "HWC",
+      "score": 100.58,
+      "sector": "",
+      "signal": {
+        "close": 78.22,
+        "bb_width_pct": 4.95,
+        "bb_width_pctile": 97,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.038,
+        "dist_to_bb_upper_pct": 1.19,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 968787,
+      "fundamentals": {
+        "name": "Hancock Whitney Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Hancock Whitney Corporation operates as the financial holding company for Hancock Whitney Bank that provides traditional and online banking services to commercial, small business, and retail customers in the United States. The company offers various transaction and savings deposit products, such as brokered deposits, time deposits, and money market accounts; treasury management services; secured and unsecured loan products, including revolving credit facilities; letters of credit and similar financial guarantees; trust and investment management services to retirement plans, corporations, and individuals; and investment advisory and brokerage products. It also provides commercial and industrial loans, such as commercial non-real estate and real estate loans; construction and land development loans; residential mortgages; and consumer loans comprising second lien mortgage home loans, home equity lines of credit, and nonresidential consumer purpose loans, automobiles, recreational vehicles and boats, other personal purposes, deposit account secured loans, and small portfolio of credit card receivables. In addition, the company offers commercial finance products to middle market and corporate clients comprising leases and related structures; invests in new market tax credit activities and holds certain foreclosed assets; fixed annuity and life insurance products, investment management and advisory, and other services; and underwrites transactions primarily for banking clients, as well as debt and mortgage-related securities. The company was founded in 1899 and is headquartered in Gulfport, Mississippi.",
+        "marketCap": 6275047424,
+        "pe": 15.3372555,
+        "forwardPE": 10.736453,
+        "pb": 1.4163362,
+        "ps": 4.4428544,
+        "dividendYield": 0.0258,
+        "profitMargin": 0.30262,
+        "revenueGrowth": 0.076,
+        "earningsGrowth": 0.174,
+        "roe": 0.097040005,
+        "debtToEquity": null,
+        "beta": 0.96
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 56.8,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 82.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.7\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 8%\u3001\u76c8\u5229\u589e\u901f 17%\u3002\u51c0\u5229\u7387 30%\u3001ROE 10%\u3002\u80a1\u606f\u7387 2.6%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 83\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Hancock Whitney Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$6.3B",
+          "beta": 0.96,
+          "summary": "Hancock Whitney Corporation operates as the financial holding company for Hancock Whitney Bank that provides traditional and online banking services to commercial, small business, and retail customers in the United States. The company offers various transaction and savings deposit products, such as \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "RNST",
+      "score": 100.39,
+      "sector": "",
+      "signal": {
+        "close": 42.93,
+        "bb_width_pct": 4.3,
+        "bb_width_pctile": 95,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.033,
+        "dist_to_bb_upper_pct": 3.45,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 704744,
+      "fundamentals": {
+        "name": "Renasant Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Renasant Corporation operates as a bank holding company for Renasant Bank that provides a range of financial, wealth management, and fiduciary services to retail and commercial customers. The company operates in two segments, Community Banks and Wealth Management. The Community Banks segment offers checking and savings accounts, business and personal loans, asset-based lending, and factoring equipment leasing services, as well as safe deposit and night depository facilities. It also provides commercial, financial, and agricultural loans; equipment financing and leasing; real estate\u00961-4 family mortgage; real estate\u0096commercial mortgage; real estate\u0096construction loans for the construction of single family residential properties, multi-family properties, and commercial projects; installment loans to individuals; and interim construction loans, as well as automated teller machine (ATM), online and mobile banking, call center, and treasury management services. The Wealth Management segment offers a range of wealth management and fiduciary services, including administration and management of trust accounts, such as personal and corporate benefit accounts, and custodial accounts, as well as accounting and money management for trust accounts. It also provides annuities, mutual funds, and other investment services through a third-party broker-dealer; administrative and compliance services; and qualified retirement plans, IRAs, employee benefit plans, personal trusts, and estates, as well as administrative and compliance services for certain mutual funds. The company was founded in 1904 and is based in Tupelo, Mississippi.",
+        "marketCap": 3923993600,
+        "pe": 12.552631,
+        "forwardPE": 10.92764,
+        "pb": 1.0135758,
+        "ps": 3.69291,
+        "dividendYield": 0.0225,
+        "profitMargin": 0.29556,
+        "revenueGrowth": 0.453,
+        "earningsGrowth": 93.0,
+        "roe": 0.082100004,
+        "debtToEquity": null,
+        "beta": 0.996
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 26.1,
+          "quality": 69.0,
+          "value": 99.0,
+          "growth": 92
+        },
+        "composite": 77.8,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.9\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 45%\u3001\u76c8\u5229\u589e\u901f 9300%\u3002\u51c0\u5229\u7387 30%\u3001ROE 8%\u3002\u80a1\u606f\u7387 2.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 78\uff08\u5f3a\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Renasant Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$3.9B",
+          "beta": 0.996,
+          "summary": "Renasant Corporation operates as a bank holding company for Renasant Bank that provides a range of financial, wealth management, and fiduciary services to retail and commercial customers. The company operates in two segments, Community Banks and Wealth Management. The Community Banks segment offers \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "VC",
+      "score": 100.24,
+      "sector": "",
+      "signal": {
+        "close": 106.19,
+        "bb_width_pct": 6.25,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.042,
+        "dist_to_bb_upper_pct": 1.57,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 589484,
+      "fundamentals": {
+        "name": "Visteon Corporation",
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Parts",
+        "summary": "Visteon Corporation, an automotive technology company, engages in the design, manufacture, and sale of automotive electronics and connected car solutions for vehicle manufacturers. It provides instrument clusters, including analog gauge clusters for 2-D and 3-D display-based devices; information displays that integrate a range of user interface technologies and graphics management capabilities, such as active privacy, TrueColor enhancement, local dimming, cameras, optics, haptic feedback, and light effects; and infotainment and connected car solutions, including scalable Android infotainment for seamless connectivity, as well as onboard artificial intelligence-based voice assistants with natural language understanding. It offers display audio and embedded infotainment platform that enables third-party developers to create apps through a software development kit and software simulation of the target hardware system; and wired and wireless battery management systems; and power electronics units. In addition, the company provides SmartCore, an automotive-grade, integrated domain controller; SmartCore Runtime, a middleware enabling communication between domains and apps to be shown on any display; and SmartCore Studio, a PC-based configuration tool to generate hypervisor configurations. Further, it offers CognitoAI, an in-house, automotive-grade A.I. software platform; Battery Management Systems, configurable battery management systems; High-Voltage Power Electronics, an integrated and scalable power electronics units; and engineering and software development services. It operates in the United States, Mexico, Portugal, Slovakia, Tunisia, rest of Europe, China, India, Japan, rest of the Asia Pacific, and South America. Visteon Corporation was incorporated in 2000 and is headquartered in Van Buren, Michigan.",
+        "marketCap": 2834787584,
+        "pe": 20.4605,
+        "forwardPE": 10.138283,
+        "pb": 1.8221598,
+        "ps": 0.7501422,
+        "dividendYield": 0.0143,
+        "profitMargin": 0.037839998,
+        "revenueGrowth": -0.009,
+        "earningsGrowth": -0.3,
+        "roe": 0.09538999,
+        "debtToEquity": 25.696,
+        "beta": 1.313
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 57.5,
+          "quality": 40.0,
+          "value": 95.7,
+          "growth": 18
+        },
+        "composite": 68.8,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Auto Parts\u3002\u8fdc\u671f PE \u2248 10.1\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f -1%\u3001\u76c8\u5229\u589e\u901f -30%\u3002\u51c0\u5229\u7387 4%\u3001ROE 10%\u3002\u8d1f\u503a\u7387(Debt/Eq) 25.7\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 1.4%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 69\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Visteon Corporation",
+          "sector": "Consumer Cyclical",
+          "industry": "Auto Parts",
+          "market_cap": "$2.8B",
+          "beta": 1.313,
+          "summary": "Visteon Corporation, an automotive technology company, engages in the design, manufacture, and sale of automotive electronics and connected car solutions for vehicle manufacturers. It provides instrument clusters, including analog gauge clusters for 2-D and 3-D display-based devices; information dis\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "STT",
+      "score": 100.19,
+      "sector": "",
+      "signal": {
+        "close": 187.22,
+        "bb_width_pct": 5.17,
+        "bb_width_pctile": 97,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.045,
+        "dist_to_bb_upper_pct": 0.96,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 2314433,
+      "fundamentals": {
+        "name": "State Street Corporation",
+        "sector": "Financial Services",
+        "industry": "Asset Management",
+        "summary": "State Street Corporation provides various financial products and services to institutional investors. It offers custody, accounting, and fund administration services for traditional and alternative assets, as well as multi-asset class investments; recordkeeping, client reporting, and investment book of record, transaction management, loans, cash, derivatives, and collateral services; investor services operations outsourcing; performance, risk, and compliance analytics; financial data management to support institutional investors; foreign exchange, brokerage, and other trading services; securities finance, such as prime services products; and deposit and short-term investment facilities. \nThe company also provides the State Street Alpha platform that combines portfolio management, trading and execution, analytics and compliance tools, and advanced data aggregation and integration with other industry platforms and providers; front-office technology that automates and simplifies the institutional investment process comprising portfolio management and risk analytics, trading, and post-trade settlement with integrated compliance and managed data; investment management solutions; and portfolio management, trading compliance, and manager/sponsor communication. In addition, it offers investment management solutions, such as strategies across equity, fixed income, cash, multi-asset, and alternatives; and ETFs, custom indexed, managed funds, and mandates. The company provides its products and services to mutual funds, collective investment funds and other investment pools, corporate and public retirement plans, insurance companies, wealth managers, investment managers, foundations, and endowments. The company was founded in 1792 and is headquartered in Boston, Massachusetts.",
+        "marketCap": 51429662720,
+        "pe": 16.524273,
+        "forwardPE": 12.234226,
+        "pb": 2.151756,
+        "ps": 3.4233952,
+        "dividendYield": 0.0197,
+        "profitMargin": 0.23005,
+        "revenueGrowth": -0.028,
+        "earningsGrowth": -0.241,
+        "roe": 0.12437,
+        "debtToEquity": null,
+        "beta": 1.418
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 58.0,
+          "quality": 76.0,
+          "value": 87.9,
+          "growth": 18
+        },
+        "composite": 73.3,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Asset Management\u3002\u8fdc\u671f PE \u2248 12.2\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f -3%\u3001\u76c8\u5229\u589e\u901f -24%\u3002\u51c0\u5229\u7387 23%\u3001ROE 12%\u3002\u80a1\u606f\u7387 2.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 73\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "State Street Corporation",
+          "sector": "Financial Services",
+          "industry": "Asset Management",
+          "market_cap": "$51.4B",
+          "beta": 1.418,
+          "summary": "State Street Corporation provides various financial products and services to institutional investors. It offers custody, accounting, and fund administration services for traditional and alternative assets, as well as multi-asset class investments; recordkeeping, client reporting, and investment book\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "WFC",
+      "score": 100.17,
+      "sector": "",
+      "signal": {
+        "close": 87.45,
+        "bb_width_pct": 5.14,
+        "bb_width_pctile": 96,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.034,
+        "dist_to_bb_upper_pct": 2.11,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 15411357,
+      "fundamentals": {
+        "name": "Wells Fargo & Company",
+        "sector": "Financial Services",
+        "industry": "Banks - Diversified",
+        "summary": "Wells Fargo & Company, a financial services company, provides diversified banking, investment, mortgage, and consumer and commercial finance products and services in the United States and internationally. It operates through four segments: Consumer Banking and Lending; Commercial Banking; Corporate and Investment Banking; and Wealth and Investment Management. The company's financial products and services includes checking and savings accounts, and credit and debit cards, as well as home, auto, personal, and small business lending services. It also provides personalized wealth management, brokerage, financial planning, lending, private banking, trust and fiduciary products and services; and financial solutions to private, family owned and public companies through products and services including banking and credit products across multiple industry sectors and municipalities, secured lending and lease products, and treasury management. In addition, it offers a suite of capital markets, banking, and financial products and services, such as corporate banking, investment banking, treasury management, commercial real estate lending and servicing, equity, and fixed income solutions, as well as sales, trading, and research capabilities services to corporate, commercial real estate, government, and institutional clients. Wells Fargo & Company was founded in 1852 and is headquartered in San Francisco, California.",
+        "marketCap": 264448720896,
+        "pe": 12.710755,
+        "forwardPE": 11.069031,
+        "pb": 1.6439823,
+        "ps": 3.1851313,
+        "dividendYield": 0.0229,
+        "profitMargin": 0.27232,
+        "revenueGrowth": 0.095,
+        "earningsGrowth": 0.25,
+        "roe": 0.12575,
+        "debtToEquity": null,
+        "beta": 0.92
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 56.1,
+          "quality": 76.0,
+          "value": 99.2,
+          "growth": 74
+        },
+        "composite": 82.7,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Diversified\u3002\u8fdc\u671f PE \u2248 11.1\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 10%\u3001\u76c8\u5229\u589e\u901f 25%\u3002\u51c0\u5229\u7387 27%\u3001ROE 13%\u3002\u80a1\u606f\u7387 2.3%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 83\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Wells Fargo & Company",
+          "sector": "Financial Services",
+          "industry": "Banks - Diversified",
+          "market_cap": "$264.4B",
+          "beta": 0.92,
+          "summary": "Wells Fargo & Company, a financial services company, provides diversified banking, investment, mortgage, and consumer and commercial finance products and services in the United States and internationally. It operates through four segments: Consumer Banking and Lending; Commercial Banking; Corporate \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "SIGI",
+      "score": 99.91,
+      "sector": "",
+      "signal": {
+        "close": 94.01,
+        "bb_width_pct": 5.92,
+        "bb_width_pctile": 98,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.028,
+        "dist_to_bb_upper_pct": 4.87,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 591174,
+      "fundamentals": {
+        "name": "Selective Insurance Group, Inc.",
+        "sector": "Financial Services",
+        "industry": "Insurance - Property & Casualty",
+        "summary": "Selective Insurance Group, Inc., together with its subsidiaries, provides insurance products and services in the United States. The company operates through four segments: Standard Commercial Lines, Standard Personal Lines, E&S Lines, and Investments. It offers casualty insurance products that covers the financial consequences of third-party bodily injury and/or property damage from an insured's negligent acts, omissions, and legal liabilities; property insurance products, which covers the accidental loss of an insured's real property, personal property, and/or earnings due to the property's loss; and flood insurance products. The company also invests in fixed income investments and commercial mortgage loans, as well as equity securities, short-term investments, and alternative investments, and other investments. It offers its insurance products and services to businesses, non-profit organizations, local government agencies, and individuals through independent retail agents and wholesale general agents. Selective Insurance Group, Inc. was founded in 1926 and is headquartered in Branchville, New Jersey.",
+        "marketCap": 5600093184,
+        "pe": 11.663772,
+        "forwardPE": 10.713391,
+        "pb": 1.617126,
+        "ps": 1.0236039,
+        "dividendYield": 0.0181,
+        "profitMargin": 0.090959996,
+        "revenueGrowth": 0.045,
+        "earningsGrowth": 0.551,
+        "roe": 0.14152999,
+        "debtToEquity": 24.596,
+        "beta": 0.29
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 99.9,
+          "momentum": 27.0,
+          "quality": 50.0,
+          "value": 97.2,
+          "growth": 84
+        },
+        "composite": 73.6,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Insurance - Property & Casualty\u3002\u8fdc\u671f PE \u2248 10.7\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 4%\u3001\u76c8\u5229\u589e\u901f 55%\u3002\u51c0\u5229\u7387 9%\u3001ROE 14%\u3002\u8d1f\u503a\u7387(Debt/Eq) 24.6\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 1.8%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 74\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Selective Insurance Group, Inc.",
+          "sector": "Financial Services",
+          "industry": "Insurance - Property & Casualty",
+          "market_cap": "$5.6B",
+          "beta": 0.29,
+          "summary": "Selective Insurance Group, Inc., together with its subsidiaries, provides insurance products and services in the United States. The company operates through four segments: Standard Commercial Lines, Standard Personal Lines, E&S Lines, and Investments. It offers casualty insurance products that cover\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "KMX",
+      "score": 99.8,
+      "sector": "",
+      "signal": {
+        "close": 58.18,
+        "bb_width_pct": 5.49,
+        "bb_width_pctile": 97,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.023,
+        "dist_to_bb_upper_pct": 2.47,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 3249483,
+      "fundamentals": {
+        "name": "CarMax Inc",
+        "sector": "Consumer Cyclical",
+        "industry": "Auto & Truck Dealerships",
+        "summary": "CarMax, Inc., through its subsidiaries, operates as a retailer of used vehicles and related products in the United States. The company operates in two segments: CarMax Sales Operations and CarMax Auto Finance. The CarMax Sales Operations segment offers customers a range of makes and models of used vehicles, including domestic, imported, and luxury vehicles, as well as hybrid and electric vehicles; wholesale auctions; extended protection plans to customers at the time of sale; and reconditioning and vehicle repair services. The CarMax Auto Finance segment provides financing alternatives for retail customers across a range of credit spectrum and arrangements with various financial institutions. The company was founded in 1993 and is based in Richmond, Virginia.",
+        "marketCap": null,
+        "pe": 36.136646,
+        "forwardPE": 18.973019,
+        "pb": 1.349383,
+        "ps": null,
+        "dividendYield": null,
+        "profitMargin": 0.00789,
+        "revenueGrowth": 0.055,
+        "earningsGrowth": -0.052,
+        "roe": 0.03588,
+        "debtToEquity": 307.787,
+        "beta": 1.163
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 99.8,
+          "momentum": 54.1,
+          "quality": 36.0,
+          "value": 70,
+          "growth": 52
+        },
+        "composite": 69.1,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Auto & Truck Dealerships\u3002\u8fdc\u671f PE \u2248 19.0\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 6%\u3001\u76c8\u5229\u589e\u901f -5%\u3002\u51c0\u5229\u7387 1%\u3001ROE 4%\u3002\u8d1f\u503a\u7387(Debt/Eq) 307.8\uff0c\u9ad8\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 69\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "CarMax Inc",
+          "sector": "Consumer Cyclical",
+          "industry": "Auto & Truck Dealerships",
+          "market_cap": "\u2014",
+          "beta": 1.163,
+          "summary": "CarMax, Inc., through its subsidiaries, operates as a retailer of used vehicles and related products in the United States. The company operates in two segments: CarMax Sales Operations and CarMax Auto Finance. The CarMax Sales Operations segment offers customers a range of makes and models of used v\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "VNO",
+      "score": 99.55,
+      "sector": "",
+      "signal": {
+        "close": 38.8,
+        "bb_width_pct": 6.58,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.09,
+        "dist_to_bb_upper_pct": 5.75,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1759038,
+      "fundamentals": {
+        "name": "Vornado Realty Trust",
+        "sector": "Real Estate",
+        "industry": "REIT - Office",
+        "summary": "Vornado Realty Trust is a fully integrated real estate investment trust with a 26 million square-foot portfolio of premier New York City office, retail and multifamily assets and the developer of the new PENN DISTRICT. While concentrated in New York, Vornado also owns premier assets in both Chicago and San Francisco. Vornado is a real estate industry leader in sustainability, with 100% of our in-service office buildings LEED certified and over 95% certified LEED Gold or Platinum. Vornado Realty Trust was incorporated in 1946 in Maryland, USA.",
+        "marketCap": 7684294656,
+        "pe": 1293.3334,
+        "forwardPE": 125.161285,
+        "pb": null,
+        "ps": 4.0936966,
+        "dividendYield": 0.019,
+        "profitMargin": 0.03616,
+        "revenueGrowth": 0.05,
+        "earningsGrowth": -0.978,
+        "roe": 0.00603,
+        "debtToEquity": 122.317,
+        "beta": 1.551
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 99.6,
+          "momentum": 16.5,
+          "quality": 36.0,
+          "value": 27.6,
+          "growth": 18
+        },
+        "composite": 50.2,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aReal Estate / REIT - Office\u3002\u8fdc\u671f PE \u2248 125.2\uff08\u504f\u9ad8\uff09\u3002\u8425\u6536\u589e\u901f 5%\u3001\u76c8\u5229\u589e\u901f -98%\u3002\u51c0\u5229\u7387 4%\u3001ROE 1%\u3002\u8d1f\u503a\u7387(Debt/Eq) 122.3\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 1.9%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 50\uff08\u4e2d\u6027\u504f\u5f31\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Vornado Realty Trust",
+          "sector": "Real Estate",
+          "industry": "REIT - Office",
+          "market_cap": "$7.7B",
+          "beta": 1.551,
+          "summary": "Vornado Realty Trust is a fully integrated real estate investment trust with a 26 million square-foot portfolio of premier New York City office, retail and multifamily assets and the developer of the new PENN DISTRICT. While concentrated in New York, Vornado also owns premier assets in both Chicago \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "FHN",
+      "score": 99.54,
+      "sector": "",
+      "signal": {
+        "close": 25.43,
+        "bb_width_pct": 4.44,
+        "bb_width_pctile": 94,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.042,
+        "dist_to_bb_upper_pct": 2.89,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 5445400,
+      "fundamentals": {
+        "name": "First Horizon Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "First Horizon Corporation operates as the bank holding company for First Horizon Bank that provides various financial services. It operates through Regional Banking, Specialty Banking, and Corporate segments. The company offers commercial banking, business banking, consumer banking, private client investment, wealth management, financial planning, trust and asset management services, asset-based lending, commercial real estate, equipment finance/leasing, energy finance, international banking, healthcare finance, transportation and logistics finance, treasury management solutions, and loan syndications services. It also provides fixed income securities sales, trading, underwriting, and strategies for institutional clients; loan sales; portfolio advisory services; derivative sales; mortgage warehouse lending; franchise finance; corporate and correspondent banking; and mortgage origination services. Further, it provides transaction processing services, credit card products, and sale of mutual funds. First Horizon Corporation was formerly known as First Horizon National Corporation and changed its name to First Horizon Corporation in April 2004. The company was founded in 1864 and is headquartered in Memphis, Tennessee.",
+        "marketCap": 12048153600,
+        "pe": 12.225962,
+        "forwardPE": 11.02914,
+        "pb": 1.4204323,
+        "ps": 3.4413464,
+        "dividendYield": 0.027000000000000003,
+        "profitMargin": 0.30191,
+        "revenueGrowth": 0.09,
+        "earningsGrowth": 0.2,
+        "roe": 0.11453,
+        "debtToEquity": null,
+        "beta": 0.622
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 99.5,
+          "momentum": 39.5,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 78.6,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.0\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 9%\u3001\u76c8\u5229\u589e\u901f 20%\u3002\u51c0\u5229\u7387 30%\u3001ROE 11%\u3002\u80a1\u606f\u7387 2.7%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 79\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "First Horizon Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$12.0B",
+          "beta": 0.622,
+          "summary": "First Horizon Corporation operates as the bank holding company for First Horizon Bank that provides various financial services. It operates through Regional Banking, Specialty Banking, and Corporate segments. The company offers commercial banking, business banking, consumer banking, private client i\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "BC",
+      "score": 99.38,
+      "sector": "",
+      "signal": {
+        "close": 81.41,
+        "bb_width_pct": 6.51,
+        "bb_width_pctile": 98,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.09,
+        "dist_to_bb_upper_pct": 2.45,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 679723,
+      "fundamentals": {
+        "name": "Brunswick Corporation",
+        "sector": "Consumer Cyclical",
+        "industry": "Recreational Vehicles",
+        "summary": "Brunswick Corporation designs, manufactures, and markets recreation products in the United States, Europe, the Asia-Pacific, Canada, and internationally. The company operates through four segments: Propulsion, Engine P&A, Navico Group, and Boat. The Propulsion segment provides outboard, sterndrive, inboard engines, propulsion-related controls, rigging, and propellers for boat builders through marine retail dealers under the Mercury, Mercury MerCruiser, Mariner, Mercury Racing, Mercury Diesel, Avator, and Fliteboard brands. The Engine P&A segment offers engine parts and consumables, electrical products, boat parts and systems, and engine oils and lubricants through aftermarket retailers, dealers, distributors, and original equipment manufacturers for marine and non-marine markets under the Mercury, Mercury Precision Parts, Quicksilver, and Seachoice brands; and distributes marine parts and accessories. The Navico Group segment provides products and systems for the marine, recreational vehicle (RV), specialty vehicle, mobile, and industrial markets, as well as aftermarket channels; and marine electronics, sensors, control systems, instruments, power systems, and general accessories under the Ancor, Attwood, B&G, BEP, Blue Sea Systems, C-MAP, CZone, Lenco, Lowrance, Marinco, Mastervolt, MotorGuide, Progressive Industries, ProMariner, Simrad, and Whale brand names. The Boat segment offers Sea Ray sport boats and cruisers; Bayliner sport cruisers, runabouts, and Heyday wake boats; Boston Whaler fiberglass offshore boats; Lund fiberglass fishing boats; Crestliner, Harris, Lowe, Lund, and Princecraft aluminum fishing; utility, pontoon, and deck boats; Navan premium exploration boats; and Thunder Jet and Lund heavy-gauge aluminum boats; and the freedom boat club, dealer services, and technology to the marine industry through dealers and distributors. Brunswick Corporation was founded in 1845 and is headquartered in Mettawa, Illinois.",
+        "marketCap": 5275159040,
+        "pe": null,
+        "forwardPE": 14.974378,
+        "pb": 3.144579,
+        "ps": 0.93698984,
+        "dividendYield": 0.0219,
+        "profitMargin": -0.01528,
+        "revenueGrowth": 0.077,
+        "earningsGrowth": 0.875,
+        "roe": -0.048270002,
+        "debtToEquity": 136.481,
+        "beta": 1.338
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 99.4,
+          "momentum": 65.5,
+          "quality": 16.7,
+          "value": 88.8,
+          "growth": 92
+        },
+        "composite": 77.0,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Recreational Vehicles\u3002\u8fdc\u671f PE \u2248 15.0\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 8%\u3001\u76c8\u5229\u589e\u901f 88%\u3002\u51c0\u5229\u7387 -2%\u3001ROE -5%\u3002\u8d1f\u503a\u7387(Debt/Eq) 136.5\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 2.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 77\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Brunswick Corporation",
+          "sector": "Consumer Cyclical",
+          "industry": "Recreational Vehicles",
+          "market_cap": "$5.3B",
+          "beta": 1.338,
+          "summary": "Brunswick Corporation designs, manufactures, and markets recreation products in the United States, Europe, the Asia-Pacific, Canada, and internationally. The company operates through four segments: Propulsion, Engine P&A, Navico Group, and Boat. The Propulsion segment provides outboard, sterndrive, \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "INVH",
+      "score": 99.21,
+      "sector": "",
+      "signal": {
+        "close": 29.79,
+        "bb_width_pct": 4.47,
+        "bb_width_pctile": 94,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.053,
+        "dist_to_bb_upper_pct": 2.97,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 5139044,
+      "fundamentals": {
+        "name": "Invitation Homes Inc.",
+        "sector": "Real Estate",
+        "industry": "REIT - Residential",
+        "summary": "Invitation Homes Inc., an S&P 500 company, is the nation's premier single-family home leasing and management company, helping to expand housing through new development and strategic partnerships. Their purpose, Unlock the Power of Home, reflects their commitment to address America's housing needs by delivering high-quality living solutions and genuine care to those who choose the flexibility and value of leasing. Invitation Homes Inc. was incorporated in 6th June 2012 and is based in Dallas, United States.",
+        "marketCap": 17696512000,
+        "pe": 27.330275,
+        "forwardPE": 43.92769,
+        "pb": 1.9431218,
+        "ps": 6.213654,
+        "dividendYield": 0.0401,
+        "profitMargin": 0.23197001,
+        "revenueGrowth": 0.101,
+        "earningsGrowth": 0.605,
+        "roe": 0.070539996,
+        "debtToEquity": 94.425,
+        "beta": 0.836
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 99.2,
+          "momentum": 41.4,
+          "quality": 50.7,
+          "value": 38,
+          "growth": 92
+        },
+        "composite": 70.2,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aReal Estate / REIT - Residential\u3002\u8fdc\u671f PE \u2248 43.9\uff08\u504f\u9ad8\uff09\u3002\u8425\u6536\u589e\u901f 10%\u3001\u76c8\u5229\u589e\u901f 60%\u3002\u51c0\u5229\u7387 23%\u3001ROE 7%\u3002\u8d1f\u503a\u7387(Debt/Eq) 94.4\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 4.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 70\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Invitation Homes Inc.",
+          "sector": "Real Estate",
+          "industry": "REIT - Residential",
+          "market_cap": "$17.7B",
+          "beta": 0.836,
+          "summary": "Invitation Homes Inc., an S&P 500 company, is the nation's premier single-family home leasing and management company, helping to expand housing through new development and strategic partnerships. Their purpose, Unlock the Power of Home, reflects their commitment to address America's housing needs by\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "CVBF",
+      "score": 99.18,
+      "sector": "",
+      "signal": {
+        "close": 22.82,
+        "bb_width_pct": 4.47,
+        "bb_width_pctile": 94,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.02,
+        "dist_to_bb_upper_pct": 1.62,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1617901,
+      "fundamentals": {
+        "name": "CVB Financial Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "CVB Financial Corp. operates as bank holding company for Citizens Business Bank, National Association, a state-chartered bank that provides banking and financial services to small to mid-sized businesses and individuals. The company offers checking, savings, money market, and certificates of time deposit products for business and personal accounts, municipalities and districts, and specialized deposit products for title and escrow; and serves as a federal tax depository for business customers. It also provides commercial lending products comprising lines of credit and other working capital financing, accounts receivable lending, and letters of credit; agriculture loans to finance the operating needs of wholesale dairy farm operations, cattle feeders, livestock raisers, and farmers; lease financing services for municipal governments; commercial real estate and construction loans; consumer financing products, including automobile leasing and financing, lines of credit, credit cards, home mortgages, and home equity loans; and equipment and vehicle leasing services. In addition, the company offers various specialized services, such as treasury management systems for monitoring and managing cash flow, a merchant card processing program, armored pick-up and delivery, payroll services, remote deposit capture, electronic funds transfers, wires and automated clearinghouse, and online account access; and foreign exchange and letters of credit services. Further, it provides financial and trust services, such as fiduciary services, mutual funds, annuities, 401(k) plans, and individual investment accounts. CVB Financial Corp. was founded in 1974 and is headquartered in Ontario, California.",
+        "marketCap": 4016261632,
+        "pe": 15.847221,
+        "forwardPE": 11.505901,
+        "pb": 1.2689058,
+        "ps": 7.015586,
+        "dividendYield": 0.0355,
+        "profitMargin": 0.3614,
+        "revenueGrowth": 0.42,
+        "earningsGrowth": -0.216,
+        "roe": 0.07649,
+        "debtToEquity": null,
+        "beta": 0.654
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 99.2,
+          "momentum": 53.6,
+          "quality": 67.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 80.7,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.5\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 42%\u3001\u76c8\u5229\u589e\u901f -22%\u3002\u51c0\u5229\u7387 36%\u3001ROE 8%\u3002\u80a1\u606f\u7387 3.5%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 81\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "CVB Financial Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$4.0B",
+          "beta": 0.654,
+          "summary": "CVB Financial Corp. operates as bank holding company for Citizens Business Bank, National Association, a state-chartered bank that provides banking and financial services to small to mid-sized businesses and individuals. The company offers checking, savings, money market, and certificates of time de\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "ASB",
+      "score": 99.13,
+      "sector": "",
+      "signal": {
+        "close": 31.88,
+        "bb_width_pct": 5.34,
+        "bb_width_pctile": 95,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.086,
+        "dist_to_bb_upper_pct": 0.18,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 2083857,
+      "fundamentals": {
+        "name": "Associated Banc-Corp",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Associated Banc-Corp, a bank holding company, provides various banking and nonbanking products and services to individuals and businesses in Wisconsin, Illinois, Missouri, Texas, and Minnesota. It offers lending solutions, including commercial loans and lines of credit, commercial real estate financing, construction loans, letters of credit, leasing, asset-based lending and equipment finance, loan syndications products, residential mortgages, home equity loans and lines of credit, personal and installment loans, auto finance and business loans, and business lines of credit. The company also provides deposit and cash management solutions, such as commercial checking and interest-bearing deposit products, cash vault and night depository services, liquidity solutions, payables and receivables solutions, and information services; specialized financial services comprising interest rate risk management and foreign exchange solutions; fiduciary services consisting of administration of pension, profit-sharing and other employee benefit plans, fiduciary and corporate agency services, and institutional asset management services; and investable funds solutions, including savings, money market deposit accounts, IRA accounts, CDs, fixed and variable annuities, full-service, discount, and online investment brokerage; investment advisory services; and trust and investment management accounts. In addition, it offers deposit and transactional solutions, including checking, credit and debit cards, online banking and bill pay, and money transfer services. The company operates loan production offices in Indiana, Kansas, Michigan, New York, Ohio, and Texas. Associated Banc-Corp was founded in 1861 and is headquartered in Green Bay, Wisconsin.",
+        "marketCap": 6020527104,
+        "pe": 11.146853,
+        "forwardPE": 9.571418,
+        "pb": 1.0912203,
+        "ps": 3.8693578,
+        "dividendYield": 0.030600000000000002,
+        "profitMargin": 0.32459998,
+        "revenueGrowth": 0.235,
+        "earningsGrowth": -0.031,
+        "roe": 0.096949995,
+        "debtToEquity": null,
+        "beta": 0.771
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 99.1,
+          "momentum": 64.9,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 84.0,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 9.6\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 24%\u3001\u76c8\u5229\u589e\u901f -3%\u3002\u51c0\u5229\u7387 32%\u3001ROE 10%\u3002\u80a1\u606f\u7387 3.1%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 84\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Associated Banc-Corp",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$6.0B",
+          "beta": 0.771,
+          "summary": "Associated Banc-Corp, a bank holding company, provides various banking and nonbanking products and services to individuals and businesses in Wisconsin, Illinois, Missouri, Texas, and Minnesota. It offers lending solutions, including commercial loans and lines of credit, commercial real estate financ\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "PATK",
+      "score": 98.08,
+      "sector": "",
+      "signal": {
+        "close": 87.42,
+        "bb_width_pct": 7.89,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.008,
+        "dist_to_bb_upper_pct": 2.38,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 660222,
+      "fundamentals": {
+        "name": "Patrick Industries, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Recreational Vehicles",
+        "summary": "Patrick Industries, Inc. manufactures and distributes component and materials for recreational vehicle, marine, powersports, manufactured housing, and industrial markets in the United States, Mexico, China, and Canada. The company operates through Manufacturing and Distribution segments. Its Manufacturing segment manufactures and sells laminated for furniture, shelving, wall, countertop, and cabinet products; cabinet doors, fiberglass bath fixtures, and tile systems; vinyl printing, amplifiers, tower speakers, soundbars, and subwoofers; solid surface, granite, and quartz countertop fabrication; aluminum products; fiberglass and plastic components; decorative vinyl and paper laminated panels; softwoods lumber; custom cabinetry; polymer-based and other flooring products; and dash panels. This segment also provides wrapped vinyl, paper, and hardwood profile mouldings; interior passage doors; air handling products; slide-out trim and fascia; treated, untreated, and laminated plywood; fiberglass and plastic helm systems and components; boat towers, tops, trailers, and frames; adhesives and sealants; thermoformed shower surrounds; specialty bath, and closet building products; wiring and wire harnesses; aluminum and plastic fuel tanks; CNC molds, composite parts, and marine hardware and accessories; slotwall panels and components; and other products. The company's Distribution segment distributes pre-finished wall and ceiling panels, drywall and finishing products, electronic and audio systems, appliances, and marine accessories; wiring, electrical, and plumbing products; fiber reinforced polyester products; and cement siding, raw and processed lumber, interior passage, roofing, laminate, and ceramic flooring, shower doors, furniture, fireplaces and surrounds, interior and exterior lighting products, and other products. This segment also offers transportation and logistics services. Patrick Industries, Inc. was incorporated in 1959 and is based in Elkhart, Indiana.",
+        "marketCap": 2807778560,
+        "pe": 20.814285,
+        "forwardPE": 16.30295,
+        "pb": 2.482888,
+        "ps": 0.7128739,
+        "dividendYield": 0.022000000000000002,
+        "profitMargin": 0.03739,
+        "revenueGrowth": -0.006,
+        "earningsGrowth": 0.333,
+        "roe": 0.12953,
+        "debtToEquity": 146.006,
+        "beta": 1.097
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 98.1,
+          "momentum": 51.4,
+          "quality": 44.7,
+          "value": 78.8,
+          "growth": 74
+        },
+        "composite": 73.7,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Recreational Vehicles\u3002\u8fdc\u671f PE \u2248 16.3\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f -1%\u3001\u76c8\u5229\u589e\u901f 33%\u3002\u51c0\u5229\u7387 4%\u3001ROE 13%\u3002\u8d1f\u503a\u7387(Debt/Eq) 146.0\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 2.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 74\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Patrick Industries, Inc.",
+          "sector": "Consumer Cyclical",
+          "industry": "Recreational Vehicles",
+          "market_cap": "$2.8B",
+          "beta": 1.097,
+          "summary": "Patrick Industries, Inc. manufactures and distributes component and materials for recreational vehicle, marine, powersports, manufactured housing, and industrial markets in the United States, Mexico, China, and Canada. The company operates through Manufacturing and Distribution segments. Its Manufac\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "ZTS",
+      "score": 97.92,
+      "sector": "",
+      "signal": {
+        "close": 75.35,
+        "bb_width_pct": 7.07,
+        "bb_width_pctile": 97,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.033,
+        "dist_to_bb_upper_pct": 4.22,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 6863563,
+      "fundamentals": {
+        "name": "Zoetis Inc.",
+        "sector": "Healthcare",
+        "industry": "Drug Manufacturers - Specialty & Generic",
+        "summary": "Zoetis Inc. engages in the discovery, development, manufacture, and commercialization of medicines, vaccines, diagnostic products and services, biodevices, genetic tests, and precision animal health solutions for the animal health industry in the United States and internationally. The company commercializes products primarily across companion animals comprising dogs, cats, and horses; and species, including livestock, such as cattle, swine, poultry, fish, and sheep. It also offers parasiticides, vaccines, dermatology, anti-infectives, pain and sedation, other pharmaceutical, and animal health diagnostics. In addition, the company provides animal health diagnostics, including point-of-care diagnostic products, instruments and reagents, rapid immunoassay tests, reference laboratory kits and services, and blood glucose monitors; and other non-pharmaceutical products, which include nutritionals, as well as products and services in biodevices, genetic tests, and precision animal health. It markets its products to veterinarians, livestock producers, and pet owners. The company has collaborated with Blacksmith Medicines, Inc. to discover and develop novel antibiotics for animal health. Zoetis Inc. was incorporated in 2012 and is headquartered in Parsippany, New Jersey.",
+        "marketCap": 31136399360,
+        "pe": 12.2920065,
+        "forwardPE": 11.189818,
+        "pb": null,
+        "ps": 3.2689133,
+        "dividendYield": 0.028300000000000002,
+        "profitMargin": 0.27685,
+        "revenueGrowth": -0.002,
+        "earningsGrowth": 0.012,
+        "roe": 0.64911,
+        "debtToEquity": 293.996,
+        "beta": 0.73
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 97.9,
+          "momentum": 26.1,
+          "quality": 69.0,
+          "value": 100,
+          "growth": 52
+        },
+        "composite": 71.2,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aHealthcare / Drug Manufacturers - Specialty & Generic\u3002\u8fdc\u671f PE \u2248 11.2\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f -0%\u3001\u76c8\u5229\u589e\u901f 1%\u3002\u51c0\u5229\u7387 28%\u3001ROE 65%\u3002\u8d1f\u503a\u7387(Debt/Eq) 294.0\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 2.8%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 71\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Zoetis Inc.",
+          "sector": "Healthcare",
+          "industry": "Drug Manufacturers - Specialty & Generic",
+          "market_cap": "$31.1B",
+          "beta": 0.73,
+          "summary": "Zoetis Inc. engages in the discovery, development, manufacture, and commercialization of medicines, vaccines, diagnostic products and services, biodevices, genetic tests, and precision animal health solutions for the animal health industry in the United States and internationally. The company commer\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "VICI",
+      "score": 97.72,
+      "sector": "",
+      "signal": {
+        "close": 25.98,
+        "bb_width_pct": 4.81,
+        "bb_width_pctile": 92,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.098,
+        "dist_to_bb_upper_pct": 4.82,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 10016015,
+      "fundamentals": {
+        "name": "VICI Properties Inc.",
+        "sector": "Real Estate",
+        "industry": "REIT - Diversified",
+        "summary": "VICI Properties Inc. is an S&P 500 experiential real estate investment trust that owns one of the largest portfolios of market-leading gaming, hospitality, wellness, entertainment and leisure destinations, including Caesars Palace Las Vegas, MGM Grand and the Venetian Resort Las Vegas, three of the most iconic entertainment facilities on the Las Vegas Strip. VICI Properties owns 103 experiential assets across a geographically diverse portfolio consisting of 63 gaming properties and 40 other experiential properties across the United States and Canada. The portfolio is comprised of approximately 130 million square feet and features approximately 66,000 hotel rooms and over 700 restaurants, bars, nightclubs and sports books. Its properties are occupied by industry-leading gaming, leisure and hospitality operators under long-term, triple-net lease agreements. VICI Properties has a growing array of real estate and financing partnerships with leading operators in other experiential sectors, including Cabot, Cain, Canyon Ranch, Chelsea Piers, Club Med, Great Wolf Resorts, Homefield, Kalahari Resorts and Lucky Strike Entertainment. VICI Properties also owns four championship golf courses and approximately 33 acres of undeveloped and underdeveloped land adjacent to the Las Vegas Strip. VICI Properties' goal is to create the highest quality and most productive experiential real estate portfolio through a strategy of partnering with the highest quality experiential place makers and operators. VICI Properties Inc. was established on July 05, 2016, and is based in New York, United States. VICI Properties Inc. was incorporated in Maryland.",
+        "marketCap": 28605992960,
+        "pe": 10.069768,
+        "forwardPE": 8.688963,
+        "pb": 0.98524785,
+        "ps": 6.981151,
+        "dividendYield": 0.069,
+        "profitMargin": 0.67496,
+        "revenueGrowth": 0.057,
+        "earningsGrowth": -0.414,
+        "roe": 0.09849,
+        "debtToEquity": 60.277,
+        "beta": 0.687
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 97.7,
+          "momentum": 15.2,
+          "quality": 57.3,
+          "value": 100,
+          "growth": 18
+        },
+        "composite": 61.8,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aReal Estate / REIT - Diversified\u3002\u8fdc\u671f PE \u2248 8.7\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 6%\u3001\u76c8\u5229\u589e\u901f -41%\u3002\u51c0\u5229\u7387 67%\u3001ROE 10%\u3002\u8d1f\u503a\u7387(Debt/Eq) 60.3\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 6.9%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 62\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "VICI Properties Inc.",
+          "sector": "Real Estate",
+          "industry": "REIT - Diversified",
+          "market_cap": "$28.6B",
+          "beta": 0.687,
+          "summary": "VICI Properties Inc. is an S&P 500 experiential real estate investment trust that owns one of the largest portfolios of market-leading gaming, hospitality, wellness, entertainment and leisure destinations, including Caesars Palace Las Vegas, MGM Grand and the Venetian Resort Las Vegas, three of the \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "PCG",
+      "score": 97.35,
+      "sector": "",
+      "signal": {
+        "close": 17.3,
+        "bb_width_pct": 5.96,
+        "bb_width_pctile": 94,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.12,
+        "dist_to_bb_upper_pct": 4.14,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 20294575,
+      "fundamentals": {
+        "name": "Pacific Gas & Electric Co.",
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Electric",
+        "summary": "PG&E Corporation, through its subsidiary, Pacific Gas and Electric Company, engages in the sale and delivery of electricity and natural gas to customers in northern and central California, the United States. It generates electricity using nuclear, hydroelectric, fossil fuel-fired, fuel cells, and photovoltaic sources. The company owns and operates interconnected transmission lines; electric transmission substations, distribution lines, switching and distribution substations; and natural gas transmission, storage, and distribution systems consisting of distribution pipelines, backbone and local transmission pipelines, and various storage facilities. It serves residential, commercial, industrial, and agricultural customers, as well as natural gas-fired electric generation facilities. The company was incorporated in 1995 and is based in Oakland, California.",
+        "marketCap": 38100946944,
+        "pe": 12.446043,
+        "forwardPE": 9.598419,
+        "pb": 1.1787953,
+        "ps": 1.474666,
+        "dividendYield": 0.011699999999999999,
+        "profitMargin": 0.11828,
+        "revenueGrowth": 0.001,
+        "earningsGrowth": 0.398,
+        "roe": 0.09318,
+        "debtToEquity": 189.45,
+        "beta": 0.278
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 97.4,
+          "momentum": 11.9,
+          "quality": 45.3,
+          "value": 94.7,
+          "growth": 74
+        },
+        "composite": 66.9,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aUtilities / Utilities - Regulated Electric\u3002\u8fdc\u671f PE \u2248 9.6\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 0%\u3001\u76c8\u5229\u589e\u901f 40%\u3002\u51c0\u5229\u7387 12%\u3001ROE 9%\u3002\u8d1f\u503a\u7387(Debt/Eq) 189.4\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 1.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 67\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Pacific Gas & Electric Co.",
+          "sector": "Utilities",
+          "industry": "Utilities - Regulated Electric",
+          "market_cap": "$38.1B",
+          "beta": 0.278,
+          "summary": "PG&E Corporation, through its subsidiary, Pacific Gas and Electric Company, engages in the sale and delivery of electricity and natural gas to customers in northern and central California, the United States. It generates electricity using nuclear, hydroelectric, fossil fuel-fired, fuel cells, and ph\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "AEO",
+      "score": 97.29,
+      "sector": "",
+      "signal": {
+        "close": 17.36,
+        "bb_width_pct": 8.47,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.18,
+        "dist_to_bb_upper_pct": 5.62,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 4686738,
+      "fundamentals": {
+        "name": "American Eagle Outfitters, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Apparel Retail",
+        "summary": "American Eagle Outfitters, Inc. operates as a multi-brand specialty retailer in the United States and internationally. It provides jeans, apparel and accessories, and personal care products for women and men under the American Eagle brand; and intimates, apparel, activewear, and swim collections under the Aerie and OFFLINE by Aerie brands. The company also offers menswear products under the Todd Snyder New York brand; and fashion clothing and accessories under the Unsubscribed brand. It sells its products through its own and licensed retail stores, concession-based shops-within-shops, wholesale markets, and online marketplaces; and digital channels, such as www.ae.com, www.aerie.com, www.toddsnyder.com, and www.unsubscribed.com. American Eagle Outfitters, Inc. was founded in 1977 and is headquartered in Pittsburgh, Pennsylvania.",
+        "marketCap": null,
+        "pe": 10.91824,
+        "forwardPE": 8.923844,
+        "pb": 1.768181,
+        "ps": null,
+        "dividendYield": 0.0273,
+        "profitMargin": 0.0496,
+        "revenueGrowth": 0.097,
+        "earningsGrowth": null,
+        "roe": 0.17569,
+        "debtToEquity": 114.064,
+        "beta": 1.317
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 97.3,
+          "momentum": 59.8,
+          "quality": 44.7,
+          "value": 100,
+          "growth": 62
+        },
+        "composite": 76.2,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Apparel Retail\u3002\u8fdc\u671f PE \u2248 8.9\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 10%\u3002\u51c0\u5229\u7387 5%\u3001ROE 18%\u3002\u8d1f\u503a\u7387(Debt/Eq) 114.1\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 2.7%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 76\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "American Eagle Outfitters, Inc.",
+          "sector": "Consumer Cyclical",
+          "industry": "Apparel Retail",
+          "market_cap": "\u2014",
+          "beta": 1.317,
+          "summary": "American Eagle Outfitters, Inc. operates as a multi-brand specialty retailer in the United States and internationally. It provides jeans, apparel and accessories, and personal care products for women and men under the American Eagle brand; and intimates, apparel, activewear, and swim collections und\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "LAZ",
+      "score": 97.16,
+      "sector": "",
+      "signal": {
+        "close": 43.51,
+        "bb_width_pct": 8.54,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.037,
+        "dist_to_bb_upper_pct": 3.46,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 2395596,
+      "fundamentals": {
+        "name": "Lazard, Inc.",
+        "sector": "Financial Services",
+        "industry": "Capital Markets",
+        "summary": "Lazard, Inc. operates as a financial advisory and asset management firm in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company operates through two segments, Financial Advisory and Asset Management. The Financial Advisory segment offers financial advisory services, such as mergers and acquisitions, capital markets, shareholder, sovereign, geopolitical, and other strategic advisory services, as well as restructuring and liability management, and capital raising and placement services. This segment offers its services to corporate, partnership, institutional, government, sovereign, and individual clients to various industry areas, including consumers and retail; financial institutions; financial sponsors; healthcare and life sciences; industrials; media, entertainment, and sports; power, energy, and infrastructure; real estate; technology; and telecom and digital infrastructure. The Asset Management segment offers a range of investment solutions; investment and wealth management services in equity and fixed income strategies; asset allocation strategies; and alternative investments and private equity funds to corporations, public funds, sovereign entities, endowments and foundations, labor funds, financial intermediaries, and private clients. Lazard, Inc. was incorporated in 1848 and is headquartered in New York, New York.",
+        "marketCap": 4240074496,
+        "pe": 21.433496,
+        "forwardPE": 11.306908,
+        "pb": 4.82319,
+        "ps": 1.3253086,
+        "dividendYield": 0.046900000000000004,
+        "profitMargin": 0.0709,
+        "revenueGrowth": 0.001,
+        "earningsGrowth": -0.942,
+        "roe": 0.25665,
+        "debtToEquity": 225.799,
+        "beta": 1.421
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 97.2,
+          "momentum": 43.4,
+          "quality": 58.0,
+          "value": 100,
+          "growth": 18
+        },
+        "composite": 68.0,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Capital Markets\u3002\u8fdc\u671f PE \u2248 11.3\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 0%\u3001\u76c8\u5229\u589e\u901f -94%\u3002\u51c0\u5229\u7387 7%\u3001ROE 26%\u3002\u8d1f\u503a\u7387(Debt/Eq) 225.8\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 4.7%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 68\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Lazard, Inc.",
+          "sector": "Financial Services",
+          "industry": "Capital Markets",
+          "market_cap": "$4.2B",
+          "beta": 1.421,
+          "summary": "Lazard, Inc. operates as a financial advisory and asset management firm in the Americas, Europe, the Middle East, Africa, and the Asia Pacific. The company operates through two segments, Financial Advisory and Asset Management. The Financial Advisory segment offers financial advisory services, such \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "ASO",
+      "score": 97.09,
+      "sector": "",
+      "signal": {
+        "close": 49.56,
+        "bb_width_pct": 8.25,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.09,
+        "dist_to_bb_upper_pct": 1.69,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1518892,
+      "fundamentals": {
+        "name": "Academy Sports and Outdoors, In",
+        "sector": "Consumer Cyclical",
+        "industry": "Specialty Retail",
+        "summary": "Academy Sports and Outdoors, Inc., through its subsidiaries, operates as a sporting goods and outdoor recreational retailer in the United States. The company's outdoors division comprises camping products, such as coolers and drinkware, camping accessories and equipment, and watersports and equipment; fishing products, including marine equipment and fishing rods, reels, and baits and equipment; and hunting products, which includes firearms, ammunition, archery and archery equipment, camouflage apparel, waders, shooting accessories, gun safes, optics, airguns, and hunting equipment. Its sports and recreation division offers fitness equipment, fitness accessories, and nutrition supplies; team and specialty sports equipment, including baseball, football, basketball, soccer, golf, racket sports, volleyball, backpacks, and sports bags; recreation products, which includes patio furniture, outdoor cooking, trampolines, and play sets, as well as wheeled goods that include bicycles, skateboards, and other ride-on toys; and electronics, watches, and sunglasses, as well as front-end products, such as consumables, batteries, etc. The company's apparel division provides outdoor and seasonal apparel, denim, work apparel, graphic t-shirts, accessories, and outerwear; boys and girls outdoor, and athletic apparel and swimwear; sporting and fitness apparel; and professional and collegiate team licensed apparel and accessories. Its footwear division offers casual shoes, slippers, seasonal footwear, and socks; work and western boots, shoes, and hunting footwear; boys and girls footwear; athletic footwear, such as running shoes, athletic lifestyle, and training shoes; and team and specialty sports footwear, and slides. The company sells its products under the Academy Sports + Outdoors, Magellan Outdoors, BCG, O'rageous, Game Winner, Outdoor Gourmet, Freely, R.O.W., Redfield, and H2OX brand names. Academy Sports and Outdoors, Inc. was founded in 1938 and is headquartered in Katy, Texas.",
+        "marketCap": 3073630720,
+        "pe": 8.756185,
+        "forwardPE": 7.082641,
+        "pb": 1.4839658,
+        "ps": 0.50026476,
+        "dividendYield": 0.012,
+        "profitMargin": 0.0624,
+        "revenueGrowth": 0.067,
+        "earningsGrowth": 0.176,
+        "roe": 0.18847999,
+        "debtToEquity": 91.982,
+        "beta": 1.034
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 97.1,
+          "momentum": 65.5,
+          "quality": 54.7,
+          "value": 94.8,
+          "growth": 74
+        },
+        "composite": 80.0,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Specialty Retail\u3002\u8fdc\u671f PE \u2248 7.1\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 7%\u3001\u76c8\u5229\u589e\u901f 18%\u3002\u51c0\u5229\u7387 6%\u3001ROE 19%\u3002\u8d1f\u503a\u7387(Debt/Eq) 92.0\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 1.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 80\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Academy Sports and Outdoors, In",
+          "sector": "Consumer Cyclical",
+          "industry": "Specialty Retail",
+          "market_cap": "$3.1B",
+          "beta": 1.034,
+          "summary": "Academy Sports and Outdoors, Inc., through its subsidiaries, operates as a sporting goods and outdoor recreational retailer in the United States. The company's outdoors division comprises camping products, such as coolers and drinkware, camping accessories and equipment, and watersports and equipmen\u2026"
+        },
+        "fund_missing": false
+      }
+    }
+  ]
+}
