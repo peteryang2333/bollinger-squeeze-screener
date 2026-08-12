@@ -131,8 +131,7 @@ def _bar(label: str, val):
 def write_html_report(results: list[dict], asof: str) -> str:
     """Render a self-contained, readable HTML page (the "morning view")."""
     html_path = os.path.join(RESULTS, f"squeeze_{asof}.html")
-    main_rows = []
-    detail_rows = []
+    rows = []
     for i, r in enumerate(results, 1):
         s = r["signal"]
         md = r.get("multidim") or {}
@@ -145,7 +144,7 @@ def write_html_report(results: list[dict], asof: str) -> str:
         fired = '<span class="badge fire">FIRED</span>' if (s.get("ttm_fired_up")) else ""
         comp = f"{composite:.0f}" if composite is not None else "—"
 
-        main_rows.append(
+        rows.append(
             f"<tr class='main' onclick=\"tgl('d{i}')\">"
             f"<td>{i}</td><td class='tk'>{r['ticker']}</td>"
             f"<td>{r['score']}</td><td class='comp'>{comp}</td>"
@@ -163,8 +162,8 @@ def write_html_report(results: list[dict], asof: str) -> str:
             _bar("成长 Growth", dims.get("growth")),
         ])
         summary = intro.get("summary") or "（无业务概况）"
-        detail_rows.append(
-            f"<tr class='detail' id='d{i}' style='display:none'><td colspan='11'>"
+        rows.append(
+            f"<tr class='detail' id='d{i}' style='display:table-row'><td colspan='11'>"
             f"<div class='card'>"
             f"<div class='col'><h3>公司基本介绍</h3>"
             f"<div class='kv'><span>名称</span><b>{intro.get('name') or r['ticker']}</b></div>"
@@ -213,13 +212,23 @@ def write_html_report(results: list[dict], asof: str) -> str:
  .compbox{{margin-top:10px;color:#8b8b8b;font-size:13px}}
  .compbox b{{color:#fbbf24;font-size:16px}}
  .note{{margin-top:18px;color:#8b8b8b;font-size:12px;line-height:1.6}}
+ .toolbar{{margin:0 0 14px;display:flex;gap:10px;align-items:center}}
+ .toolbar button{{background:#1e2330;color:#cbd5e1;border:1px solid #2c3340;
+   border-radius:6px;padding:6px 14px;font-size:13px;cursor:pointer}}
+ .toolbar button:hover{{background:#262d3d}}
+ .toolbar .hint{{color:#8b8b8b;font-size:12px}}
 </style></head><body>
 <h1>Bollinger / TTM Squeeze Scan</h1>
-<div class="meta">as-of {asof} · {len(results)} candidates · generated {dt.datetime.now():%Y-%m-%d %H:%M} · 点击任意行展开公司介绍/基本面观点/多维度打分</div>
+<div class="meta">as-of {asof} · {len(results)} candidates · generated {dt.datetime.now():%Y-%m-%d %H:%M}</div>
+<div class="toolbar">
+  <button onclick="collapseAll()">收起全部</button>
+  <button onclick="expandAll()">展开全部</button>
+  <span class="hint">默认已展开公司介绍 / 基本面观点 / 多维度打分；点任意行可单独收起/展开</span>
+</div>
 <table><thead><tr>
 <th>#</th><th>Ticker</th><th>Score</th><th>综合分</th><th>Price</th><th>BB-W%</th>
 <th>BB-Pctile</th><th>TTM</th><th>Mom%</th><th>&gt;MA20</th><th>Dir</th>
-</tr></thead><tbody>{''.join(main_rows)}{''.join(detail_rows)}</tbody></table>
+</tr></thead><tbody>{''.join(rows)}</tbody></table>
 <div class="note">
  A squeeze only says <b>volatility will expand</b> — NOT the direction.<br>
  综合分 = 挤压 35% + 动量 22% + 质量 15% + 估值 13% + 成长 15%（基本面缺失项按中性 50 计）。<br>
@@ -230,7 +239,9 @@ def write_html_report(results: list[dict], asof: str) -> str:
 </div>
 <script>
 function tgl(id){{var e=document.getElementById(id);
-  e.style.display = (e.style.display==='none') ? 'table-row' : 'none';}}
+  e.style.display = (e.style.display==='table-row') ? 'none' : 'table-row';}}
+function expandAll(){{document.querySelectorAll('tr.detail').forEach(function(e){{e.style.display='table-row';}});}}
+function collapseAll(){{document.querySelectorAll('tr.detail').forEach(function(e){{e.style.display='none';}});}}
 </script>
 </body></html>"""
     with open(html_path, "w") as f:
