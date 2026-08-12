@@ -1,6 +1,7 @@
 {
   "asof": "2026-08-12",
   "count": 40,
+  "rs_universe": 1246,
   "results": [
     {
       "ticker": "RAMP",
@@ -18,7 +19,31 @@
         "dist_to_bb_upper_pct": 0.56,
         "above_ma20": false
       },
-      "avg_volume_50d": 1191245,
+      "avg_volume_50d": 1193410,
+      "raw_rs": 0.36206685296588337,
+      "vcp": {
+        "score": 105,
+        "atr": 0.15,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.0121,
+        "vol_ratio": 0.26,
+        "dist_to_pivot_pct": -0.92,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 30,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 85,
       "fundamentals": {
         "name": "LiveRamp Holdings, Inc.",
         "sector": "Technology",
@@ -74,7 +99,31 @@
         "dist_to_bb_upper_pct": 1.64,
         "above_ma20": false
       },
-      "avg_volume_50d": 4944230,
+      "avg_volume_50d": 4979714,
+      "raw_rs": 0.21566131059888,
+      "vcp": {
+        "score": 95,
+        "atr": 0.24,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.0274,
+        "vol_ratio": 0.3,
+        "dist_to_pivot_pct": -2.09,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 30,
+          "ma": 20,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 77,
       "fundamentals": {
         "name": "Caesars Entertainment, Inc.",
         "sector": "Consumer Cyclical",
@@ -130,7 +179,30 @@
         "dist_to_bb_upper_pct": 0.75,
         "above_ma20": true
       },
-      "avg_volume_50d": 8811718,
+      "avg_volume_50d": 8827772,
+      "raw_rs": 0.2323960228788767,
+      "vcp": {
+        "score": 75,
+        "atr": 1.09,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0446,
+        "vol_ratio": 1.0,
+        "dist_to_pivot_pct": -1.12,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 94,
       "fundamentals": {
         "name": "U.S. Bancorp",
         "sector": "Financial Services",
@@ -186,7 +258,30 @@
         "dist_to_bb_upper_pct": 0.81,
         "above_ma20": true
       },
-      "avg_volume_50d": 1136109,
+      "avg_volume_50d": 1139646,
+      "raw_rs": 0.2044180592574619,
+      "vcp": {
+        "score": 75,
+        "atr": 4.23,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0534,
+        "vol_ratio": 1.1,
+        "dist_to_pivot_pct": -1.11,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 36,
       "fundamentals": {
         "name": "M&T Bank Corporation",
         "sector": "Financial Services",
@@ -242,7 +337,30 @@
         "dist_to_bb_upper_pct": 0.67,
         "above_ma20": true
       },
-      "avg_volume_50d": 2104247,
+      "avg_volume_50d": 2105132,
+      "raw_rs": 0.18908988298608131,
+      "vcp": {
+        "score": 75,
+        "atr": 3.99,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0446,
+        "vol_ratio": 0.93,
+        "dist_to_pivot_pct": -1.51,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 43,
       "fundamentals": {
         "name": "PNC Financial Services Group, I",
         "sector": "Financial Services",
@@ -298,7 +416,30 @@
         "dist_to_bb_upper_pct": 1.45,
         "above_ma20": true
       },
-      "avg_volume_50d": 4473593,
+      "avg_volume_50d": 4473638,
+      "raw_rs": 0.15849390543328531,
+      "vcp": {
+        "score": 75,
+        "atr": 0.47,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0596,
+        "vol_ratio": 1.59,
+        "dist_to_pivot_pct": -1.9,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 52,
       "fundamentals": {
         "name": "Old National Bancorp",
         "sector": "Financial Services",
@@ -354,7 +495,30 @@
         "dist_to_bb_upper_pct": 1.72,
         "above_ma20": true
       },
-      "avg_volume_50d": 3680882,
+      "avg_volume_50d": 3683670,
+      "raw_rs": 0.26425765785100347,
+      "vcp": {
+        "score": 70,
+        "atr": 0.46,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.072,
+        "vol_ratio": 1.25,
+        "dist_to_pivot_pct": -2.61,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 35,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 77,
       "fundamentals": {
         "name": "Eastern Bankshares, Inc.",
         "sector": "Financial Services",
@@ -410,7 +574,30 @@
         "dist_to_bb_upper_pct": 1.98,
         "above_ma20": true
       },
-      "avg_volume_50d": 9286298,
+      "avg_volume_50d": 9290230,
+      "raw_rs": 0.09871107642865495,
+      "vcp": {
+        "score": 75,
+        "atr": 0.9,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0679,
+        "vol_ratio": 0.92,
+        "dist_to_pivot_pct": -3.52,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 92,
       "fundamentals": {
         "name": "Truist Financial Corporation",
         "sector": "Financial Services",
@@ -466,7 +653,29 @@
         "dist_to_bb_upper_pct": 1.87,
         "above_ma20": true
       },
-      "avg_volume_50d": 6799731,
+      "avg_volume_50d": 6799878,
+      "raw_rs": 0.20846982330629774,
+      "vcp": {
+        "score": 75,
+        "atr": 1.12,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0756,
+        "vol_ratio": 0.79,
+        "dist_to_pivot_pct": -3.19,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 26,
       "fundamentals": {
         "name": "Fifth Third Bancorp",
         "sector": "Financial Services",
@@ -522,7 +731,30 @@
         "dist_to_bb_upper_pct": 3.11,
         "above_ma20": false
       },
-      "avg_volume_50d": 2035932,
+      "avg_volume_50d": 2036742,
+      "raw_rs": 0.18996663219846877,
+      "vcp": {
+        "score": 75,
+        "atr": 0.47,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0587,
+        "vol_ratio": 1.13,
+        "dist_to_pivot_pct": -3.8,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 76,
       "fundamentals": {
         "name": "Fulton Financial Corporation",
         "sector": "Financial Services",
@@ -578,7 +810,30 @@
         "dist_to_bb_upper_pct": 2.94,
         "above_ma20": false
       },
-      "avg_volume_50d": 1180912,
+      "avg_volume_50d": 1183718,
+      "raw_rs": 0.16206031127451323,
+      "vcp": {
+        "score": 75,
+        "atr": 0.82,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0638,
+        "vol_ratio": 1.14,
+        "dist_to_pivot_pct": -3.26,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 66,
       "fundamentals": {
         "name": "Atlantic Union Bankshares Corpo",
         "sector": "Financial Services",
@@ -634,7 +889,30 @@
         "dist_to_bb_upper_pct": 2.1,
         "above_ma20": false
       },
-      "avg_volume_50d": 1261841,
+      "avg_volume_50d": 1261998,
+      "raw_rs": 0.060773618548470985,
+      "vcp": {
+        "score": 75,
+        "atr": 0.96,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0517,
+        "vol_ratio": 0.95,
+        "dist_to_pivot_pct": -3.12,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 9,
       "fundamentals": {
         "name": "Commerce Bancshares, Inc.",
         "sector": "Financial Services",
@@ -690,7 +968,30 @@
         "dist_to_bb_upper_pct": 1.54,
         "above_ma20": true
       },
-      "avg_volume_50d": 5389641,
+      "avg_volume_50d": 5399288,
+      "raw_rs": 0.13596418379220993,
+      "vcp": {
+        "score": 75,
+        "atr": 0.33,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0551,
+        "vol_ratio": 1.31,
+        "dist_to_pivot_pct": -2.45,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 13,
       "fundamentals": {
         "name": "F.N.B. Corporation",
         "sector": "Financial Services",
@@ -746,7 +1047,27 @@
         "dist_to_bb_upper_pct": 4.13,
         "above_ma20": false
       },
-      "avg_volume_50d": 2193797,
+      "avg_volume_50d": 2198098,
+      "raw_rs": -0.02998487418283092,
+      "vcp": {
+        "score": 35,
+        "atr": 2.05,
+        "signals": [
+          "V-Contraction"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.1105,
+        "vol_ratio": 1.16,
+        "dist_to_pivot_pct": -4.91,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 25,
+          "vol": 0,
+          "ma": 10,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 47,
       "fundamentals": {
         "name": "Jefferies Financial Group Inc.",
         "sector": "Financial Services",
@@ -802,7 +1123,30 @@
         "dist_to_bb_upper_pct": 0.7,
         "above_ma20": true
       },
-      "avg_volume_50d": 7792082,
+      "avg_volume_50d": 7792148,
+      "raw_rs": 0.08484907694911423,
+      "vcp": {
+        "score": 75,
+        "atr": 2.95,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.068,
+        "vol_ratio": 1.0,
+        "dist_to_pivot_pct": -2.35,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 91,
       "fundamentals": {
         "name": "Starbucks Corporation",
         "sector": "Consumer Cyclical",
@@ -858,7 +1202,30 @@
         "dist_to_bb_upper_pct": 3.64,
         "above_ma20": false
       },
-      "avg_volume_50d": 1155137,
+      "avg_volume_50d": 1155138,
+      "raw_rs": 0.2504638195765281,
+      "vcp": {
+        "score": 68,
+        "atr": 2.43,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0866,
+        "vol_ratio": 0.83,
+        "dist_to_pivot_pct": -5.42,
+        "status": "WAIT",
+        "breakdown": {
+          "tight": 35,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 3
+        }
+      },
+      "rs_rating": 61,
       "fundamentals": {
         "name": "Voya Financial, Inc.",
         "sector": "Financial Services",
@@ -914,7 +1281,25 @@
         "dist_to_bb_upper_pct": 3.08,
         "above_ma20": false
       },
-      "avg_volume_50d": 610116,
+      "avg_volume_50d": 611278,
+      "raw_rs": -0.0688158702417984,
+      "vcp": {
+        "score": 30,
+        "atr": 2.87,
+        "signals": [],
+        "is_dryup": false,
+        "range_pct": 0.1207,
+        "vol_ratio": 1.09,
+        "dist_to_pivot_pct": -3.74,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 30,
+          "vol": 0,
+          "ma": 0,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 81,
       "fundamentals": {
         "name": "Piper Sandler Companies",
         "sector": "Financial Services",
@@ -970,7 +1355,30 @@
         "dist_to_bb_upper_pct": 3.76,
         "above_ma20": false
       },
-      "avg_volume_50d": 1014331,
+      "avg_volume_50d": 1017006,
+      "raw_rs": 0.005687916290043862,
+      "vcp": {
+        "score": 63,
+        "atr": 2.11,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0818,
+        "vol_ratio": 1.0,
+        "dist_to_pivot_pct": -4.66,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 20,
+          "pivot": 3
+        }
+      },
+      "rs_rating": 58,
       "fundamentals": {
         "name": "Western Alliance Bancorporation",
         "sector": "Financial Services",
@@ -1026,7 +1434,28 @@
         "dist_to_bb_upper_pct": 3.48,
         "above_ma20": false
       },
-      "avg_volume_50d": 1093115,
+      "avg_volume_50d": 1096598,
+      "raw_rs": -0.025374206034374396,
+      "vcp": {
+        "score": 50,
+        "atr": 2.59,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0489,
+        "vol_ratio": 1.18,
+        "dist_to_pivot_pct": -4.41,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 10,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 5,
       "fundamentals": {
         "name": "Mid-America Apartment Communiti",
         "sector": "Real Estate",
@@ -1082,7 +1511,30 @@
         "dist_to_bb_upper_pct": 1.44,
         "above_ma20": true
       },
-      "avg_volume_50d": 520641,
+      "avg_volume_50d": 520800,
+      "raw_rs": 0.22839730799508273,
+      "vcp": {
+        "score": 75,
+        "atr": 1.01,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0618,
+        "vol_ratio": 1.28,
+        "dist_to_pivot_pct": -1.83,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 67,
       "fundamentals": {
         "name": "Cathay General Bancorp",
         "sector": "Financial Services",
@@ -1138,7 +1590,30 @@
         "dist_to_bb_upper_pct": 1.19,
         "above_ma20": true
       },
-      "avg_volume_50d": 968787,
+      "avg_volume_50d": 969030,
+      "raw_rs": 0.19789144433912736,
+      "vcp": {
+        "score": 75,
+        "atr": 1.69,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0743,
+        "vol_ratio": 1.0,
+        "dist_to_pivot_pct": -1.44,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 53,
       "fundamentals": {
         "name": "Hancock Whitney Corporation",
         "sector": "Financial Services",
@@ -1194,7 +1669,29 @@
         "dist_to_bb_upper_pct": 3.45,
         "above_ma20": false
       },
-      "avg_volume_50d": 704744,
+      "avg_volume_50d": 710624,
+      "raw_rs": 0.10796658403576807,
+      "vcp": {
+        "score": 75,
+        "atr": 1.15,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0947,
+        "vol_ratio": 0.79,
+        "dist_to_pivot_pct": -3.61,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 82,
       "fundamentals": {
         "name": "Renasant Corporation",
         "sector": "Financial Services",
@@ -1250,7 +1747,27 @@
         "dist_to_bb_upper_pct": 1.57,
         "above_ma20": true
       },
-      "avg_volume_50d": 589484,
+      "avg_volume_50d": 589714,
+      "raw_rs": -0.023260759773282926,
+      "vcp": {
+        "score": 40,
+        "atr": 3.97,
+        "signals": [
+          "Trend Alignment"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.1315,
+        "vol_ratio": 1.15,
+        "dist_to_pivot_pct": -3.06,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 20,
+          "vol": 0,
+          "ma": 20,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 58,
       "fundamentals": {
         "name": "Visteon Corporation",
         "sector": "Consumer Cyclical",
@@ -1306,7 +1823,30 @@
         "dist_to_bb_upper_pct": 0.96,
         "above_ma20": true
       },
-      "avg_volume_50d": 2314433,
+      "avg_volume_50d": 2319972,
+      "raw_rs": 0.41779490827936366,
+      "vcp": {
+        "score": 70,
+        "atr": 4.31,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0884,
+        "vol_ratio": 1.14,
+        "dist_to_pivot_pct": -2.75,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 35,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 98,
       "fundamentals": {
         "name": "State Street Corporation",
         "sector": "Financial Services",
@@ -1362,7 +1902,30 @@
         "dist_to_bb_upper_pct": 2.11,
         "above_ma20": true
       },
-      "avg_volume_50d": 15411357,
+      "avg_volume_50d": 15511792,
+      "raw_rs": 0.07883285137886464,
+      "vcp": {
+        "score": 65,
+        "atr": 1.73,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0716,
+        "vol_ratio": 0.99,
+        "dist_to_pivot_pct": -3.02,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 20,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 10,
       "fundamentals": {
         "name": "Wells Fargo & Company",
         "sector": "Financial Services",
@@ -1418,7 +1981,29 @@
         "dist_to_bb_upper_pct": 4.87,
         "above_ma20": false
       },
-      "avg_volume_50d": 591174,
+      "avg_volume_50d": 591348,
+      "raw_rs": 0.10934882100174137,
+      "vcp": {
+        "score": 63,
+        "atr": 2.74,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0788,
+        "vol_ratio": 1.12,
+        "dist_to_pivot_pct": -5.26,
+        "status": "WAIT",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 20,
+          "pivot": 3
+        }
+      },
+      "rs_rating": 51,
       "fundamentals": {
         "name": "Selective Insurance Group, Inc.",
         "sector": "Financial Services",
@@ -1474,7 +2059,29 @@
         "dist_to_bb_upper_pct": 2.47,
         "above_ma20": true
       },
-      "avg_volume_50d": 3249483,
+      "avg_volume_50d": 3256870,
+      "raw_rs": 0.1832320077087785,
+      "vcp": {
+        "score": 58,
+        "atr": 1.97,
+        "signals": [
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0886,
+        "vol_ratio": 0.82,
+        "dist_to_pivot_pct": -4.86,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 25,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 3
+        }
+      },
+      "rs_rating": 76,
       "fundamentals": {
         "name": "CarMax Inc",
         "sector": "Consumer Cyclical",
@@ -1530,7 +2137,30 @@
         "dist_to_bb_upper_pct": 5.75,
         "above_ma20": false
       },
-      "avg_volume_50d": 1759038,
+      "avg_volume_50d": 1764132,
+      "raw_rs": 0.12270250104177176,
+      "vcp": {
+        "score": 58,
+        "atr": 1.26,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0817,
+        "vol_ratio": 1.0,
+        "dist_to_pivot_pct": -6.73,
+        "status": "WAIT",
+        "breakdown": {
+          "tight": 35,
+          "vol": 0,
+          "ma": 20,
+          "pivot": 3
+        }
+      },
+      "rs_rating": 59,
       "fundamentals": {
         "name": "Vornado Realty Trust",
         "sector": "Real Estate",
@@ -1586,7 +2216,29 @@
         "dist_to_bb_upper_pct": 2.89,
         "above_ma20": false
       },
-      "avg_volume_50d": 5445400,
+      "avg_volume_50d": 5464508,
+      "raw_rs": 0.08557379298524677,
+      "vcp": {
+        "score": 75,
+        "atr": 0.48,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0738,
+        "vol_ratio": 1.66,
+        "dist_to_pivot_pct": -3.78,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 11,
       "fundamentals": {
         "name": "First Horizon Corporation",
         "sector": "Financial Services",
@@ -1642,7 +2294,29 @@
         "dist_to_bb_upper_pct": 2.45,
         "above_ma20": true
       },
-      "avg_volume_50d": 679723,
+      "avg_volume_50d": 683718,
+      "raw_rs": 0.18232033718900023,
+      "vcp": {
+        "score": 65,
+        "atr": 3.02,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0883,
+        "vol_ratio": 1.24,
+        "dist_to_pivot_pct": -3.86,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 35,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 15,
       "fundamentals": {
         "name": "Brunswick Corporation",
         "sector": "Consumer Cyclical",
@@ -1698,7 +2372,30 @@
         "dist_to_bb_upper_pct": 2.97,
         "above_ma20": false
       },
-      "avg_volume_50d": 5139044,
+      "avg_volume_50d": 5163430,
+      "raw_rs": 0.022568007182305116,
+      "vcp": {
+        "score": 75,
+        "atr": 0.56,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0503,
+        "vol_ratio": 0.77,
+        "dist_to_pivot_pct": -3.57,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 32,
       "fundamentals": {
         "name": "Invitation Homes Inc.",
         "sector": "Real Estate",
@@ -1754,7 +2451,29 @@
         "dist_to_bb_upper_pct": 1.62,
         "above_ma20": true
       },
-      "avg_volume_50d": 1617901,
+      "avg_volume_50d": 1618384,
+      "raw_rs": 0.13551484297453328,
+      "vcp": {
+        "score": 75,
+        "atr": 0.43,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0757,
+        "vol_ratio": 1.1,
+        "dist_to_pivot_pct": -2.35,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 66,
       "fundamentals": {
         "name": "CVB Financial Corporation",
         "sector": "Financial Services",
@@ -1810,7 +2529,30 @@
         "dist_to_bb_upper_pct": 0.18,
         "above_ma20": true
       },
-      "avg_volume_50d": 2083857,
+      "avg_volume_50d": 2088640,
+      "raw_rs": 0.18979000323210332,
+      "vcp": {
+        "score": 75,
+        "atr": 0.59,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.065,
+        "vol_ratio": 1.06,
+        "dist_to_pivot_pct": -0.38,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 15,
       "fundamentals": {
         "name": "Associated Banc-Corp",
         "sector": "Financial Services",
@@ -1866,7 +2608,28 @@
         "dist_to_bb_upper_pct": 2.38,
         "above_ma20": true
       },
-      "avg_volume_50d": 660222,
+      "avg_volume_50d": 660502,
+      "raw_rs": -0.1451562149895901,
+      "vcp": {
+        "score": 45,
+        "atr": 3.37,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0971,
+        "vol_ratio": 1.47,
+        "dist_to_pivot_pct": -3.52,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 35,
+          "vol": 0,
+          "ma": 10,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 81,
       "fundamentals": {
         "name": "Patrick Industries, Inc.",
         "sector": "Consumer Cyclical",
@@ -1922,7 +2685,25 @@
         "dist_to_bb_upper_pct": 4.22,
         "above_ma20": false
       },
-      "avg_volume_50d": 6863563,
+      "avg_volume_50d": 6880040,
+      "raw_rs": -0.2808072775982118,
+      "vcp": {
+        "score": 30,
+        "atr": 3.04,
+        "signals": [],
+        "is_dryup": false,
+        "range_pct": 0.1088,
+        "vol_ratio": 0.96,
+        "dist_to_pivot_pct": -6.01,
+        "status": "WAIT",
+        "breakdown": {
+          "tight": 30,
+          "vol": 0,
+          "ma": 0,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 1,
       "fundamentals": {
         "name": "Zoetis Inc.",
         "sector": "Healthcare",
@@ -1978,7 +2759,28 @@
         "dist_to_bb_upper_pct": 4.82,
         "above_ma20": false
       },
-      "avg_volume_50d": 10016015,
+      "avg_volume_50d": 10066114,
+      "raw_rs": -0.12600939732602193,
+      "vcp": {
+        "score": 40,
+        "atr": 0.55,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0651,
+        "vol_ratio": 1.11,
+        "dist_to_pivot_pct": -6.04,
+        "status": "WAIT",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 0,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 2,
       "fundamentals": {
         "name": "VICI Properties Inc.",
         "sector": "Real Estate",
@@ -2034,7 +2836,30 @@
         "dist_to_bb_upper_pct": 4.14,
         "above_ma20": false
       },
-      "avg_volume_50d": 20294575,
+      "avg_volume_50d": 20294720,
+      "raw_rs": 0.06876633759725616,
+      "vcp": {
+        "score": 68,
+        "atr": 0.54,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0846,
+        "vol_ratio": 1.38,
+        "dist_to_pivot_pct": -6.18,
+        "status": "WAIT",
+        "breakdown": {
+          "tight": 35,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 3
+        }
+      },
+      "rs_rating": 42,
       "fundamentals": {
         "name": "Pacific Gas & Electric Co.",
         "sector": "Utilities",
@@ -2091,6 +2916,27 @@
         "above_ma20": false
       },
       "avg_volume_50d": 4686738,
+      "raw_rs": 0.13561509006439354,
+      "vcp": {
+        "score": 50,
+        "atr": 0.67,
+        "signals": [
+          "V-Contraction",
+          "Volume Dry-up"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.1219,
+        "vol_ratio": 0.63,
+        "dist_to_pivot_pct": -5.96,
+        "status": "WAIT",
+        "breakdown": {
+          "tight": 25,
+          "vol": 15,
+          "ma": 10,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 59,
       "fundamentals": {
         "name": "American Eagle Outfitters, Inc.",
         "sector": "Consumer Cyclical",
@@ -2146,7 +2992,25 @@
         "dist_to_bb_upper_pct": 3.46,
         "above_ma20": true
       },
-      "avg_volume_50d": 2395596,
+      "avg_volume_50d": 2403566,
+      "raw_rs": -0.12015032850169596,
+      "vcp": {
+        "score": 40,
+        "atr": 1.92,
+        "signals": [],
+        "is_dryup": false,
+        "range_pct": 0.1317,
+        "vol_ratio": 1.13,
+        "dist_to_pivot_pct": -4.63,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 30,
+          "vol": 0,
+          "ma": 10,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 70,
       "fundamentals": {
         "name": "Lazard, Inc.",
         "sector": "Financial Services",
@@ -2202,7 +3066,29 @@
         "dist_to_bb_upper_pct": 1.69,
         "above_ma20": true
       },
-      "avg_volume_50d": 1518892,
+      "avg_volume_50d": 1518986,
+      "raw_rs": -0.023483603658357263,
+      "vcp": {
+        "score": 60,
+        "atr": 1.95,
+        "signals": [
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.1146,
+        "vol_ratio": 0.67,
+        "dist_to_pivot_pct": -4.48,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 25,
+          "vol": 15,
+          "ma": 20,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 64,
       "fundamentals": {
         "name": "Academy Sports and Outdoors, In",
         "sector": "Consumer Cyclical",
@@ -2238,6 +3124,3158 @@
           "market_cap": "$3.1B",
           "beta": 1.034,
           "summary": "Academy Sports and Outdoors, Inc., through its subsidiaries, operates as a sporting goods and outdoor recreational retailer in the United States. The company's outdoors division comprises camping products, such as coolers and drinkware, camping accessories and equipment, and watersports and equipmen\u2026"
+        },
+        "fund_missing": false
+      }
+    }
+  ],
+  "vcp_candidates": [
+    {
+      "ticker": "RAMP",
+      "score": 108.65,
+      "sector": "",
+      "signal": {
+        "close": 37.76,
+        "bb_width_pct": 0.9,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.004,
+        "dist_to_bb_upper_pct": 0.56,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1193410,
+      "raw_rs": 0.36206685296588337,
+      "vcp": {
+        "score": 105,
+        "atr": 0.15,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.0121,
+        "vol_ratio": 0.26,
+        "dist_to_pivot_pct": -0.92,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 30,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 85,
+      "fundamentals": {
+        "name": "LiveRamp Holdings, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "summary": "LiveRamp Holdings, Inc., a technology company, operates a data collaboration platform in the United States, Europe, the Asia-Pacific, and internationally. The company operates LiveRamp Data Collaboration platform that enables an organization to unify customers and prospect data to build a single view of the customer in a way that protects consumer privacy. The company's platform supports various people-based marketing solutions, including data collaboration, activation, measurement and analytics, identity, and data marketplace. It sells its solutions to enterprise marketers, agencies, marketing technology providers, publishers, and data providers in various industry verticals, such as financial, insurance and investment services, retail, automotive, telecommunications, technology, consumer packaged goods, media, healthcare, travel and hospitality, entertainment, and non-profit. The company was formerly known as Acxiom Holdings, Inc. and changed its name to LiveRamp Holdings, Inc. in October 2018. LiveRamp Holdings, Inc. was incorporated in 2018 and is headquartered in San Francisco, California.",
+        "marketCap": 2295618560,
+        "pe": 15.799162,
+        "forwardPE": 11.7754545,
+        "pb": 2.3485508,
+        "ps": 2.7588122,
+        "dividendYield": null,
+        "profitMargin": 0.18714,
+        "revenueGrowth": 0.098,
+        "earningsGrowth": 1.366,
+        "roe": 0.16055,
+        "debtToEquity": 3.388,
+        "beta": 1.258
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 31.3,
+          "quality": 55.3,
+          "value": 90,
+          "growth": 92
+        },
+        "composite": 75.7,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aTechnology / Software - Infrastructure\u3002\u8fdc\u671f PE \u2248 11.8\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 10%\u3001\u76c8\u5229\u589e\u901f 137%\u3002\u51c0\u5229\u7387 19%\u3001ROE 16%\u3002\u8d1f\u503a\u7387(Debt/Eq) 3.4\uff0c\u9ad8\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 76\uff08\u5f3a\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "LiveRamp Holdings, Inc.",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "market_cap": "$2.3B",
+          "beta": 1.258,
+          "summary": "LiveRamp Holdings, Inc., a technology company, operates a data collaboration platform in the United States, Europe, the Asia-Pacific, and internationally. The company operates LiveRamp Data Collaboration platform that enables an organization to unify customers and prospect data to build a single vie\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "CZR",
+      "score": 106.56,
+      "sector": "",
+      "signal": {
+        "close": 29.74,
+        "bb_width_pct": 2.02,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.005,
+        "dist_to_bb_upper_pct": 1.64,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 4979714,
+      "raw_rs": 0.21566131059888,
+      "vcp": {
+        "score": 95,
+        "atr": 0.24,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.0274,
+        "vol_ratio": 0.3,
+        "dist_to_pivot_pct": -2.09,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 30,
+          "ma": 20,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 77,
+      "fundamentals": {
+        "name": "Caesars Entertainment, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Resorts & Casinos",
+        "summary": "Caesars Entertainment, Inc. operates as a gaming and hospitality company. It owns, leases, brands, or manages domestic properties in 18 states with slot machines, video lottery terminals and e-tables, and hotel rooms, as well as table games, including poker. The company also operates and conducts online gaming, retail and online sports wagering across 42 jurisdictions in North America, and iGaming in five jurisdictions in North America; sports betting from retail and online sportsbooks; and other games, such as keno. In addition, it operates casinos, dining venues, bars, nightclubs, lounges, hotels, and entertainment venues; and provides staffing and management services. The company was founded in 1937 and is based in Reno, Nevada.",
+        "marketCap": 6058643456,
+        "pe": null,
+        "forwardPE": 41.115395,
+        "pb": 1.7976304,
+        "ps": 0.5201445,
+        "dividendYield": null,
+        "profitMargin": -0.039920002,
+        "revenueGrowth": 0.03,
+        "earningsGrowth": null,
+        "roe": -0.103769995,
+        "debtToEquity": 729.87,
+        "beta": 1.754
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 32.9,
+          "quality": 16.7,
+          "value": 28,
+          "growth": 52
+        },
+        "composite": 56.2,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Resorts & Casinos\u3002\u8fdc\u671f PE \u2248 41.1\uff08\u504f\u9ad8\uff09\u3002\u8425\u6536\u589e\u901f 3%\u3002\u51c0\u5229\u7387 -4%\u3001ROE -10%\u3002\u8d1f\u503a\u7387(Debt/Eq) 729.9\uff0c\u9ad8\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 56\uff08\u4e2d\u6027\u504f\u5f31\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Caesars Entertainment, Inc.",
+          "sector": "Consumer Cyclical",
+          "industry": "Resorts & Casinos",
+          "market_cap": "$6.1B",
+          "beta": 1.754,
+          "summary": "Caesars Entertainment, Inc. operates as a gaming and hospitality company. It owns, leases, brands, or manages domestic properties in 18 states with slot machines, video lottery terminals and e-tables, and hotel rooms, as well as table games, including poker. The company also operates and conducts on\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "PAYO",
+      "score": 82.86,
+      "sector": "",
+      "signal": {
+        "close": 7.09,
+        "bb_width_pct": 1.16,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.006,
+        "dist_to_bb_upper_pct": 1.01,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 7969070,
+      "raw_rs": 0.14075743375025562,
+      "vcp": {
+        "score": 90,
+        "atr": 0.04,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.0139,
+        "vol_ratio": 0.61,
+        "dist_to_pivot_pct": -1.25,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 15,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 83,
+      "fundamentals": {
+        "name": "Payoneer Global Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "summary": "Payoneer Global Inc. operates as a financial technology company. The company offers customers with a multi-currency account to serve their cross-border accounts receivable and accounts payable needs through payment infrastructure platform. It delivers a suite of services, such as funds management, working capital, multicurrency accounts, and workforce management. It also provides various payment options with minimal integration required, full back-office functions, and customer support. The company serves small and medium-sized businesses worldwide. Payoneer Global Inc. was founded in 2005 and is headquartered in New York, New York.",
+        "marketCap": 2402452480,
+        "pe": 50.642857,
+        "forwardPE": 15.232572,
+        "pb": 3.634034,
+        "ps": 2.2216215,
+        "dividendYield": null,
+        "profitMargin": 0.046479996,
+        "revenueGrowth": 0.052,
+        "earningsGrowth": null,
+        "roe": 0.07058,
+        "debtToEquity": 13.184,
+        "beta": 0.947
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 90,
+          "momentum": 30.9,
+          "quality": 36.0,
+          "value": 70,
+          "growth": 62
+        },
+        "composite": 62.1,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aTechnology / Software - Infrastructure\u3002\u8fdc\u671f PE \u2248 15.2\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 5%\u3002\u51c0\u5229\u7387 5%\u3001ROE 7%\u3002\u8d1f\u503a\u7387(Debt/Eq) 13.2\uff0c\u9ad8\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 62\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Payoneer Global Inc.",
+          "sector": "Technology",
+          "industry": "Software - Infrastructure",
+          "market_cap": "$2.4B",
+          "beta": 0.947,
+          "summary": "Payoneer Global Inc. operates as a financial technology company. The company offers customers with a multi-currency account to serve their cross-border accounts receivable and accounts payable needs through payment infrastructure platform. It delivers a suite of services, such as funds management, w\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "FTI",
+      "score": 42.77,
+      "sector": "",
+      "signal": {
+        "close": 75.32,
+        "bb_width_pct": 13.39,
+        "bb_width_pctile": 61,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.171,
+        "dist_to_bb_upper_pct": 2.54,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 4089692,
+      "raw_rs": 0.5196029743019199,
+      "vcp": {
+        "score": 85,
+        "atr": 2.81,
+        "signals": [
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.1342,
+        "vol_ratio": 0.58,
+        "dist_to_pivot_pct": -3.34,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 25,
+          "vol": 25,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 55,
+      "fundamentals": {
+        "name": "TechnipFMC plc",
+        "sector": "Energy",
+        "industry": "Oil & Gas Equipment & Services",
+        "summary": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally. It operates through two segments, Subsea and Surface Technologies. The Subsea segment engages in design, engineering, procurement, manufacturing, fabrication, installation, and life of field services for subsea systems, subsea field infrastructure, and subsea pipeline systems used in oil and natural gas production and transportation. It provides subsea production systems; subsea processing systems; subsea umbilicals, risers and flowlines; vessels; drilling, installation, and intervention and plug and abandonment; maintenance, asset integrity, and production management; robotics; and subsea studio digital platform. The Surface Technologies segment designs, manufactures, and services products and systems used in land and shallow water exploration and production of oil and natural gas. This segment offers drilling; surface wellheads and production trees systems; iComplete, a pressure control system; fracturing tree systems, fracturing valve greasing systems, hydraulic or electric control units, service-less valves, fracturing manifold systems, and rigid and flexible flowlines; flexible pipes; safety and integrity systems, multiphase meter modules, in-line separation and processing systems, compact ball valves for manifolds, and standard pumps; well control and integrity systems; and skid solutions. It also offers planning, testing and installation, commissioning, operations, replacement and upgrade, maintenance, storage, preservation, intervention, integrity, decommissioning, and abandonment; and supplies flowline products and services. TechnipFMC plc was founded in 1884 and is headquartered in Newcastle upon Tyne, the United Kingdom.",
+        "marketCap": 29537820672,
+        "pe": 25.883162,
+        "forwardPE": 21.058046,
+        "pb": 9.043102,
+        "ps": 2.8346965,
+        "dividendYield": 0.27,
+        "profitMargin": 0.11282,
+        "revenueGrowth": 0.09,
+        "earningsGrowth": 0.406,
+        "roe": 0.35814,
+        "debtToEquity": 37.898,
+        "beta": 0.74
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 85,
+          "momentum": 23.3,
+          "quality": 59.7,
+          "value": 70,
+          "growth": 84
+        },
+        "composite": 65.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aEnergy / Oil & Gas Equipment & Services\u3002\u8fdc\u671f PE \u2248 21.1\uff08\u5408\u7406\uff09\u3002\u8425\u6536\u589e\u901f 9%\u3001\u76c8\u5229\u589e\u901f 41%\u3002\u51c0\u5229\u7387 11%\u3001ROE 36%\u3002\u8d1f\u503a\u7387(Debt/Eq) 37.9\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 27.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 66\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "TechnipFMC plc",
+          "sector": "Energy",
+          "industry": "Oil & Gas Equipment & Services",
+          "market_cap": "$29.5B",
+          "beta": 0.74,
+          "summary": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally. It operates through two segments, Subsea and Surface Technologies. The Sub\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "ROST",
+      "score": 25.59,
+      "sector": "",
+      "signal": {
+        "close": 251.81,
+        "bb_width_pct": 15.27,
+        "bb_width_pctile": 36,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.59,
+        "dist_to_bb_upper_pct": 4.65,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 2776716,
+      "raw_rs": 0.4087579041036769,
+      "vcp": {
+        "score": 80,
+        "atr": 4.98,
+        "signals": [
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.1471,
+        "vol_ratio": 0.59,
+        "dist_to_pivot_pct": -2.02,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 20,
+          "vol": 25,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 98,
+      "fundamentals": {
+        "name": "Ross Stores, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Apparel Retail",
+        "summary": "Ross Stores, Inc., together with its subsidiaries, operates off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brands in the United States. The company offers designer apparel, accessories, footwear, and home-fashioned products for the entire family. It sells its products to middle income households and households with lower to more moderate incomes. Ross Stores, Inc. was incorporated in 1957 and is headquartered in Dublin, California.",
+        "marketCap": 80775888896,
+        "pe": 35.168995,
+        "forwardPE": 29.406921,
+        "pb": 12.821283,
+        "ps": 3.3973618,
+        "dividendYield": 0.7,
+        "profitMargin": 0.097399995,
+        "revenueGrowth": 0.206,
+        "earningsGrowth": 0.374,
+        "roe": 0.38981998,
+        "debtToEquity": 74.911,
+        "beta": 0.877
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 80,
+          "momentum": 94.2,
+          "quality": 59.7,
+          "value": 60,
+          "growth": 84
+        },
+        "composite": 78.1,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Apparel Retail\u3002\u8fdc\u671f PE \u2248 29.4\uff08\u5408\u7406\uff09\u3002\u8425\u6536\u589e\u901f 21%\u3001\u76c8\u5229\u589e\u901f 37%\u3002\u51c0\u5229\u7387 10%\u3001ROE 39%\u3002\u8d1f\u503a\u7387(Debt/Eq) 74.9\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 70.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 78\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Ross Stores, Inc.",
+          "sector": "Consumer Cyclical",
+          "industry": "Apparel Retail",
+          "market_cap": "$80.8B",
+          "beta": 0.877,
+          "summary": "Ross Stores, Inc., together with its subsidiaries, operates off-price retail apparel and home fashion stores under the Ross Dress for Less and dd's DISCOUNTS brands in the United States. The company offers designer apparel, accessories, footwear, and home-fashioned products for the entire family. It\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "TOL",
+      "score": 97.04,
+      "sector": "",
+      "signal": {
+        "close": 152.91,
+        "bb_width_pct": 7.73,
+        "bb_width_pctile": 98,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.07,
+        "dist_to_bb_upper_pct": 2.55,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1016056,
+      "raw_rs": 0.11018445107084743,
+      "vcp": {
+        "score": 80,
+        "atr": 4.72,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.0776,
+        "vol_ratio": 0.69,
+        "dist_to_pivot_pct": -2.92,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 35,
+          "vol": 15,
+          "ma": 30,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 59,
+      "fundamentals": {
+        "name": "Toll Brothers, Inc.",
+        "sector": "Consumer Cyclical",
+        "industry": "Residential Construction",
+        "summary": "Toll Brothers, Inc., together with its subsidiaries, designs, builds, markets, sells, and arranges finance for a range of detached and attached homes in luxury residential communities in the United States. It designs, builds, markets, and sells condominiums through Toll Brothers City Living. The company also develops a range of single-story living and first-floor primary bedroom suite home designs, as well as communities with recreational amenities, such as golf courses, marinas, pool complexes, country clubs, and fitness and recreation centers; and develops, operates, rents apartments and student housing communities. In addition, it provides various interior fit-out options, such as flooring, wall tile, plumbing, cabinets, fixtures, appliances, lighting, and home-automation and security technologies. Further, the company owns and operates architectural, engineering, mortgage, title, land development, insurance, smart home technology, landscaping, lumber distribution, house component assembly, and component manufacturing operations. It serves luxury first-time, move-up, empty-nester, active-adult, and second-home buyers. The company was founded in 1967 and is headquartered in Fort Washington, Pennsylvania.",
+        "marketCap": null,
+        "pe": 11.402685,
+        "forwardPE": 10.833072,
+        "pb": 1.6894639,
+        "ps": null,
+        "dividendYield": 0.69,
+        "profitMargin": 0.1166,
+        "revenueGrowth": -0.076,
+        "earningsGrowth": -0.223,
+        "roe": 0.15657,
+        "debtToEquity": 34.45,
+        "beta": 1.34
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 80,
+          "momentum": 62.3,
+          "quality": 50.0,
+          "value": 100,
+          "growth": 18
+        },
+        "composite": 64.9,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Residential Construction\u3002\u8fdc\u671f PE \u2248 10.8\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f -8%\u3001\u76c8\u5229\u589e\u901f -22%\u3002\u51c0\u5229\u7387 12%\u3001ROE 16%\u3002\u8d1f\u503a\u7387(Debt/Eq) 34.5\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 69.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 65\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Toll Brothers, Inc.",
+          "sector": "Consumer Cyclical",
+          "industry": "Residential Construction",
+          "market_cap": "\u2014",
+          "beta": 1.34,
+          "summary": "Toll Brothers, Inc., together with its subsidiaries, designs, builds, markets, sells, and arranges finance for a range of detached and attached homes in luxury residential communities in the United States. It designs, builds, markets, and sells condominiums through Toll Brothers City Living. The com\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "TTC",
+      "score": 20.55,
+      "sector": "",
+      "signal": {
+        "close": 98.81,
+        "bb_width_pct": 11.1,
+        "bb_width_pctile": 29,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.29,
+        "dist_to_bb_upper_pct": 1.78,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 808704,
+      "raw_rs": 0.15878224241883618,
+      "vcp": {
+        "score": 80,
+        "atr": 2.56,
+        "signals": [
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.1004,
+        "vol_ratio": 0.49,
+        "dist_to_pivot_pct": -1.5,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 30,
+          "vol": 25,
+          "ma": 20,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 60,
+      "fundamentals": {
+        "name": "Toro Company (The)",
+        "sector": "Industrials",
+        "industry": "Tools & Accessories",
+        "summary": "The Toro Company provides professional turf maintenance equipment and services. It operates through Professional and Residential segments. It offers riding and walking mowers, greens rollers, all-wheel drive articulating tractors, turf sprayer, utility vehicles, aeration, bunker maintenance, and other turf equipment; sprinkler heads, controllers, turf sensors, valves, and operating software; and riding rotary and reel mowers and attachments, infield grooming equipment, multipurpose vehicles, debris management products, all-wheel drive articulating tractors, sidewalk snow and ice solution vehicles, and related attachments and accessories. The company also provides zero-turn radius riding mowers, walk behind and stand-on mowers, turf application and renovation, tree care, horizontal directional drills, and drilling guidance and support equipment; walk and ride trenchers, vacuum excavators, utility locators and inspection systems, pipe rehabilitation, and replacement solutions; drive chucks and sub savers, drill pipe, starter rods and quick connects, bits and blades, rock tools, reamers, and swivels; and snow removal and ice management solutions. In addition, it offers rotors, sprinkler bodies and nozzles, valves, drip tubing and subsurface irrigation, and electric control devices; wired and wireless rain, freeze, climate, and soil sensors; drip tape, polyethylene tubing, drip line, emitters, filters, fitting, and software related solutions; stand-on skid steers, walk-behind trenchers, stump grinders, material handlers, and other concrete construction equipment; walk power and zero-turn riding mowers, and snow throwers; and grass and hedge trimmers, blower-vacuums, chainsaws, edgers, cultivators, string mowers, and related parts and accessories. The company sells its products through distributors, dealers, mass retailers, hardware retailers, equipment rental and home centers, and online. The company was founded in 1914 and is headquartered in Bloomington, Minnesota.",
+        "marketCap": null,
+        "pe": 28.393677,
+        "forwardPE": 19.50454,
+        "pb": 6.8890743,
+        "ps": null,
+        "dividendYield": 0.0158,
+        "profitMargin": 0.07294,
+        "revenueGrowth": 0.081,
+        "earningsGrowth": 0.095,
+        "roe": 0.23889999,
+        "debtToEquity": 83.108,
+        "beta": 0.699
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 80,
+          "momentum": 86.9,
+          "quality": 54.7,
+          "value": 76.3,
+          "growth": 62
+        },
+        "composite": 74.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aIndustrials / Tools & Accessories\u3002\u8fdc\u671f PE \u2248 19.5\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 8%\u3001\u76c8\u5229\u589e\u901f 10%\u3002\u51c0\u5229\u7387 7%\u3001ROE 24%\u3002\u8d1f\u503a\u7387(Debt/Eq) 83.1\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 1.6%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 75\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Toro Company (The)",
+          "sector": "Industrials",
+          "industry": "Tools & Accessories",
+          "market_cap": "\u2014",
+          "beta": 0.699,
+          "summary": "The Toro Company provides professional turf maintenance equipment and services. It operates through Professional and Residential segments. It offers riding and walking mowers, greens rollers, all-wheel drive articulating tractors, turf sprayer, utility vehicles, aeration, bunker maintenance, and oth\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "PLAB",
+      "score": 65.76,
+      "sector": "",
+      "signal": {
+        "close": 32.99,
+        "bb_width_pct": 18.78,
+        "bb_width_pctile": 93,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.522,
+        "dist_to_bb_upper_pct": 1.59,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1387142,
+      "raw_rs": 0.191944180353185,
+      "vcp": {
+        "score": 78,
+        "atr": 1.46,
+        "signals": [
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.1684,
+        "vol_ratio": 0.38,
+        "dist_to_pivot_pct": -0.63,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 25,
+          "vol": 30,
+          "ma": 20,
+          "pivot": 3
+        }
+      },
+      "rs_rating": 84,
+      "fundamentals": {
+        "name": "Photronics, Inc.",
+        "sector": "Technology",
+        "industry": "Semiconductor Equipment & Materials",
+        "summary": "Photronics, Inc., together with its subsidiaries, engages in the manufacture and sale of photomask products and services in the United States, Taiwan, China, Korea, Europe, and internationally. It offers photomasks that are used in the manufacture of integrated circuits and flat panel displays (FPDs); and to transfer circuit patterns onto semiconductor wafers, and FDP substrates. The company also provides electrical and optical components. It sells its products to semiconductor and FPD designers, manufacturers, and foundries through its sales personnel and customer service representatives. The company was formerly known as Photronic Labs, Inc. and changed its name to Photronics, Inc. in 1990. Photronics, Inc. was incorporated in 1969 and is based in Brookfield, Connecticut.",
+        "marketCap": 1945212416,
+        "pe": 11.866907,
+        "forwardPE": 16.331684,
+        "pb": 1.5455612,
+        "ps": 2.258802,
+        "dividendYield": null,
+        "profitMargin": 0.1847,
+        "revenueGrowth": -0.005,
+        "earningsGrowth": 2.705,
+        "roe": 0.13239999,
+        "debtToEquity": 0.228,
+        "beta": 1.367
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 78,
+          "momentum": 93.6,
+          "quality": 77.3,
+          "value": 70,
+          "growth": 92
+        },
+        "composite": 82.4,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aTechnology / Semiconductor Equipment & Materials\u3002\u8fdc\u671f PE \u2248 16.3\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f -0%\u3001\u76c8\u5229\u589e\u901f 270%\u3002\u51c0\u5229\u7387 18%\u3001ROE 13%\u3002\u8d1f\u503a\u7387(Debt/Eq) 0.2\uff0c\u4f4e\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 82\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Photronics, Inc.",
+          "sector": "Technology",
+          "industry": "Semiconductor Equipment & Materials",
+          "market_cap": "$1.9B",
+          "beta": 1.367,
+          "summary": "Photronics, Inc., together with its subsidiaries, engages in the manufacture and sale of photomask products and services in the United States, Taiwan, China, Korea, Europe, and internationally. It offers photomasks that are used in the manufacture of integrated circuits and flat panel displays (FPDs\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "RF",
+      "score": 68.35,
+      "sector": "",
+      "signal": {
+        "close": 31.6,
+        "bb_width_pct": 5.81,
+        "bb_width_pctile": 88,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.034,
+        "dist_to_bb_upper_pct": 1.89,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 10310072,
+      "raw_rs": 0.15543626956041517,
+      "vcp": {
+        "score": 75,
+        "atr": 0.55,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.073,
+        "vol_ratio": 0.91,
+        "dist_to_pivot_pct": -2.68,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 93,
+      "fundamentals": {
+        "name": "Regions Financial Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Regions Financial Corporation, a financial holding company, provides various banking and related products and services to individual and corporate customers. It operates through three segments: Corporate Bank, Consumer Bank, and Wealth Management. The Corporate Bank segment offers commercial banking services, such as commercial and industrial, commercial real estate, and investor real estate lending; equipment lease financing; deposit products; capital markets activities, such as securities underwriting and placement; and loan syndication and placement, foreign exchange, derivatives, merger and acquisition, and other advisory services to corporate, middle market, and commercial real estate developers and investors. The Consumer Bank segment provides consumer banking products and services related to residential first mortgages, home equity lines and loans, consumer credit cards, and other consumer loans, as well as the corresponding deposit relationships. The Wealth Management segment offers credit related products, and retirement and savings solutions; and trust and investment management, asset management, and estate planning to individuals, businesses, governmental institutions, and non-profit entities. It also provides investment and insurance products; home improvement lending, investment advisory services, equipment financing for commercial clients, small business customers, low-income housing tax credit corporate fund syndication services, financing to CRA-qualified customers, and broker-dealer services to commercial clients, as well as other specialty financing services. The company was founded in 1971 and is headquartered in Birmingham, Alabama.",
+        "marketCap": 26920974336,
+        "pe": 12.793522,
+        "forwardPE": 11.116506,
+        "pb": 1.5423663,
+        "ps": 3.719394,
+        "dividendYield": 0.0348,
+        "profitMargin": 0.30837,
+        "revenueGrowth": 0.034,
+        "earningsGrowth": 0.085,
+        "roe": 0.118669994,
+        "debtToEquity": null,
+        "beta": 1.012
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 56.1,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 62
+        },
+        "composite": 71.8,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.1\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 3%\u3001\u76c8\u5229\u589e\u901f 8%\u3002\u51c0\u5229\u7387 31%\u3001ROE 12%\u3002\u80a1\u606f\u7387 3.5%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 72\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Regions Financial Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$26.9B",
+          "beta": 1.012,
+          "summary": "Regions Financial Corporation, a financial holding company, provides various banking and related products and services to individual and corporate customers. It operates through three segments: Corporate Bank, Consumer Bank, and Wealth Management. The Corporate Bank segment offers commercial banking\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "SBUX",
+      "score": 102.13,
+      "sector": "",
+      "signal": {
+        "close": 106.66,
+        "bb_width_pct": 4.88,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.012,
+        "dist_to_bb_upper_pct": 0.7,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 7792148,
+      "raw_rs": 0.08484907694911423,
+      "vcp": {
+        "score": 75,
+        "atr": 2.95,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.068,
+        "vol_ratio": 1.0,
+        "dist_to_pivot_pct": -2.35,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 91,
+      "fundamentals": {
+        "name": "Starbucks Corporation",
+        "sector": "Consumer Cyclical",
+        "industry": "Restaurants",
+        "summary": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of coffee internationally. The company operates through three segments: North America, International, and Channel Development. Its stores offer coffee, tea, and other beverages, roasted whole beans and ground coffees, complementary food, packaged coffees, single-serve products, and ready-to-drink beverages; and various food products, such as pastries, breakfast sandwiches, and lunch items. The company also licenses its trademarks through licensed stores, and grocery and foodservice accounts. The company offers its products under the Starbucks Coffee, Teavana, Seattle's Best Coffee, Ethos, and Starbucks Reserve brands. Starbucks Corporation was founded in 1971 and is based in Seattle, Washington.",
+        "marketCap": 121592406016,
+        "pe": 61.65318,
+        "forwardPE": 34.298027,
+        "pb": null,
+        "ps": 3.1715648,
+        "dividendYield": 0.023700000000000002,
+        "profitMargin": 0.05172,
+        "revenueGrowth": -0.014,
+        "earningsGrowth": 0.857,
+        "roe": null,
+        "debtToEquity": null,
+        "beta": 0.966
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 52.2,
+          "quality": 58.0,
+          "value": 47.5,
+          "growth": 92
+        },
+        "composite": 75.1,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Restaurants\u3002\u8fdc\u671f PE \u2248 34.3\uff08\u504f\u9ad8\uff09\u3002\u8425\u6536\u589e\u901f -1%\u3001\u76c8\u5229\u589e\u901f 86%\u3002\u51c0\u5229\u7387 5%\u3002\u80a1\u606f\u7387 2.4%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 75\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Starbucks Corporation",
+          "sector": "Consumer Cyclical",
+          "industry": "Restaurants",
+          "market_cap": "$121.6B",
+          "beta": 0.966,
+          "summary": "Starbucks Corporation, together with its subsidiaries, operates as a roaster, marketer, and retailer of coffee internationally. The company operates through three segments: North America, International, and Channel Development. Its stores offer coffee, tea, and other beverages, roasted whole beans a\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "SYY",
+      "score": 68.75,
+      "sector": "",
+      "signal": {
+        "close": 84.26,
+        "bb_width_pct": 7.29,
+        "bb_width_pctile": 92,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.227,
+        "dist_to_bb_upper_pct": 2.52,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 3553740,
+      "raw_rs": 0.0486325646134409,
+      "vcp": {
+        "score": 75,
+        "atr": 2.05,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0778,
+        "vol_ratio": 1.09,
+        "dist_to_pivot_pct": -2.76,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 91,
+      "fundamentals": {
+        "name": "Sysco Corporation",
+        "sector": "Consumer Defensive",
+        "industry": "Food Distribution",
+        "summary": "Sysco Corporation, through its subsidiaries, engages in the marketing and distribution of various food and related products to the foodservice or food-away-from-home industry in the United States, Canada, the United Kingdom, France, and internationally. It operates through U.S. Foodservice Operations, International Foodservice Operations, SYGMA, and Other segments. The company distributes frozen food, such as meat, seafood, fully prepared entr\u00e9es, fruits, vegetables, and desserts; canned and dry food products; fresh meat and seafood products; dairy products; beverages; imported specialties; and fresh produce products. It also supplies various non-food items, including paper products comprising disposable napkins, plates, and cups; tableware consisting of glassware and silverware; cookware, such as pots, pans, and utensils; restaurant and kitchen equipment and supplies; and cleaning supplies. It serves restaurants, hospitals and nursing facilities, schools and colleges, hotels and motels, industrial caterers, and other foodservice venues. Sysco Corporation was incorporated in 1969 and is headquartered in Houston, Texas.",
+        "marketCap": 40322084864,
+        "pe": 22.959127,
+        "forwardPE": 15.705879,
+        "pb": 15.124753,
+        "ps": 0.47688532,
+        "dividendYield": 0.0262,
+        "profitMargin": 0.02078,
+        "revenueGrowth": 0.047,
+        "earningsGrowth": 0.052,
+        "roe": 0.77692,
+        "debtToEquity": 561.403,
+        "beta": 0.636
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 82.4,
+          "quality": 54.3,
+          "value": 80,
+          "growth": 52
+        },
+        "composite": 70.7,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Defensive / Food Distribution\u3002\u8fdc\u671f PE \u2248 15.7\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 5%\u3001\u76c8\u5229\u589e\u901f 5%\u3002\u51c0\u5229\u7387 2%\u3001ROE 78%\u3002\u8d1f\u503a\u7387(Debt/Eq) 561.4\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 2.6%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 71\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Sysco Corporation",
+          "sector": "Consumer Defensive",
+          "industry": "Food Distribution",
+          "market_cap": "$40.3B",
+          "beta": 0.636,
+          "summary": "Sysco Corporation, through its subsidiaries, engages in the marketing and distribution of various food and related products to the foodservice or food-away-from-home industry in the United States, Canada, the United Kingdom, France, and internationally. It operates through U.S. Foodservice Operation\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "TFC",
+      "score": 103.23,
+      "sector": "",
+      "signal": {
+        "close": 52.31,
+        "bb_width_pct": 4.5,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.021,
+        "dist_to_bb_upper_pct": 1.98,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 9290230,
+      "raw_rs": 0.09871107642865495,
+      "vcp": {
+        "score": 75,
+        "atr": 0.9,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0679,
+        "vol_ratio": 0.92,
+        "dist_to_pivot_pct": -3.52,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 92,
+      "fundamentals": {
+        "name": "Truist Financial Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Truist Financial Corporation, a financial services company, provides banking and trust services in the Southeastern and Mid-Atlantic United States. The company operates through two segments, Consumer and Small Business Banking; and Wholesale Banking. Its deposit products include noninterest-bearing checking, interest-bearing checking, savings, and money market deposit accounts, as well as certificates of deposit and individual retirement accounts. The company also provides funding; asset management; credit card lending; home equity and mortgage lending; other direct retail lending; home mortgage lending; Investment brokerage services; mobile/online banking; payment solutions; point-of-sale lending; retail and small business deposit products; and small business lending. In addition, it offers asset-based lending, commercial deposit and treasury services; commercial lending; floor plan lending; derivatives; institutional trust services; insurance premium finance; international banking; investment banking and capital markets services; leasing; merchant services; mortgage warehouse lending; real estate lending; supply chain financing; and wealth management/private banking. The company was formerly known as BB&T Corporation and changed its name to Truist Financial Corporation in December 2019. Truist Financial Corporation was founded in 1872 and is headquartered in Charlotte, North Carolina.",
+        "marketCap": 63903268864,
+        "pe": 12.025288,
+        "forwardPE": 10.509166,
+        "pb": 1.0889297,
+        "ps": 3.3583806,
+        "dividendYield": 0.0401,
+        "profitMargin": 0.30692,
+        "revenueGrowth": 0.082,
+        "earningsGrowth": 0.367,
+        "roe": 0.09059,
+        "debtToEquity": null,
+        "beta": 0.87
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 53.8,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 84
+        },
+        "composite": 83.4,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.5\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 8%\u3001\u76c8\u5229\u589e\u901f 37%\u3002\u51c0\u5229\u7387 31%\u3001ROE 9%\u3002\u80a1\u606f\u7387 4.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 83\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Truist Financial Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$63.9B",
+          "beta": 0.87,
+          "summary": "Truist Financial Corporation, a financial services company, provides banking and trust services in the Southeastern and Mid-Atlantic United States. The company operates through two segments, Consumer and Small Business Banking; and Wholesale Banking. Its deposit products include noninterest-bearing \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "USB",
+      "score": 104.96,
+      "sector": "",
+      "signal": {
+        "close": 64.29,
+        "bb_width_pct": 3.36,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.056,
+        "dist_to_bb_upper_pct": 0.75,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 8827772,
+      "raw_rs": 0.2323960228788767,
+      "vcp": {
+        "score": 75,
+        "atr": 1.09,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0446,
+        "vol_ratio": 1.0,
+        "dist_to_pivot_pct": -1.12,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 94,
+      "fundamentals": {
+        "name": "U.S. Bancorp",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "U.S. Bancorp, a financial services holding company, provides various financial services to individuals, businesses, institutional organizations, governmental entities, and other financial institutions in the United States. The company operates through Wealth, Corporate, Commercial and Institutional Banking; Consumer and Business Banking; Payment Services; and Treasury and Corporate Support segments. It offers depository services, including checking accounts, savings accounts, and time certificate contracts; and lending services, such as traditional credit products and credit card services, lease financing and import/export trade, agricultural finance, asset-backed lending, and other products. The company also provides cash management, capital markets, and trust and investment management services; and ancillary services comprising capital markets, treasury management, and receivable lock-box collection services to corporate and governmental entity customers. In addition, it offers asset management and fiduciary services for individuals, estates, foundations, business corporations, and charitable organizations; and investment and insurance products to its customers principally within its domestic markets, as well as fund administration services to mutual and other funds. Further, the company provides corporate and purchasing card, and corporate trust services; and credit card services, merchant and ATM processing, mortgage banking, insurance, brokerage and leasing services. U.S. Bancorp was founded in 1863 and is headquartered in Minneapolis, Minnesota.",
+        "marketCap": 100167131136,
+        "pe": 12.8323345,
+        "forwardPE": 11.102534,
+        "pb": 1.652232,
+        "ps": 3.6663055,
+        "dividendYield": 0.032400000000000005,
+        "profitMargin": 0.29896,
+        "revenueGrowth": 0.104,
+        "earningsGrowth": 0.216,
+        "roe": 0.12623,
+        "debtToEquity": null,
+        "beta": 0.977
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 59.9,
+          "quality": 76.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 83.7,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.1\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 10%\u3001\u76c8\u5229\u589e\u901f 22%\u3002\u51c0\u5229\u7387 30%\u3001ROE 13%\u3002\u80a1\u606f\u7387 3.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 84\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "U.S. Bancorp",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$100.2B",
+          "beta": 0.977,
+          "summary": "U.S. Bancorp, a financial services holding company, provides various financial services to individuals, businesses, institutional organizations, governmental entities, and other financial institutions in the United States. The company operates through Wealth, Corporate, Commercial and Institutional \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "HWC",
+      "score": 100.58,
+      "sector": "",
+      "signal": {
+        "close": 78.22,
+        "bb_width_pct": 4.95,
+        "bb_width_pctile": 97,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.038,
+        "dist_to_bb_upper_pct": 1.19,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 969030,
+      "raw_rs": 0.19789144433912736,
+      "vcp": {
+        "score": 75,
+        "atr": 1.69,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0743,
+        "vol_ratio": 1.0,
+        "dist_to_pivot_pct": -1.44,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 53,
+      "fundamentals": {
+        "name": "Hancock Whitney Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Hancock Whitney Corporation operates as the financial holding company for Hancock Whitney Bank that provides traditional and online banking services to commercial, small business, and retail customers in the United States. The company offers various transaction and savings deposit products, such as brokered deposits, time deposits, and money market accounts; treasury management services; secured and unsecured loan products, including revolving credit facilities; letters of credit and similar financial guarantees; trust and investment management services to retirement plans, corporations, and individuals; and investment advisory and brokerage products. It also provides commercial and industrial loans, such as commercial non-real estate and real estate loans; construction and land development loans; residential mortgages; and consumer loans comprising second lien mortgage home loans, home equity lines of credit, and nonresidential consumer purpose loans, automobiles, recreational vehicles and boats, other personal purposes, deposit account secured loans, and small portfolio of credit card receivables. In addition, the company offers commercial finance products to middle market and corporate clients comprising leases and related structures; invests in new market tax credit activities and holds certain foreclosed assets; fixed annuity and life insurance products, investment management and advisory, and other services; and underwrites transactions primarily for banking clients, as well as debt and mortgage-related securities. The company was founded in 1899 and is headquartered in Gulfport, Mississippi.",
+        "marketCap": 6275047424,
+        "pe": 15.3372555,
+        "forwardPE": 10.736453,
+        "pb": 1.4163362,
+        "ps": 4.4428544,
+        "dividendYield": 0.0258,
+        "profitMargin": 0.30262,
+        "revenueGrowth": 0.076,
+        "earningsGrowth": 0.174,
+        "roe": 0.097040005,
+        "debtToEquity": null,
+        "beta": 0.96
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 56.8,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 82.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.7\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 8%\u3001\u76c8\u5229\u589e\u901f 17%\u3002\u51c0\u5229\u7387 30%\u3001ROE 10%\u3002\u80a1\u606f\u7387 2.6%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 83\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Hancock Whitney Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$6.3B",
+          "beta": 0.96,
+          "summary": "Hancock Whitney Corporation operates as the financial holding company for Hancock Whitney Bank that provides traditional and online banking services to commercial, small business, and retail customers in the United States. The company offers various transaction and savings deposit products, such as \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "ONB",
+      "score": 103.3,
+      "sector": "",
+      "signal": {
+        "close": 26.84,
+        "bb_width_pct": 4.47,
+        "bb_width_pctile": 100,
+        "bb_squeeze": true,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.047,
+        "dist_to_bb_upper_pct": 1.45,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 4473638,
+      "raw_rs": 0.15849390543328531,
+      "vcp": {
+        "score": 75,
+        "atr": 0.47,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0596,
+        "vol_ratio": 1.59,
+        "dist_to_pivot_pct": -1.9,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 52,
+      "fundamentals": {
+        "name": "Old National Bancorp",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Old National Bancorp operates as the bank holding company for Old National Bank that provides consumer and commercial banking services in the United States. It accepts deposit accounts, such as noninterest-bearing demand, interest-bearing checking and negotiable order of withdrawal, savings and money market, and time deposits. The company also offers loans, including home equity lines of credit, residential real estate loans, and consumer loans, as well as loans to commercial clients comprising commercial loans, commercial real estate loans, agricultural loans, letters of credit, and lease financing. In addition, it offers debit and automated teller machine cards, telephone access and online banking, and other electronic and mobile banking services. Further, the company offers private banking, wealth management, trust, investment advisory, brokerage, and foreign currency services; treasury management, merchant, and capital markets services for businesses; and community development lending and equity investment solutions. Old National Bancorp was founded in 1834 and is headquartered in Evansville, Indiana.",
+        "marketCap": 10268178432,
+        "pe": 11.876106,
+        "forwardPE": 9.289351,
+        "pb": 1.2291065,
+        "ps": 3.859202,
+        "dividendYield": 0.0219,
+        "profitMargin": 0.33310002,
+        "revenueGrowth": 0.288,
+        "earningsGrowth": 0.929,
+        "roe": 0.106079996,
+        "debtToEquity": null,
+        "beta": 0.839
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 58.4,
+          "quality": 73.0,
+          "value": 98.8,
+          "growth": 92
+        },
+        "composite": 85.4,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 9.3\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 29%\u3001\u76c8\u5229\u589e\u901f 93%\u3002\u51c0\u5229\u7387 33%\u3001ROE 11%\u3002\u80a1\u606f\u7387 2.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 85\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Old National Bancorp",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$10.3B",
+          "beta": 0.839,
+          "summary": "Old National Bancorp operates as the bank holding company for Old National Bank that provides consumer and commercial banking services in the United States. It accepts deposit accounts, such as noninterest-bearing demand, interest-bearing checking and negotiable order of withdrawal, savings and mone\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "PB",
+      "score": 94.19,
+      "sector": "",
+      "signal": {
+        "close": 73.64,
+        "bb_width_pct": 4.58,
+        "bb_width_pctile": 87,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.088,
+        "dist_to_bb_upper_pct": 2.48,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1236224,
+      "raw_rs": 0.0637333020846291,
+      "vcp": {
+        "score": 75,
+        "atr": 1.37,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0588,
+        "vol_ratio": 1.13,
+        "dist_to_pivot_pct": -2.94,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 50,
+      "fundamentals": {
+        "name": "Prosperity Bancshares, Inc.",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Prosperity Bancshares, Inc. operates as bank holding company for the Prosperity Bank that provides financial products and services to businesses and consumers. It accepts various deposit products, such as demand, savings, money market, and time accounts; and certificates of deposit. The company also offers 1-4 family residential mortgage, commercial real estate and multifamily residential, commercial and industrial, and agricultural and non-real estate agricultural loans; construction, land development, and other land loans; consumer loans, including automobile, recreational vehicle, boat, home improvement, personal, and deposit account collateralized loans; term loans and lines of credit; and consumer durables and home equity loans, as well as loans for working capital, business expansion, and purchase of equipment and machinery. In addition, it provides digital banking, internet banking, mobile banking, trust and wealth management, retail brokerage, mortgage services, and treasury management, and debit and credit cards services. The company was incorporated in 1983 and is headquartered in Houston, Texas.",
+        "marketCap": 8849817600,
+        "pe": 12.696551,
+        "forwardPE": 10.058914,
+        "pb": 0.8923898,
+        "ps": 6.3608947,
+        "dividendYield": 0.0327,
+        "profitMargin": 0.40417,
+        "revenueGrowth": 0.259,
+        "earningsGrowth": 0.177,
+        "roe": 0.07071,
+        "debtToEquity": null,
+        "beta": 0.652
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 47.2,
+          "quality": 67.0,
+          "value": 100,
+          "growth": 84
+        },
+        "composite": 72.3,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.1\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 26%\u3001\u76c8\u5229\u589e\u901f 18%\u3002\u51c0\u5229\u7387 40%\u3001ROE 7%\u3002\u80a1\u606f\u7387 3.3%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 72\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Prosperity Bancshares, Inc.",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$8.8B",
+          "beta": 0.652,
+          "summary": "Prosperity Bancshares, Inc. operates as bank holding company for the Prosperity Bank that provides financial products and services to businesses and consumers. It accepts various deposit products, such as demand, savings, money market, and time accounts; and certificates of deposit. The company also\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "PFGC",
+      "score": 91.33,
+      "sector": "",
+      "signal": {
+        "close": 113.96,
+        "bb_width_pct": 7.01,
+        "bb_width_pctile": 88,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.176,
+        "dist_to_bb_upper_pct": 2.62,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1580038,
+      "raw_rs": 0.16249341214543342,
+      "vcp": {
+        "score": 75,
+        "atr": 2.75,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0779,
+        "vol_ratio": 1.08,
+        "dist_to_pivot_pct": -2.99,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 52,
+      "fundamentals": {
+        "name": "Performance Food Group Company",
+        "sector": "Consumer Defensive",
+        "industry": "Food Distribution",
+        "summary": "Performance Food Group Company, through its subsidiaries, engages in the marketing and distribution of food and food-related products in North America. It operates through three segments: Foodservice, Convenience, and Specialty. The company offers beef, pork, poultry, and seafood; frozen food and refrigerated products; dry groceries comprising cleaning and kitchen supplies and disposables; candy, snacks, and beverages; and fresh products, groceries, dairy, bread, beverages, general merchandise, and health and beauty care products, as well as cigarettes and other nicotine products. It also operates distribution centers. In addition, the company provides marketing programs and technology solutions to customer locations, as well as value-added services in the areas of product selection and procurement, menu development, and operational strategy. It serves individual restaurants, national and regional chain restaurants, vending distributors, theaters, retailers, and national, regional, and independent convenience stores. Performance Food Group Company was founded in 1885 and is headquartered in Richmond, Virginia.",
+        "marketCap": 17901959168,
+        "pe": 54.00948,
+        "forwardPE": 19.959578,
+        "pb": 3.7651567,
+        "ps": 0.28259036,
+        "dividendYield": null,
+        "profitMargin": 0.00519,
+        "revenueGrowth": 0.064,
+        "earningsGrowth": -0.278,
+        "roe": 0.072519995,
+        "debtToEquity": 166.845,
+        "beta": 0.905
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 77.3,
+          "quality": 36.0,
+          "value": 70,
+          "growth": 18
+        },
+        "composite": 60.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Defensive / Food Distribution\u3002\u8fdc\u671f PE \u2248 20.0\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 6%\u3001\u76c8\u5229\u589e\u901f -28%\u3002\u51c0\u5229\u7387 1%\u3001ROE 7%\u3002\u8d1f\u503a\u7387(Debt/Eq) 166.8\uff0c\u9ad8\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 60\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Performance Food Group Company",
+          "sector": "Consumer Defensive",
+          "industry": "Food Distribution",
+          "market_cap": "$17.9B",
+          "beta": 0.905,
+          "summary": "Performance Food Group Company, through its subsidiaries, engages in the marketing and distribution of food and food-related products in North America. It operates through three segments: Foodservice, Convenience, and Specialty. The company offers beef, pork, poultry, and seafood; frozen food and re\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "SAIC",
+      "score": 46.46,
+      "sector": "",
+      "signal": {
+        "close": 125.39,
+        "bb_width_pct": 14.01,
+        "bb_width_pctile": 66,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.494,
+        "dist_to_bb_upper_pct": 1.3,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 555548,
+      "raw_rs": 0.175895607750598,
+      "vcp": {
+        "score": 75,
+        "atr": 3.86,
+        "signals": [
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.1283,
+        "vol_ratio": 0.7,
+        "dist_to_pivot_pct": -1.48,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 25,
+          "vol": 15,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 52,
+      "fundamentals": {
+        "name": "Science Applications Internatio",
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "summary": "Science Applications International Corporation provides technical, engineering, and mission and enterprise information technology (IT) services in the United States. It operates through two segments, Defense and Intelligence; and Civilian. The company offers IT modernization services for defense, intelligence, and civilian agencies; digital engineering services; artificial intelligence (AI) solutions; mission systems support and advisory; training and simulation; and ground vehicle support services for the nation's armed forces. It also provides services for the design, development, integration, deployment, management and operations, sustainability, and security of IT infrastructure; mission IT solutions comprising CJADC2, data and AI, digital transformation, and quantum technologies; enterprise IT solutions consisting of service management, cloud, cybersecurity, and digital workplace; engineering services, including system integration and delivery services; and professional services, such as program management. The company serves military forces, including the Army, Air Force, Navy, Marines, Coast Guard, and Space Force; agencies of the Department of War, National Aeronautics and Space Administration, U.S. Department of State, Department of Justice, and Department of Homeland Security; and members of the Intelligence Community, as well as civilian markets, such as federal, state, and local governments. The company was formerly known as SAIC Gemini, Inc. and changed its name to Science Applications International Corporation in September 2013. Science Applications International Corporation was founded in 1969 and is headquartered in Reston, Virginia.",
+        "marketCap": 5301090304,
+        "pe": 14.136415,
+        "forwardPE": 11.398075,
+        "pb": 3.7890189,
+        "ps": 0.7270732,
+        "dividendYield": 0.0118,
+        "profitMargin": 0.055549998,
+        "revenueGrowth": 0.015,
+        "earningsGrowth": 0.838,
+        "roe": 0.27664,
+        "debtToEquity": 187.983,
+        "beta": 0.286
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 93.3,
+          "quality": 58.0,
+          "value": 94.7,
+          "growth": 92
+        },
+        "composite": 81.6,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aTechnology / Information Technology Services\u3002\u8fdc\u671f PE \u2248 11.4\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 2%\u3001\u76c8\u5229\u589e\u901f 84%\u3002\u51c0\u5229\u7387 6%\u3001ROE 28%\u3002\u8d1f\u503a\u7387(Debt/Eq) 188.0\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 1.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 82\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Science Applications Internatio",
+          "sector": "Technology",
+          "industry": "Information Technology Services",
+          "market_cap": "$5.3B",
+          "beta": 0.286,
+          "summary": "Science Applications International Corporation provides technical, engineering, and mission and enterprise information technology (IT) services in the United States. It operates through two segments, Defense and Intelligence; and Civilian. The company offers IT modernization services for defense, in\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "SWX",
+      "score": 61.81,
+      "sector": "",
+      "signal": {
+        "close": 91.51,
+        "bb_width_pct": 5.24,
+        "bb_width_pctile": 78,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.103,
+        "dist_to_bb_upper_pct": 2.68,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 561724,
+      "raw_rs": 0.08429361755719389,
+      "vcp": {
+        "score": 75,
+        "atr": 1.79,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0685,
+        "vol_ratio": 1.01,
+        "dist_to_pivot_pct": -3.13,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 59,
+      "fundamentals": {
+        "name": "Southwest Gas Holdings, Inc.",
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Gas",
+        "summary": "Southwest Gas Holdings, Inc., through its subsidiary, Southwest Gas Corporation, purchases, distributes, and transports natural gas for residential, commercial, and industrial customers in Arizona, Nevada, and California in the United States. The company offers tariff sales and transportation services. It also operates a pipeline transmission system, including an LNG storage facility. As of December 31, 2025, the company served approximately 2,281,000 customers with 1,224,000 in Arizona, 849,000 in Nevada, and 208,000 in California. Southwest Gas Holdings, Inc. was founded in 1931 and is headquartered in Las Vegas, Nevada.",
+        "marketCap": 6629520384,
+        "pe": 23.284986,
+        "forwardPE": 18.531494,
+        "pb": 1.6069893,
+        "ps": 3.8080578,
+        "dividendYield": 0.0285,
+        "profitMargin": 0.31398,
+        "revenueGrowth": -0.096,
+        "earningsGrowth": null,
+        "roe": 0.06832,
+        "debtToEquity": 85.082,
+        "beta": 0.567
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 14.4,
+          "quality": 53.3,
+          "value": 80,
+          "growth": 38
+        },
+        "composite": 53.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aUtilities / Utilities - Regulated Gas\u3002\u8fdc\u671f PE \u2248 18.5\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f -10%\u3002\u51c0\u5229\u7387 31%\u3001ROE 7%\u3002\u8d1f\u503a\u7387(Debt/Eq) 85.1\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 2.9%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 54\uff08\u4e2d\u6027\u504f\u5f31\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Southwest Gas Holdings, Inc.",
+          "sector": "Utilities",
+          "industry": "Utilities - Regulated Gas",
+          "market_cap": "$6.6B",
+          "beta": 0.567,
+          "summary": "Southwest Gas Holdings, Inc., through its subsidiary, Southwest Gas Corporation, purchases, distributes, and transports natural gas for residential, commercial, and industrial customers in Arizona, Nevada, and California in the United States. The company offers tariff sales and transportation servic\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "UBSI",
+      "score": 58.7,
+      "sector": "",
+      "signal": {
+        "close": 48.5,
+        "bb_width_pct": 6.24,
+        "bb_width_pctile": 75,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.184,
+        "dist_to_bb_upper_pct": 2.31,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1040234,
+      "raw_rs": 0.19611519510172812,
+      "vcp": {
+        "score": 75,
+        "atr": 0.77,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0685,
+        "vol_ratio": 1.27,
+        "dist_to_pivot_pct": -2.26,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 60,
+      "fundamentals": {
+        "name": "United Bankshares, Inc.",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "United Bankshares, Inc., through its subsidiaries, provides commercial and retail banking products and services in the United States. The company accepts checking, savings, and time and money market accounts; individual retirement accounts; and demand deposits, statement and special savings, and NOW accounts. Its loan products include commercial loans and leases to small to mid-size industrial and commercial companies, as well as automobile dealers, service, retail and wholesale merchants; construction and real estate loans, such as commercial and residential mortgages, and loans secured by owner-occupied real estate; personal, automobiles, boats, recreational vehicles, credit card receivables, commercial, and floor plan loans; and home equity loans. In addition, the company provides credit cards; trust, safe deposit boxes, wire transfers, and other banking products and services; investment and security services; buying and selling federal fund services; automated teller machine services; and internet and automated telephone banking services. Further, it offers community banking services, such as asset management, real property title insurance, financial planning, mortgage banking, and brokerage services, as well as custody of assets, investment management, escrow services, and related fiduciary activities. The company was incorporated in 1982 and is headquartered in Charleston, West Virginia.",
+        "marketCap": 6606309888,
+        "pe": 13.072776,
+        "forwardPE": 12.570205,
+        "pb": 1.2315271,
+        "ps": 5.2829475,
+        "dividendYield": 0.0316,
+        "profitMargin": 0.41196,
+        "revenueGrowth": 0.062,
+        "earningsGrowth": 0.122,
+        "roe": 0.09474,
+        "debtToEquity": null,
+        "beta": 0.727
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 78.2,
+          "quality": 73.0,
+          "value": 90,
+          "growth": 62
+        },
+        "composite": 75.4,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 12.6\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 6%\u3001\u76c8\u5229\u589e\u901f 12%\u3002\u51c0\u5229\u7387 41%\u3001ROE 9%\u3002\u80a1\u606f\u7387 3.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 75\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "United Bankshares, Inc.",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$6.6B",
+          "beta": 0.727,
+          "summary": "United Bankshares, Inc., through its subsidiaries, provides commercial and retail banking products and services in the United States. The company accepts checking, savings, and time and money market accounts; individual retirement accounts; and demand deposits, statement and special savings, and NOW\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "VLY",
+      "score": 63.34,
+      "sector": "",
+      "signal": {
+        "close": 14.77,
+        "bb_width_pct": 6.59,
+        "bb_width_pctile": 83,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.077,
+        "dist_to_bb_upper_pct": 2.09,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 6888974,
+      "raw_rs": 0.27786697134972255,
+      "vcp": {
+        "score": 75,
+        "atr": 0.3,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0783,
+        "vol_ratio": 1.19,
+        "dist_to_pivot_pct": -2.83,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 61,
+      "fundamentals": {
+        "name": "Valley National Bancorp",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Valley National Bancorp operates as the holding company for Valley National Bank that provides various commercial, private banking, retail, insurance, and wealth management financial services products. The company operates through Consumer Banking, Commercial Banking, and Treasury and Corporate other segments. It offers non-interest bearing, savings, NOW, money market, and time deposit accounts; commercial and industrial, commercial real estate, construction, residential mortgage, and automobile loans; loans secured by the cash surrender value of life insurance; home equity loans and lines of credit; automobile financing; and secured and unsecured other consumer loans. The company also invests in various securities and interest-bearing deposits with other banks; and provides international banking services. In addition, it offers investment services for individuals and small to medium sized businesses; and trusts investment strategies designed for various investment profiles and objectives. Further, the company provides trust services, such as living and testamentary trusts, investment management, custodial and escrow services, and estate administration to individuals; tax credit advisory services; brokerage services; property and casualty, life, health, and title insurance agency services; and health care equipment lending and other commercial equipment leasing services, as well as private banking and management services. Additionally, it offers niche financial services, including loan and deposit products for homeowners associations, cannabis-related business banking, and venture banking; online, mobile, and telephone banking services; credit cards; and automated teller machine services. Valley National Bancorp was founded in 1927 and is headquartered in Morristown, New Jersey.",
+        "marketCap": 8161979904,
+        "pe": 12.51695,
+        "forwardPE": 9.64093,
+        "pb": 1.0954536,
+        "ps": 4.064302,
+        "dividendYield": 0.03,
+        "profitMargin": 0.34535998,
+        "revenueGrowth": 0.15,
+        "earningsGrowth": 0.318,
+        "roe": 0.08953,
+        "debtToEquity": null,
+        "beta": 1.059
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 36.6,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 84
+        },
+        "composite": 70.8,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 9.6\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 15%\u3001\u76c8\u5229\u589e\u901f 32%\u3002\u51c0\u5229\u7387 35%\u3001ROE 9%\u3002\u80a1\u606f\u7387 3.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 71\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Valley National Bancorp",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$8.2B",
+          "beta": 1.059,
+          "summary": "Valley National Bancorp operates as the holding company for Valley National Bank that provides various commercial, private banking, retail, insurance, and wealth management financial services products. The company operates through Consumer Banking, Commercial Banking, and Treasury and Corporate othe\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "WBS",
+      "score": 48.09,
+      "sector": "",
+      "signal": {
+        "close": 78.75,
+        "bb_width_pct": 6.26,
+        "bb_width_pctile": 60,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.23,
+        "dist_to_bb_upper_pct": 1.04,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 4077990,
+      "raw_rs": 0.21220035797686998,
+      "vcp": {
+        "score": 75,
+        "atr": 0.88,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0552,
+        "vol_ratio": 1.27,
+        "dist_to_pivot_pct": -1.24,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 60,
+      "fundamentals": {
+        "name": "Webster Financial Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Webster Financial Corporation operates as the bank holding company for Webster Bank, National Association that provides various financial products and services to businesses, individuals, and families in the United States. It operates through three segments: Commercial Banking, Healthcare Financial Services, and Consumer Banking. The company offers checking, savings, and money market accounts; time deposits; individual retirement account retirement savings; certificates of deposit; mortgages; home equity loans and lines of credit; business lines of credit; overdrafts; and term, commercial mortgages, student, PPA, SBA, and personal loans. It also provides commercial lending; financial planning, life and long-term insurance, personal retirement, and portfolio management solutions; employee retirement plans; credit cards; payroll services; automated clearing house payables and wires; bill pay, remote deposit capture, merchant, and lockbox services; treasury management and investment services; private banking services; wealth management services; and online and mobile banking services. Webster Financial Corporation was founded in 1870 and is headquartered in Stamford, Connecticut.",
+        "marketCap": 12760133632,
+        "pe": 12.825733,
+        "forwardPE": 10.981012,
+        "pb": 1.3737222,
+        "ps": 4.607601,
+        "dividendYield": 0.0203,
+        "profitMargin": 0.36834,
+        "revenueGrowth": 0.058,
+        "earningsGrowth": 0.028,
+        "roe": 0.10682,
+        "debtToEquity": null,
+        "beta": 1.005
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 82.7,
+          "quality": 73.0,
+          "value": 98.1,
+          "growth": 52
+        },
+        "composite": 75.9,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.0\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 6%\u3001\u76c8\u5229\u589e\u901f 3%\u3002\u51c0\u5229\u7387 37%\u3001ROE 11%\u3002\u80a1\u606f\u7387 2.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 76\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Webster Financial Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$12.8B",
+          "beta": 1.005,
+          "summary": "Webster Financial Corporation operates as the bank holding company for Webster Bank, National Association that provides various financial products and services to businesses, individuals, and families in the United States. It operates through three segments: Commercial Banking, Healthcare Financial \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "WTFC",
+      "score": 71.12,
+      "sector": "",
+      "signal": {
+        "close": 162.1,
+        "bb_width_pct": 5.83,
+        "bb_width_pctile": 92,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.085,
+        "dist_to_bb_upper_pct": 2.06,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 613180,
+      "raw_rs": 0.15532948663934773,
+      "vcp": {
+        "score": 75,
+        "atr": 2.87,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0688,
+        "vol_ratio": 1.73,
+        "dist_to_pivot_pct": -3.06,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 60,
+      "fundamentals": {
+        "name": "Wintrust Financial Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Wintrust Financial Corporation, a financial holding company, provides community-oriented, personal, and commercial banking services in the United States. It operates through three segments: Community Banking, Specialty Finance, and Wealth Management. The Community Banking segment offers non-interest-bearing deposits, non-brokered interest-bearing transaction accounts, and savings and domestic time deposits; home equity, consumer, and real estate loans; safe deposit facilities; and automatic teller machine, online and mobile banking, and other services. This segment also engages in the retail origination of residential mortgages; provision of lending, deposits, and treasury management services to condominium, homeowner, and community associations; and asset-based lending for middle-market companies. In addition, it provides loan and deposit services to mortgage brokerage companies; lending to restaurant franchisees; direct leasing; small business administration loans; commercial mortgages and construction loans; and financial solutions. The Specialty Finance segment offers commercial and life insurance premiums financing for businesses and individuals; accounts receivable financing, value-added, and out-sourced administrative services, including data processing of payrolls, billing, and cash management services to temporary staffing industry; other specialty finance services; equipment financing through structured loan and lease products; and property and casualty insurance premium financing. The Wealth Management segment provides wealth management services, such as trust and investment, tax-deferred like-kind exchange, asset management, and securities brokerage services. Wintrust Financial Corporation was founded in 1991 and is headquartered in Rosemont, Illinois.",
+        "marketCap": 10934522880,
+        "pe": 12.794002,
+        "forwardPE": 11.741051,
+        "pb": 1.5886862,
+        "ps": 3.9639869,
+        "dividendYield": 0.0138,
+        "profitMargin": 0.32639998,
+        "revenueGrowth": 0.102,
+        "earningsGrowth": 0.187,
+        "roe": 0.12208,
+        "debtToEquity": null,
+        "beta": 0.845
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 35.3,
+          "quality": 80.0,
+          "value": 95.5,
+          "growth": 74
+        },
+        "composite": 69.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.7\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 10%\u3001\u76c8\u5229\u589e\u901f 19%\u3002\u51c0\u5229\u7387 33%\u3001ROE 12%\u3002\u80a1\u606f\u7387 1.4%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 70\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Wintrust Financial Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$10.9B",
+          "beta": 0.845,
+          "summary": "Wintrust Financial Corporation, a financial holding company, provides community-oriented, personal, and commercial banking services in the United States. It operates through three segments: Community Banking, Specialty Finance, and Wealth Management. The Community Banking segment offers non-interest\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "XPO",
+      "score": 49.63,
+      "sector": "",
+      "signal": {
+        "close": 203.4,
+        "bb_width_pct": 13.14,
+        "bb_width_pctile": 70,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.438,
+        "dist_to_bb_upper_pct": 7.96,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1244952,
+      "raw_rs": 0.28798042163053866,
+      "vcp": {
+        "score": 75,
+        "atr": 7.24,
+        "signals": [
+          "Volume Dry-up",
+          "Trend Alignment"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.1203,
+        "vol_ratio": 0.59,
+        "dist_to_pivot_pct": -7.75,
+        "status": "WAIT",
+        "breakdown": {
+          "tight": 30,
+          "vol": 25,
+          "ma": 20,
+          "pivot": 0
+        }
+      },
+      "rs_rating": 61,
+      "fundamentals": {
+        "name": "XPO, Inc.",
+        "sector": "Industrials",
+        "industry": "Trucking",
+        "summary": "XPO, Inc., together with its subsidiaries, provides freight transportation services in the United States, North America, France, the United Kingdom, and rest of Europe. The company operates in two segments, North American Less-Than-Truckload (LTL) and European Transportation. The North American LTL segment provides shippers with geographic density and day-definite domestic and cross-border services to the U.S., Mexico, Canada, and the Caribbean. The European Transportation segment offers dedicated truckload, LTL, truck brokerage, managed transportation, last mile, freight forwarding, and warehousing and multimodal solutions to an extensive base of customers within the consumer, trade, and industrial markets. The company was formerly known as XPO Logistics, Inc. and changed its name to XPO, Inc. in December 2022. The company was founded in 1989 and is based in Greenwich, Connecticut.",
+        "marketCap": 23815385088,
+        "pe": 59.127903,
+        "forwardPE": 31.707481,
+        "pb": null,
+        "ps": 2.7776282,
+        "dividendYield": null,
+        "profitMargin": 0.047119997,
+        "revenueGrowth": 0.132,
+        "earningsGrowth": 0.528,
+        "roe": 0.21587,
+        "debtToEquity": 206.167,
+        "beta": 1.715
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 0,
+          "quality": 49.3,
+          "value": 38,
+          "growth": 92
+        },
+        "composite": 52.4,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aIndustrials / Trucking\u3002\u8fdc\u671f PE \u2248 31.7\uff08\u504f\u9ad8\uff09\u3002\u8425\u6536\u589e\u901f 13%\u3001\u76c8\u5229\u589e\u901f 53%\u3002\u51c0\u5229\u7387 5%\u3001ROE 22%\u3002\u8d1f\u503a\u7387(Debt/Eq) 206.2\uff0c\u9ad8\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 52\uff08\u4e2d\u6027\u504f\u5f31\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "XPO, Inc.",
+          "sector": "Industrials",
+          "industry": "Trucking",
+          "market_cap": "$23.8B",
+          "beta": 1.715,
+          "summary": "XPO, Inc., together with its subsidiaries, provides freight transportation services in the United States, North America, France, the United Kingdom, and rest of Europe. The company operates in two segments, North American Less-Than-Truckload (LTL) and European Transportation. The North American LTL \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "ZION",
+      "score": 61.41,
+      "sector": "",
+      "signal": {
+        "close": 71.0,
+        "bb_width_pct": 7.2,
+        "bb_width_pctile": 81,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.044,
+        "dist_to_bb_upper_pct": 2.84,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1700956,
+      "raw_rs": 0.2051570296472332,
+      "vcp": {
+        "score": 75,
+        "atr": 1.3,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0762,
+        "vol_ratio": 1.11,
+        "dist_to_pivot_pct": -3.19,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 60,
+      "fundamentals": {
+        "name": "Zions Bancorporation N.A.",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Zions Bancorporation, National Association provides various banking products and related services primarily in the states of Arizona, California, Colorado, Idaho, Nevada, New Mexico, Oregon, Texas, Utah, Washington, and Wyoming. The company operates through Zions Bank, California Bank & Trust, Amegy Bank, National Bank of Arizona, Nevada State Bank, Vectra Bank Colorado, and The Commerce Bank of Washington segments. It offers commercial and small business banking services to small- and medium-sized businesses, such as commercial, industrial, and owner-occupied lending and leasing; municipal and public finance services; depository account and cash management services; commercial and small business cards; merchant processing services; corporate trust services; and correspondent banking and international lending services. The company also provides capital markets and investment banking services, including loan syndications, foreign exchange services, interest rate derivatives, fixed income securities underwriting, mergers and acquisitions advisory services, advisory and capital raising, commercial mortgage-backed security conduit lending, and power and project financing; and commercial real estate lending services consisting of term and construction/land development financing for commercial and residential purposes. In addition, it offers retail banking services comprising residential mortgages lending, home equity lines of credit, personal lines of credit, installment consumer loans, depository account services, consumer cards, and personal trust services; and wealth management services consisting of investment management, fiduciary and estate, and advanced business succession and estate planning services. The company was formerly known as ZB, National Association and changed its name to Zions Bancorporation, National Association in September 2018. Zions Bancorporation, National Association was founded in 1873 and is headquartered in Salt Lake City, Utah.",
+        "marketCap": 10362688512,
+        "pe": 8.998733,
+        "forwardPE": 10.445201,
+        "pb": 1.3607006,
+        "ps": 2.8106017,
+        "dividendYield": 0.027200000000000002,
+        "profitMargin": 0.3176,
+        "revenueGrowth": 0.352,
+        "earningsGrowth": 0.871,
+        "roe": 0.16404,
+        "debtToEquity": null,
+        "beta": 0.781
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 42.2,
+          "quality": 80.0,
+          "value": 100,
+          "growth": 92
+        },
+        "composite": 74.3,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.4\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 35%\u3001\u76c8\u5229\u589e\u901f 87%\u3002\u51c0\u5229\u7387 32%\u3001ROE 16%\u3002\u80a1\u606f\u7387 2.7%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 74\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Zions Bancorporation N.A.",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$10.4B",
+          "beta": 0.781,
+          "summary": "Zions Bancorporation, National Association provides various banking products and related services primarily in the states of Arizona, California, Colorado, Idaho, Nevada, New Mexico, Oregon, Texas, Utah, Washington, and Wyoming. The company operates through Zions Bank, California Bank & Trust, Amegy\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "ABM",
+      "score": 67.93,
+      "sector": "",
+      "signal": {
+        "close": 48.28,
+        "bb_width_pct": 6.68,
+        "bb_width_pctile": 89,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.173,
+        "dist_to_bb_upper_pct": 2.86,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 598506,
+      "raw_rs": 0.06971586802662269,
+      "vcp": {
+        "score": 75,
+        "atr": 1.17,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.0972,
+        "vol_ratio": 0.65,
+        "dist_to_pivot_pct": -3.05,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 35,
+          "vol": 15,
+          "ma": 20,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 59,
+      "fundamentals": {
+        "name": "ABM Industries Incorporated",
+        "sector": "Industrials",
+        "industry": "Specialty Business Services",
+        "summary": "ABM Industries Incorporated, through its subsidiaries, engages in the provision of facility maintenance, engineering and infrastructure solutions in the United States and internationally. The company operates through five segments: Business & Industry, Manufacturing & Distribution, Education, Aviation, and Technical Solutions. It offers janitorial, facilities engineering, and parking services for commercial real estate properties, including corporate offices for high-tech clients, sports and entertainment venues, and traditional hospitals and non-acute healthcare facilities; and vehicle maintenance and other services to rental car providers. The company also offers integrated facility services, engineering, and other specialized services in various types of manufacturing, distribution, and data center facilities. In addition, it delivers custodial and landscaping and grounds for public school districts, private schools, colleges, and universities. Further, the company supports airlines and airports with services comprising passenger assistance, catering logistics, air cabin maintenance, and transportation services. Additionally, it provides facility infrastructure, mechanical and electrical services; EV power design, installation and maintenance, and microgrid systems design, installation, and maintenance services. ABM Industries Incorporated was founded in 1909 and is headquartered in New York, New York.",
+        "marketCap": 2828286976,
+        "pe": 18.42748,
+        "forwardPE": 11.086133,
+        "pb": 1.6176372,
+        "ps": 0.31242123,
+        "dividendYield": 0.0242,
+        "profitMargin": 0.0175,
+        "revenueGrowth": 0.084,
+        "earningsGrowth": 0.09,
+        "roe": 0.08866999,
+        "debtToEquity": 112.697,
+        "beta": 0.675
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 77.0,
+          "quality": 40.0,
+          "value": 99.7,
+          "growth": 62
+        },
+        "composite": 71.4,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aIndustrials / Specialty Business Services\u3002\u8fdc\u671f PE \u2248 11.1\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 8%\u3001\u76c8\u5229\u589e\u901f 9%\u3002\u51c0\u5229\u7387 2%\u3001ROE 9%\u3002\u8d1f\u503a\u7387(Debt/Eq) 112.7\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 2.4%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 71\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "ABM Industries Incorporated",
+          "sector": "Industrials",
+          "industry": "Specialty Business Services",
+          "market_cap": "$2.8B",
+          "beta": 0.675,
+          "summary": "ABM Industries Incorporated, through its subsidiaries, engages in the provision of facility maintenance, engineering and infrastructure solutions in the United States and internationally. The company operates through five segments: Business & Industry, Manufacturing & Distribution, Education, Aviati\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "ACA",
+      "score": 84.0,
+      "sector": "",
+      "signal": {
+        "close": 144.91,
+        "bb_width_pct": 0.58,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.003,
+        "dist_to_bb_upper_pct": 0.37,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 809352,
+      "raw_rs": 0.2598702101084219,
+      "vcp": {
+        "score": 75,
+        "atr": 0.52,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.011,
+        "vol_ratio": 2.89,
+        "dist_to_pivot_pct": -0.73,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 61,
+      "fundamentals": {
+        "name": "Arcosa, Inc.",
+        "sector": "Industrials",
+        "industry": "Engineering & Construction",
+        "summary": "Arcosa, Inc., together with its subsidiaries, provides infrastructure-related products and solutions for the construction, engineered structures, and transportation markets in the United States. The company operates through three segments: Construction Products, Engineered Structures, and Transportation Products. The Construction Products segment offers natural and recycled aggregates; specialty materials; and construction site support equipment, including trench shields and shoring products for residential and non-residential construction, and specialty and other products, as well as for infrastructure construction. The Engineered Structures segment offers utility structures, wind towers, traffic and lighting structures, and telecommunication structures for electricity transmission and distribution, wind power generation, highway road construction, and wireless communication markets. This segment also sells its products to contractors and distributors serving state Departments of Transportation and state and municipality agencies. The Transportation Products segment offers inland barges, fiberglass barge covers, winches, marine hardware, and other transportation and industrial equipment to the commercial marine transportation companies, lessors, and industrial shippers. Arcosa, Inc. was incorporated in 2018 and is headquartered in Dallas, Texas.",
+        "marketCap": 7116067840,
+        "pe": 32.273945,
+        "forwardPE": 28.305498,
+        "pb": 2.6986108,
+        "ps": 2.4380949,
+        "dividendYield": 0.14,
+        "profitMargin": 0.16836001,
+        "revenueGrowth": 0.017,
+        "earningsGrowth": 4.486,
+        "roe": 0.080299996,
+        "debtToEquity": 50.578,
+        "beta": 1.071
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 32.5,
+          "quality": 50.7,
+          "value": 60,
+          "growth": 92
+        },
+        "composite": 62.6,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aIndustrials / Engineering & Construction\u3002\u8fdc\u671f PE \u2248 28.3\uff08\u5408\u7406\uff09\u3002\u8425\u6536\u589e\u901f 2%\u3001\u76c8\u5229\u589e\u901f 449%\u3002\u51c0\u5229\u7387 17%\u3001ROE 8%\u3002\u8d1f\u503a\u7387(Debt/Eq) 50.6\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 14.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 63\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Arcosa, Inc.",
+          "sector": "Industrials",
+          "industry": "Engineering & Construction",
+          "market_cap": "$7.1B",
+          "beta": 1.071,
+          "summary": "Arcosa, Inc., together with its subsidiaries, provides infrastructure-related products and solutions for the construction, engineered structures, and transportation markets in the United States. The company operates through three segments: Construction Products, Engineered Structures, and Transporta\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "AUB",
+      "score": 102.61,
+      "sector": "",
+      "signal": {
+        "close": 42.15,
+        "bb_width_pct": 4.29,
+        "bb_width_pctile": 98,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.039,
+        "dist_to_bb_upper_pct": 2.94,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 1183718,
+      "raw_rs": 0.16206031127451323,
+      "vcp": {
+        "score": 75,
+        "atr": 0.82,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0638,
+        "vol_ratio": 1.14,
+        "dist_to_pivot_pct": -3.26,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 66,
+      "fundamentals": {
+        "name": "Atlantic Union Bankshares Corpo",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Atlantic Union Bankshares Corporation operates as the bank holding company for Atlantic Union Bank that provides banking and related financial products and services to consumers and businesses in the United States. The company operates in two segments, Wholesale Banking and Consumer Banking. It accepts various deposit products, including checking, savings, time deposit, and money market accounts; certificates of deposit; and other depository services. The company provides loans for commercial real estate, commercial, industrial, residential mortgage, and consumer purposes, as well as debit and credit cards. In addition, it provides treasury management and capital market, wealth management, private banking, trust, financial and retirement planning, brokerage, investment management, equipment finance, mortgage banking, and insurance products and services. The company offers products and services through full-service branches and ATMs, as well as through its mobile and internet banking. The company was formerly known as Union Bankshares Corporation and changed its name to Atlantic Union Bankshares Corporation in May 2019. Atlantic Union Bankshares Corporation was founded in 1902 and is headquartered in Glen Allen, Virginia.",
+        "marketCap": 6019648000,
+        "pe": 12.28863,
+        "forwardPE": 10.450422,
+        "pb": 1.1608372,
+        "ps": 3.9925187,
+        "dividendYield": 0.0355,
+        "profitMargin": 0.32319,
+        "revenueGrowth": 0.358,
+        "earningsGrowth": 8.348,
+        "roe": 0.09759,
+        "debtToEquity": null,
+        "beta": 0.774
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 25.0,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 92
+        },
+        "composite": 78.3,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.5\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 36%\u3001\u76c8\u5229\u589e\u901f 835%\u3002\u51c0\u5229\u7387 32%\u3001ROE 10%\u3002\u80a1\u606f\u7387 3.5%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 78\uff08\u5f3a\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Atlantic Union Bankshares Corpo",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$6.0B",
+          "beta": 0.774,
+          "summary": "Atlantic Union Bankshares Corporation operates as the bank holding company for Atlantic Union Bank that provides banking and related financial products and services to consumers and businesses in the United States. The company operates in two segments, Wholesale Banking and Consumer Banking. It acce\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "CATY",
+      "score": 100.64,
+      "sector": "",
+      "signal": {
+        "close": 63.7,
+        "bb_width_pct": 4.86,
+        "bb_width_pctile": 97,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.139,
+        "dist_to_bb_upper_pct": 1.44,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 520800,
+      "raw_rs": 0.22839730799508273,
+      "vcp": {
+        "score": 75,
+        "atr": 1.01,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0618,
+        "vol_ratio": 1.28,
+        "dist_to_pivot_pct": -1.83,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 67,
+      "fundamentals": {
+        "name": "Cathay General Bancorp",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Cathay General Bancorp operates as the holding company for Cathay Bank that offers various commercial banking products and services to individuals, professionals, and small to medium-sized businesses in the United States. It offers savings accounts, checking accounts, money market deposit accounts, certificates of deposit, individual retirement accounts, and public funds deposits, and acceptance of checking, savings, demand deposits, time deposits, real estate, and consumer loans. The company also provides loan products, such as commercial real estate loans, commercial loans, small business administration loans, residential mortgage loans, real estate construction loans, and home equity lines of credit, and installment loans to individuals for household and other consumer expenditures. In addition, it offers trade financing, letter of credit, wire transfer, foreign currency spot and forward contract, safe deposit, overdraft, cash checking, automatic teller machine, Internet banking, investment, and other customary bank services, as well as investment products and services, such as stocks, bonds, mutual funds, insurance, annuities, and advisory services. The company was formerly known as Cathay Bancorp, Inc. and changed its name to Cathay General Bancorp in November 2003. Cathay General Bancorp was founded in 1962 and is headquartered in Los Angeles, California.",
+        "marketCap": 4249670400,
+        "pe": 12.465754,
+        "forwardPE": 10.74199,
+        "pb": 1.3972056,
+        "ps": 5.3441396,
+        "dividendYield": 0.0227,
+        "profitMargin": 0.4367,
+        "revenueGrowth": 0.138,
+        "earningsGrowth": 0.245,
+        "roe": 0.117060006,
+        "debtToEquity": null,
+        "beta": 0.85
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 72.7,
+          "quality": 73.0,
+          "value": 99.1,
+          "growth": 74
+        },
+        "composite": 85.9,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.7\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 14%\u3001\u76c8\u5229\u589e\u901f 24%\u3002\u51c0\u5229\u7387 44%\u3001ROE 12%\u3002\u80a1\u606f\u7387 2.3%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 86\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Cathay General Bancorp",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$4.2B",
+          "beta": 0.85,
+          "summary": "Cathay General Bancorp operates as the holding company for Cathay Bank that offers various commercial banking products and services to individuals, professionals, and small to medium-sized businesses in the United States. It offers savings accounts, checking accounts, money market deposit accounts, \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "CVBF",
+      "score": 99.18,
+      "sector": "",
+      "signal": {
+        "close": 22.82,
+        "bb_width_pct": 4.47,
+        "bb_width_pctile": 94,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.02,
+        "dist_to_bb_upper_pct": 1.62,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1618384,
+      "raw_rs": 0.13551484297453328,
+      "vcp": {
+        "score": 75,
+        "atr": 0.43,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0757,
+        "vol_ratio": 1.1,
+        "dist_to_pivot_pct": -2.35,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 66,
+      "fundamentals": {
+        "name": "CVB Financial Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "CVB Financial Corp. operates as bank holding company for Citizens Business Bank, National Association, a state-chartered bank that provides banking and financial services to small to mid-sized businesses and individuals. The company offers checking, savings, money market, and certificates of time deposit products for business and personal accounts, municipalities and districts, and specialized deposit products for title and escrow; and serves as a federal tax depository for business customers. It also provides commercial lending products comprising lines of credit and other working capital financing, accounts receivable lending, and letters of credit; agriculture loans to finance the operating needs of wholesale dairy farm operations, cattle feeders, livestock raisers, and farmers; lease financing services for municipal governments; commercial real estate and construction loans; consumer financing products, including automobile leasing and financing, lines of credit, credit cards, home mortgages, and home equity loans; and equipment and vehicle leasing services. In addition, the company offers various specialized services, such as treasury management systems for monitoring and managing cash flow, a merchant card processing program, armored pick-up and delivery, payroll services, remote deposit capture, electronic funds transfers, wires and automated clearinghouse, and online account access; and foreign exchange and letters of credit services. Further, it provides financial and trust services, such as fiduciary services, mutual funds, annuities, 401(k) plans, and individual investment accounts. CVB Financial Corp. was founded in 1974 and is headquartered in Ontario, California.",
+        "marketCap": 4016261632,
+        "pe": 15.847221,
+        "forwardPE": 11.505901,
+        "pb": 1.2689058,
+        "ps": 7.015586,
+        "dividendYield": 0.0355,
+        "profitMargin": 0.3614,
+        "revenueGrowth": 0.42,
+        "earningsGrowth": -0.216,
+        "roe": 0.07649,
+        "debtToEquity": null,
+        "beta": 0.654
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 99.2,
+          "momentum": 53.6,
+          "quality": 67.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 80.7,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.5\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 42%\u3001\u76c8\u5229\u589e\u901f -22%\u3002\u51c0\u5229\u7387 36%\u3001ROE 8%\u3002\u80a1\u606f\u7387 3.5%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 81\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "CVB Financial Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$4.0B",
+          "beta": 0.654,
+          "summary": "CVB Financial Corp. operates as bank holding company for Citizens Business Bank, National Association, a state-chartered bank that provides banking and financial services to small to mid-sized businesses and individuals. The company offers checking, savings, money market, and certificates of time de\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "FULT",
+      "score": 102.74,
+      "sector": "",
+      "signal": {
+        "close": 24.27,
+        "bb_width_pct": 4.2,
+        "bb_width_pctile": 98,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.083,
+        "dist_to_bb_upper_pct": 3.11,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 2036742,
+      "raw_rs": 0.18996663219846877,
+      "vcp": {
+        "score": 75,
+        "atr": 0.47,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0587,
+        "vol_ratio": 1.13,
+        "dist_to_pivot_pct": -3.8,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 76,
+      "fundamentals": {
+        "name": "Fulton Financial Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Fulton Financial Corporation operates as the bank holding company for Fulton Bank that provides banking and financial products and services in the United States. It provides various checking accounts and savings deposit products, and certificates of deposit. The company also offers consumer loans products, including home equity loans and lines of credit; construction and jumbo residential mortgage loans; automobile, student, and personal loans; account overdraft protection; commercial lending products comprising commercial real estate, commercial and industrial, and construction loans, as well as equipment lease financing loans. In addition, it offers letters of credit, cash management services, and traditional deposit products; and wealth management services, including investment management, trust, brokerage, insurance, and investment advisory services. Further, the company owns trust preferred securities; and sells various life insurance products. It provides its products and services through financial center locations, as well as through a network of automated teller machines, telephone banking, mobile banking, and online banking. The company was founded in 1882 and is headquartered in Lancaster, Pennsylvania.",
+        "marketCap": 4646758400,
+        "pe": 11.66827,
+        "forwardPE": 10.283899,
+        "pb": 1.2825662,
+        "ps": 3.4845912,
+        "dividendYield": 0.0316,
+        "profitMargin": 0.29740998,
+        "revenueGrowth": 0.137,
+        "earningsGrowth": -0.019,
+        "roe": 0.11101,
+        "debtToEquity": null,
+        "beta": 0.802
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 17.6,
+          "quality": 69.0,
+          "value": 100,
+          "growth": 62
+        },
+        "composite": 71.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.3\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 14%\u3001\u76c8\u5229\u589e\u901f -2%\u3002\u51c0\u5229\u7387 30%\u3001ROE 11%\u3002\u80a1\u606f\u7387 3.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 72\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Fulton Financial Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$4.6B",
+          "beta": 0.802,
+          "summary": "Fulton Financial Corporation operates as the bank holding company for Fulton Bank that provides banking and financial products and services in the United States. It provides various checking accounts and savings deposit products, and certificates of deposit. The company also offers consumer loans pr\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "NATL",
+      "score": 76.19,
+      "sector": "",
+      "signal": {
+        "close": 46.86,
+        "bb_width_pct": 4.0,
+        "bb_width_pctile": 95,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.082,
+        "dist_to_bb_upper_pct": 2.45,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 665186,
+      "raw_rs": 0.16295827859513023,
+      "vcp": {
+        "score": 75,
+        "atr": 0.89,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0529,
+        "vol_ratio": 1.04,
+        "dist_to_pivot_pct": -2.78,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 75,
+      "fundamentals": {
+        "name": "NCR Atleos Corporation",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "summary": "NCR Atleos Corporation, a financial technology company, engages in the provision of self-directed banking solutions to financial institutions, merchants, manufacturers, retailers, and consumers in the United States, rest of the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It operates through three segments: Self-Service Banking; Network; and Telecommunications & Technology (T&T). It offers solutions, including a line of automated teller machine (ATM) hardware and software, as well as elated installation, maintenance, and managed and professional services; and ATM as a service to manage and run for financial institutions that include back office, cash management, software management, and ATM deployment. The company also provides network of ATMs and multi-functioning financial services kiosks for financial institutions, financial technology companies, neobanks, and retailers; Allpoint network which provides cash withdrawal and deposit access to credit unions, banks, digital banks, fintechs, stored-value debit card issuers, and other consumer financial services providers; and ATM branding solutions to financial institutions, ATM management and services to retailers and other businesses, and LibertyX solution which gives consumers the ability to buy and sell Bitcoin. In addition, it offers managed network and infrastructure services to enterprise clients across various industries through communications service providers and technology manufacturers; and professional, field, and remote services for modern network technologies, including software-defined wide area networking, network functions virtualization, wireless local area networks, optical networking, and edge networks. NCR Atleos Corporation was founded in 1884 and is headquartered in Atlanta, Georgia.",
+        "marketCap": 3462810368,
+        "pe": 18.162792,
+        "forwardPE": 8.629834,
+        "pb": 8.732761,
+        "ps": 0.78361857,
+        "dividendYield": null,
+        "profitMargin": 0.04435,
+        "revenueGrowth": 0.001,
+        "earningsGrowth": 0.654,
+        "roe": 0.48529,
+        "debtToEquity": 634.267,
+        "beta": 0.568
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 17.7,
+          "quality": 54.3,
+          "value": 90,
+          "growth": 92
+        },
+        "composite": 63.8,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aTechnology / Software - Application\u3002\u8fdc\u671f PE \u2248 8.6\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 0%\u3001\u76c8\u5229\u589e\u901f 65%\u3002\u51c0\u5229\u7387 4%\u3001ROE 49%\u3002\u8d1f\u503a\u7387(Debt/Eq) 634.3\uff0c\u9ad8\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 64\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "NCR Atleos Corporation",
+          "sector": "Technology",
+          "industry": "Software - Application",
+          "market_cap": "$3.5B",
+          "beta": 0.568,
+          "summary": "NCR Atleos Corporation, a financial technology company, engages in the provision of self-directed banking solutions to financial institutions, merchants, manufacturers, retailers, and consumers in the United States, rest of the Americas, Europe, the Middle East, Africa, and the Asia Pacific. It oper\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "NWBI",
+      "score": 72.26,
+      "sector": "",
+      "signal": {
+        "close": 15.63,
+        "bb_width_pct": 5.9,
+        "bb_width_pctile": 94,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.128,
+        "dist_to_bb_upper_pct": 2.79,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1191758,
+      "raw_rs": 0.21560945422385142,
+      "vcp": {
+        "score": 75,
+        "atr": 0.26,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0675,
+        "vol_ratio": 1.16,
+        "dist_to_pivot_pct": -3.28,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 84,
+      "fundamentals": {
+        "name": "Northwest Bancshares, Inc.",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Northwest Bancshares, Inc. operates as the bank holding company for Northwest Bank, a state-chartered savings bank that provides personal and commercial banking solutions in Pennsylvania, New York, Ohio, and Indiana in the United States. The company accepts various deposits, including checking, savings, money market deposit, term certificate, and individual retirement accounts. It also offers loan products comprising one-to-four-family residential real estate loans, shorter-term consumer loans, and loans collateralized by multi-family residential and commercial real estate, as well as commercial business loans; residential mortgage loans; home equity loans and lines of credit; commercial real estate loans; commercial loans and financing solutions; and other consumer loans, including auto refinance loans, indirect automobile and recreational loans, unsecured personal loans, credit card loans, and loans secured by investment accounts. In addition, the company offers investment and cash management; estate and trust services; digital and online banking; certificates of deposit; credit cards; student and small business loans; private banking, planning, and investments; retirement plans; liquidity management for commercial checking and savings; treasury and wealth management; insurance; employee benefit plans; and financial planning services. It serves individuals, businesses, and charitable institutions. Northwest Bancshares, Inc. was founded in 1896 and is headquartered in Columbus, Ohio.",
+        "marketCap": 2288177408,
+        "pe": 15.028847,
+        "forwardPE": 10.78861,
+        "pb": 1.1871487,
+        "ps": 3.4965448,
+        "dividendYield": 0.0516,
+        "profitMargin": 0.23374,
+        "revenueGrowth": 0.232,
+        "earningsGrowth": 0.385,
+        "roe": 0.085710004,
+        "debtToEquity": null,
+        "beta": 0.67
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 71.2,
+          "quality": 69.0,
+          "value": 100,
+          "growth": 92
+        },
+        "composite": 79.1,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.8\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 23%\u3001\u76c8\u5229\u589e\u901f 38%\u3002\u51c0\u5229\u7387 23%\u3001ROE 9%\u3002\u80a1\u606f\u7387 5.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 79\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Northwest Bancshares, Inc.",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$2.3B",
+          "beta": 0.67,
+          "summary": "Northwest Bancshares, Inc. operates as the bank holding company for Northwest Bank, a state-chartered savings bank that provides personal and commercial banking solutions in Pennsylvania, New York, Ohio, and Indiana in the United States. The company accepts various deposits, including checking, savi\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "OGN",
+      "score": 82.84,
+      "sector": "",
+      "signal": {
+        "close": 13.65,
+        "bb_width_pct": 1.22,
+        "bb_width_pctile": 99,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.047,
+        "dist_to_bb_upper_pct": -0.16,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 2487260,
+      "raw_rs": 0.3628763028079187,
+      "vcp": {
+        "score": 75,
+        "atr": 0.04,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0124,
+        "vol_ratio": 0.87,
+        "dist_to_pivot_pct": -0.07,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 85,
+      "fundamentals": {
+        "name": "Organon & Co.",
+        "sector": "Healthcare",
+        "industry": "Drug Manufacturers - General",
+        "summary": "Organon & Co. develops and delivers women health solutions through prescription therapies and medical devices in the United States, Europe, Canada, Japan, rest of the Asia Pacific, China, Latin America, the Middle East, Russia, Africa, and internationally. The company's women's health portfolio comprises contraception and fertility brands, such as Nexplanon, a long-acting reversible contraceptive; NuvaRing, a monthly vaginal contraceptive ring; Cerazette, Marvelon, and Mercilon to prevent pregnancy; Follistim AQ, which is used to promote development of ovarian follicles; Elonva, a follicle stimulant; Ganirelix acetate injection, an injectable antagonist; Jada for abnormal postpartum uterine bleeding and hemorrhage; and Xaciato for bacterial vaginosis. Its biosimilars portfolio consists of immunology products, such as Brenzys, Renflexis, and Hadlima; oncology products, including Ontruzant and Aybintio; Bildyos and Bilprevda, a recombinant anti-RANKL human monoclonal antibodies; and Poherdy, a neu receptor antagonist. The company also offers cholesterol-modifying medicines under the Zetia, Ezetrol, Vytorin, Inegy, Atozet, Rosuzet, and Zocor brands; Cozaar and Hyzaar for hypertension; respiratory products to control and prevent asthma symptoms under the Singulair, Dulera, Zenhale, and Asmanex brands, as well as seasonal allergic rhinitis under the Nasonex, Clarinex, and Aerius brands. In addition, it provides dermatology products under the Vtama, Diprosone, and Elocon brand; bone health products under the Fosamax brand; and non-opioid pain management products under the Arcoxia, Diprospan, and Celestone brands, as well as Proscar for symptomatic benign prostatic hyperplasia; and Propecia for male pattern hair loss. The company serves drug wholesalers and retailers, hospitals, clinics, government agencies, health maintenance organizations, pharmacy benefit managers, and other institutions. Organon & Co. was founded in 1923 and is headquartered in Jersey City, New Jersey.",
+        "marketCap": 3584618752,
+        "pe": 17.5,
+        "forwardPE": 3.7516696,
+        "pb": 3.563038,
+        "ps": 0.58505285,
+        "dividendYield": 0.59,
+        "profitMargin": 0.03411,
+        "revenueGrowth": -0.023,
+        "earningsGrowth": -0.283,
+        "roe": 0.24037,
+        "debtToEquity": 850.199,
+        "beta": 1.52
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 58.4,
+          "quality": 49.3,
+          "value": 100,
+          "growth": 18
+        },
+        "composite": 62.2,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aHealthcare / Drug Manufacturers - General\u3002\u8fdc\u671f PE \u2248 3.8\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f -2%\u3001\u76c8\u5229\u589e\u901f -28%\u3002\u51c0\u5229\u7387 3%\u3001ROE 24%\u3002\u8d1f\u503a\u7387(Debt/Eq) 850.2\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 59.0%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 62\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Organon & Co.",
+          "sector": "Healthcare",
+          "industry": "Drug Manufacturers - General",
+          "market_cap": "$3.6B",
+          "beta": 1.52,
+          "summary": "Organon & Co. develops and delivers women health solutions through prescription therapies and medical devices in the United States, Europe, Canada, Japan, rest of the Asia Pacific, China, Latin America, the Middle East, Russia, Africa, and internationally. The company's women's health portfolio comp\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "RNST",
+      "score": 100.39,
+      "sector": "",
+      "signal": {
+        "close": 42.93,
+        "bb_width_pct": 4.3,
+        "bb_width_pctile": 95,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": true,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.033,
+        "dist_to_bb_upper_pct": 3.45,
+        "above_ma20": false
+      },
+      "avg_volume_50d": 710624,
+      "raw_rs": 0.10796658403576807,
+      "vcp": {
+        "score": 75,
+        "atr": 1.15,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0947,
+        "vol_ratio": 0.79,
+        "dist_to_pivot_pct": -3.61,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 82,
+      "fundamentals": {
+        "name": "Renasant Corporation",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Renasant Corporation operates as a bank holding company for Renasant Bank that provides a range of financial, wealth management, and fiduciary services to retail and commercial customers. The company operates in two segments, Community Banks and Wealth Management. The Community Banks segment offers checking and savings accounts, business and personal loans, asset-based lending, and factoring equipment leasing services, as well as safe deposit and night depository facilities. It also provides commercial, financial, and agricultural loans; equipment financing and leasing; real estate\u00961-4 family mortgage; real estate\u0096commercial mortgage; real estate\u0096construction loans for the construction of single family residential properties, multi-family properties, and commercial projects; installment loans to individuals; and interim construction loans, as well as automated teller machine (ATM), online and mobile banking, call center, and treasury management services. The Wealth Management segment offers a range of wealth management and fiduciary services, including administration and management of trust accounts, such as personal and corporate benefit accounts, and custodial accounts, as well as accounting and money management for trust accounts. It also provides annuities, mutual funds, and other investment services through a third-party broker-dealer; administrative and compliance services; and qualified retirement plans, IRAs, employee benefit plans, personal trusts, and estates, as well as administrative and compliance services for certain mutual funds. The company was founded in 1904 and is based in Tupelo, Mississippi.",
+        "marketCap": 3923993600,
+        "pe": 12.552631,
+        "forwardPE": 10.92764,
+        "pb": 1.0135758,
+        "ps": 3.69291,
+        "dividendYield": 0.0225,
+        "profitMargin": 0.29556,
+        "revenueGrowth": 0.453,
+        "earningsGrowth": 93.0,
+        "roe": 0.082100004,
+        "debtToEquity": null,
+        "beta": 0.996
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 100,
+          "momentum": 26.1,
+          "quality": 69.0,
+          "value": 99.0,
+          "growth": 92
+        },
+        "composite": 77.8,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.9\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 45%\u3001\u76c8\u5229\u589e\u901f 9300%\u3002\u51c0\u5229\u7387 30%\u3001ROE 8%\u3002\u80a1\u606f\u7387 2.2%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 78\uff08\u5f3a\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "Renasant Corporation",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$3.9B",
+          "beta": 0.996,
+          "summary": "Renasant Corporation operates as a bank holding company for Renasant Bank that provides a range of financial, wealth management, and fiduciary services to retail and commercial customers. The company operates in two segments, Community Banks and Wealth Management. The Community Banks segment offers \u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "SFNC",
+      "score": 62.74,
+      "sector": "",
+      "signal": {
+        "close": 23.7,
+        "bb_width_pct": 6.57,
+        "bb_width_pctile": 82,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.206,
+        "dist_to_bb_upper_pct": 1.83,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1548088,
+      "raw_rs": 0.14975410015126936,
+      "vcp": {
+        "score": 75,
+        "atr": 0.42,
+        "signals": [
+          "Tight Base (VCP)",
+          "V-Contraction",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0876,
+        "vol_ratio": 1.32,
+        "dist_to_pivot_pct": -2.55,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 83,
+      "fundamentals": {
+        "name": "Simmons First National Corporat",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "Simmons First National Corporation operates as the bank holding company for Simmons Bank that provides banking and other financial products and services to individuals and businesses. The company offers deposits, checking, and savings accounts; loan products, such as consumer, real estate, commercial, agricultural, equipment, warehouse lending, and SBA lending; specialized products and services, including credit cards, trust and fiduciary services, investments, and insurance; and treasury management services. It also provides ATM services; internet and mobile banking platforms; overdraft facilities; safe deposit boxes; and brokerage services. The company has operations in Arkansas, Kansas, Missouri, Oklahoma, Tennessee, and Texas. Simmons First National Corporation was founded in 1903 and is headquartered in Pine Bluff, Arkansas.",
+        "marketCap": 3424976896,
+        "pe": null,
+        "forwardPE": 10.772727,
+        "pb": 0.9831577,
+        "ps": 31.059633,
+        "dividendYield": 0.0365,
+        "profitMargin": 0.0,
+        "revenueGrowth": 0.143,
+        "earningsGrowth": 0.07,
+        "roe": -0.09941,
+        "debtToEquity": null,
+        "beta": 0.917
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 80.5,
+          "quality": 12.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 69.9,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 10.8\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 14%\u3001\u76c8\u5229\u589e\u901f 7%\u3002\u51c0\u5229\u7387 0%\u3001ROE -10%\u3002\u80a1\u606f\u7387 3.6%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 70\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Simmons First National Corporat",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$3.4B",
+          "beta": 0.917,
+          "summary": "Simmons First National Corporation operates as the bank holding company for Simmons Bank that provides banking and other financial products and services to individuals and businesses. The company offers deposits, checking, and savings accounts; loan products, such as consumer, real estate, commercia\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "UCB",
+      "score": 70.2,
+      "sector": "",
+      "signal": {
+        "close": 36.14,
+        "bb_width_pct": 5.81,
+        "bb_width_pctile": 91,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.038,
+        "dist_to_bb_upper_pct": 1.65,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1040854,
+      "raw_rs": 0.11611166864634437,
+      "vcp": {
+        "score": 75,
+        "atr": 0.59,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0767,
+        "vol_ratio": 1.15,
+        "dist_to_pivot_pct": -2.8,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 92,
+      "fundamentals": {
+        "name": "United Community Banks, Inc.",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "United Community Banks, Inc. operates as the bank holding company for United Community Bank that provides financial services in the United States. The company offers deposit products, including checking, savings, money market, and other deposit accounts. It also provides loans comprising owner occupied and income producing CRE, commercial and industrial, equipment financing, residential mortgage, home equity, manufactured housing, and consumer loans, as well as commercial and residential construction and land. In addition, the company offers private banking, investment management, investment advice, financial planning services, estate and retirement planning, and insurance products; non-deposit investment products and insurance products, such as life insurance, long-term care insurance and tax-deferred annuities; and trust services to manage fiduciary assets. Further, it provides reinsurance on property insurance contracts and payment processing services for commercial and small business customers. The company serves the commercial, retail, government, education, energy, health care, and real estate sectors. United Community Banks, Inc. was founded in 1950 and is headquartered in Greenville, South Carolina.",
+        "marketCap": 4328264704,
+        "pe": 11.583334,
+        "forwardPE": 11.20867,
+        "pb": 1.1557403,
+        "ps": 3.9049416,
+        "dividendYield": 0.0282,
+        "profitMargin": 0.34092,
+        "revenueGrowth": 0.244,
+        "earningsGrowth": 0.508,
+        "roe": 0.10271,
+        "debtToEquity": null,
+        "beta": 0.833
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 43.2,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 92
+        },
+        "composite": 73.5,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.2\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 24%\u3001\u76c8\u5229\u589e\u901f 51%\u3002\u51c0\u5229\u7387 34%\u3001ROE 10%\u3002\u80a1\u606f\u7387 2.8%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 74\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "United Community Banks, Inc.",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$4.3B",
+          "beta": 0.833,
+          "summary": "United Community Banks, Inc. operates as the bank holding company for United Community Bank that provides financial services in the United States. The company offers deposit products, including checking, savings, money market, and other deposit accounts. It also provides loans comprising owner occup\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "WAFD",
+      "score": 51.85,
+      "sector": "",
+      "signal": {
+        "close": 38.06,
+        "bb_width_pct": 7.85,
+        "bb_width_pctile": 69,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": -0.052,
+        "dist_to_bb_upper_pct": 1.81,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 614862,
+      "raw_rs": 0.1600230147509132,
+      "vcp": {
+        "score": 75,
+        "atr": 0.57,
+        "signals": [
+          "Tight Base (VCP)",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": false,
+        "range_pct": 0.0856,
+        "vol_ratio": 1.34,
+        "dist_to_pivot_pct": -3.62,
+        "status": "ACTION",
+        "breakdown": {
+          "tight": 40,
+          "vol": 0,
+          "ma": 30,
+          "pivot": 5
+        }
+      },
+      "rs_rating": 93,
+      "fundamentals": {
+        "name": "WaFd, Inc.",
+        "sector": "Financial Services",
+        "industry": "Banks - Regional",
+        "summary": "WaFd, Inc. operates as the bank holding company for Washington Federal Bank that provides lending, depository, insurance, and other banking services in the United States. The company provides deposit products, including business and personal checking accounts, and term certificates of deposit, as well as money market accounts and passbook savings accounts. It offers single-family residential, construction, land acquisition and development, consumer lot, multi-family residential, commercial real estate, home equity, business, and consumer loans, as well as commercial and industrial loans. In addition, the company offers insurance brokerage services, such as individual and business insurance policies; holds and markets real estate properties; and debit and credit cards, as well as acts as the trustee. Additionally, it provides technology and data services; and personalized financial guidance and investment services. It serves consumers, mid-sized and large businesses, and owners and developers of commercial real estate. The company was formerly known as Washington Federal, Inc. and changed its name to WaFd, Inc. in September 2023. WaFd, Inc. was founded in 1917 and is headquartered in Seattle, Washington.",
+        "marketCap": 2816258816,
+        "pe": 11.783282,
+        "forwardPE": 11.318959,
+        "pb": 1.0338459,
+        "ps": 3.7004328,
+        "dividendYield": 0.028900000000000002,
+        "profitMargin": 0.33699,
+        "revenueGrowth": 0.056,
+        "earningsGrowth": 0.151,
+        "roe": 0.08497,
+        "debtToEquity": null,
+        "beta": 0.83
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 75,
+          "momentum": 40.8,
+          "quality": 73.0,
+          "value": 100,
+          "growth": 74
+        },
+        "composite": 70.3,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aFinancial Services / Banks - Regional\u3002\u8fdc\u671f PE \u2248 11.3\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 6%\u3001\u76c8\u5229\u589e\u901f 15%\u3002\u51c0\u5229\u7387 34%\u3001ROE 8%\u3002\u80a1\u606f\u7387 2.9%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 70\uff08\u4e2d\u7b49\uff09\uff0c\u4f46\u52a8\u91cf\u5411\u4e0b\uff0c\u5b9c\u7b49\u4f01\u7a33/\u653e\u91cf\u5411\u4e0a\u518d\u4ecb\u5165\u3002",
+        "intro": {
+          "name": "WaFd, Inc.",
+          "sector": "Financial Services",
+          "industry": "Banks - Regional",
+          "market_cap": "$2.8B",
+          "beta": 0.83,
+          "summary": "WaFd, Inc. operates as the bank holding company for Washington Federal Bank that provides lending, depository, insurance, and other banking services in the United States. The company provides deposit products, including business and personal checking accounts, and term certificates of deposit, as we\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "SOLV",
+      "score": 18.49,
+      "sector": "",
+      "signal": {
+        "close": 84.1,
+        "bb_width_pct": 18.37,
+        "bb_width_pctile": 26,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.506,
+        "dist_to_bb_upper_pct": 7.65,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1395302,
+      "raw_rs": 0.12165189120638173,
+      "vcp": {
+        "score": 73,
+        "atr": 3.1,
+        "signals": [
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.159,
+        "vol_ratio": 0.55,
+        "dist_to_pivot_pct": -6.56,
+        "status": "WAIT",
+        "breakdown": {
+          "tight": 25,
+          "vol": 25,
+          "ma": 20,
+          "pivot": 3
+        }
+      },
+      "rs_rating": 93,
+      "fundamentals": {
+        "name": "Solventum Corporation",
+        "sector": "Healthcare",
+        "industry": "Medical Instruments & Supplies",
+        "summary": "Solventum Corporation, a healthcare company, develops, manufactures, and commercializes a portfolio of solutions to address critical customer and patient needs in the United States and internationally. It operates through three segments: Medsurg, Dental Solutions, and Health Information Systems. The Medsurg segment offers solutions, such as negative pressure wound therapy, advanced wound dressings, advanced skin care, synthetic tissue matrices, I.V. site management, sterilization assurance, temperature management, surgical supplies, medical tapes and wraps, stethoscopes, medical electrodes, and medical technologies for original equipment manufacturers. The Dental Solutions segment provides dental and orthodontic products, including brackets, aligners, restorative cements, and bonding agents to span the life of the tooth, and products for preventative dental care, direct and indirect restoration, and orthodontic needs. The Health Information Systems segment offers healthcare systems with software solutions comprising computer-assisted physician documentation, direct-to-bill and coding automation, classification methodologies, speech recognition, and data visualization platforms. The company sells its products and services through direct-to-consumer, distribution, key account management, inside sales, and e-commerce. Solventum Corporation was incorporated in 2023 and is headquartered in Eagan, Minnesota.",
+        "marketCap": 14315814912,
+        "pe": 10.421313,
+        "forwardPE": 11.646554,
+        "pb": 2.9369652,
+        "ps": 1.7227213,
+        "dividendYield": null,
+        "profitMargin": 0.17256,
+        "revenueGrowth": 0.022,
+        "earningsGrowth": 0.039,
+        "roe": 0.33960998,
+        "debtToEquity": 110.313,
+        "beta": 0.671
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 73,
+          "momentum": 93.5,
+          "quality": 63.3,
+          "value": 90,
+          "growth": 52
+        },
+        "composite": 75.1,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aHealthcare / Medical Instruments & Supplies\u3002\u8fdc\u671f PE \u2248 11.6\uff08\u504f\u4f4e\uff09\u3002\u8425\u6536\u589e\u901f 2%\u3001\u76c8\u5229\u589e\u901f 4%\u3002\u51c0\u5229\u7387 17%\u3001ROE 34%\u3002\u8d1f\u503a\u7387(Debt/Eq) 110.3\uff0c\u9ad8\u6760\u6746\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 75\uff08\u5f3a\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Solventum Corporation",
+          "sector": "Healthcare",
+          "industry": "Medical Instruments & Supplies",
+          "market_cap": "$14.3B",
+          "beta": 0.671,
+          "summary": "Solventum Corporation, a healthcare company, develops, manufactures, and commercializes a portfolio of solutions to address critical customer and patient needs in the United States and internationally. It operates through three segments: Medsurg, Dental Solutions, and Health Information Systems. The\u2026"
+        },
+        "fund_missing": false
+      }
+    },
+    {
+      "ticker": "CBRL",
+      "score": 60.01,
+      "sector": "",
+      "signal": {
+        "close": 56.03,
+        "bb_width_pct": 17.15,
+        "bb_width_pctile": 85,
+        "bb_squeeze": false,
+        "ttm_squeeze_on": false,
+        "ttm_fired_up": false,
+        "ttm_fired_dn": false,
+        "mom": 0.612,
+        "dist_to_bb_upper_pct": 6.61,
+        "above_ma20": true
+      },
+      "avg_volume_50d": 1278358,
+      "raw_rs": 0.3229634561949407,
+      "vcp": {
+        "score": 73,
+        "atr": 2.41,
+        "signals": [
+          "V-Contraction",
+          "Volume Dry-up",
+          "Trend Alignment",
+          "Near Pivot"
+        ],
+        "is_dryup": true,
+        "range_pct": 0.1587,
+        "vol_ratio": 0.51,
+        "dist_to_pivot_pct": -6.1,
+        "status": "WAIT",
+        "breakdown": {
+          "tight": 15,
+          "vol": 25,
+          "ma": 30,
+          "pivot": 3
+        }
+      },
+      "rs_rating": 67,
+      "fundamentals": {
+        "name": "Cracker Barrel Old Country Stor",
+        "sector": "Consumer Cyclical",
+        "industry": "Restaurants",
+        "summary": "Cracker Barrel Old Country Store, Inc. develops and operates the Cracker Barrel Old Country Store concept in the United States. Its Cracker Barrel stores consist of restaurants with a gift shop. The company's restaurants serve breakfast, lunch, and dinner, as well as dine-in, pick-up, and delivery services. Its gift shops offer various decorative and functional items, such as rocking chairs, seasonal gifts, apparel, toys, food, cookware, and various other gift items, as well as various candies, preserves, and other food items. Cracker Barrel Old Country Store, Inc. was incorporated in 1969 and is headquartered in Lebanon, Tennessee.",
+        "marketCap": 1252352256,
+        "pe": 48.72174,
+        "forwardPE": 50.876698,
+        "pb": 2.690516,
+        "ps": 0.37525,
+        "dividendYield": 0.0178,
+        "profitMargin": 0.00786,
+        "revenueGrowth": -0.029,
+        "earningsGrowth": 2.393,
+        "roe": 0.056110002,
+        "debtToEquity": 246.663,
+        "beta": 1.187
+      },
+      "multidim": {
+        "dims": {
+          "squeeze": 73,
+          "momentum": 94.3,
+          "quality": 36.0,
+          "value": 35.1,
+          "growth": 92
+        },
+        "composite": 70.1,
+        "narrative": "\u6240\u5c5e\u677f\u5757\uff1aConsumer Cyclical / Restaurants\u3002\u8fdc\u671f PE \u2248 50.9\uff08\u504f\u9ad8\uff09\u3002\u8425\u6536\u589e\u901f -3%\u3001\u76c8\u5229\u589e\u901f 239%\u3002\u51c0\u5229\u7387 1%\u3001ROE 6%\u3002\u8d1f\u503a\u7387(Debt/Eq) 246.7\uff0c\u9ad8\u6760\u6746\u3002\u80a1\u606f\u7387 1.8%\u3002\u7efc\u5408\u591a\u7ef4\u5ea6\u8bc4\u5206 70\uff08\u4e2d\u7b49\uff09\uff0c\u4e14\u52a8\u91cf\u5411\u4e0a\uff0c\u53f3\u4fa7\u7a81\u7834\u6982\u7387\u8f83\u9ad8\u3002",
+        "intro": {
+          "name": "Cracker Barrel Old Country Stor",
+          "sector": "Consumer Cyclical",
+          "industry": "Restaurants",
+          "market_cap": "$1.3B",
+          "beta": 1.187,
+          "summary": "Cracker Barrel Old Country Store, Inc. develops and operates the Cracker Barrel Old Country Store concept in the United States. Its Cracker Barrel stores consist of restaurants with a gift shop. The company's restaurants serve breakfast, lunch, and dinner, as well as dine-in, pick-up, and delivery s\u2026"
         },
         "fund_missing": false
       }

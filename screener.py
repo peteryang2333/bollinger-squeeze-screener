@@ -29,6 +29,7 @@ import os
 import json
 import time
 import datetime as dt
+import math
 import numpy as np
 import pandas as pd
 
@@ -42,6 +43,33 @@ from vcp_rs import rs_raw_score, assign_rs_percentiles, vcp_analyze, MIN_VCP_SCO
 HERE = os.path.dirname(__file__)
 RESULTS = os.path.join(HERE, "results")
 os.makedirs(RESULTS, exist_ok=True)
+
+
+def _safe_int(x):
+    """int() that survives NaN/inf/None (volume can be degenerate for some tickers)."""
+    try:
+        if x is None:
+            return 0
+        xf = float(x)
+        if math.isnan(xf) or math.isinf(xf):
+            return 0
+        return int(xf)
+    except Exception:
+        return 0
+
+
+def _sanitize(o):
+    """Recursively replace NaN/inf with None so the JSON stays browser-safe."""
+    if isinstance(o, float):
+        if math.isnan(o) or math.isinf(o):
+            return None
+        return o
+    if isinstance(o, dict):
+        return {k: _sanitize(v) for k, v in o.items()}
+    if isinstance(o, (list, tuple)):
+        return [_sanitize(v) for v in o]
+    return o
+
 
 # ---- tunables (mirror config.yaml) ----
 MIN_PRICE = 5.0
@@ -94,14 +122,22 @@ def run(universe: list[str] | None = None, top_n: int = TOP_N):
             continue
         row = out.iloc[-1]
         sig = squeeze_signal(row)
-        raw_rs = rs_raw_score(df["Close"])
-        vcp = vcp_analyze(df)
+        try:
+            raw_rs = rs_raw_score(df["Close"])
+        except Exception as e:
+            print(f"  [rs] {tk} error: {e}")
+            raw_rs = 0.0
+        try:
+            vcp = vcp_analyze(df)
+        except Exception as e:
+            print(f"  [vcp] {tk} error: {e}")
+            vcp = {}
         scanned.append({
             "ticker": tk,
             "score": _score(row),
             "sector": "",
             "signal": sig,
-            "avg_volume_50d": int(avg_vol),
+            "avg_volume_50d": _safe_int(avg_vol),
             "raw_rs": raw_rs,
             "vcp": vcp,
         })
@@ -361,7 +397,7 @@ def write_reports(squeeze_candidates, vcp_candidates, rs_universe, asof):
         "results": squeeze_candidates,
         "vcp_candidates": vcp_candidates,
     }
-    js = json.dumps(payload, indent=2, default=str)
+    js = json.dumps(_sanitize(payload), indent=2, default=str)
     with open(json_path, "w") as f:
         f.write(js)
     # Stable "latest" alias so dashboards (e.g. Peter Research) can pull the
