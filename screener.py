@@ -253,8 +253,14 @@ def write_reports(results: list[dict], asof: str) -> tuple[str, str, str]:
     json_path = os.path.join(RESULTS, f"squeeze_{asof}.json")
     md_path = os.path.join(RESULTS, f"squeeze_{asof}.md")
     html_path = write_html_report(results, asof)
+    payload = {"asof": asof, "count": len(results), "results": results}
+    js = json.dumps(payload, indent=2)
     with open(json_path, "w") as f:
-        json.dump({"asof": asof, "count": len(results), "results": results}, f, indent=2)
+        f.write(js)
+    # Stable "latest" alias so dashboards (e.g. Peter Research) can pull the
+    # newest scan without guessing the date in the path.
+    with open(os.path.join(RESULTS, "squeeze_latest.json"), "w") as f:
+        f.write(js)
 
     lines = [f"# Bollinger / TTM Squeeze Scan — {asof}",
              "",
@@ -300,8 +306,11 @@ def write_reports(results: list[dict], asof: str) -> tuple[str, str, str]:
     lines += ["---", "Sourced from public market data. Research only — not investment advice.",
               "Next step: open the top names on your chart, look for the squeeze *release*",
               "(BB re-emerging from Keltner) on volume, ideally with a pullback to MA20."]
+    md_text = "\n".join(lines)
     with open(md_path, "w") as f:
-        f.write("\n".join(lines))
+        f.write(md_text)
+    with open(os.path.join(RESULTS, "squeeze_latest.md"), "w") as f:
+        f.write(md_text)
     return json_path, md_path, html_path
 
 
